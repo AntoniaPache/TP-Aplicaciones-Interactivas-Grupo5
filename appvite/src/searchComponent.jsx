@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { list } from '@/extra/list';
+import React, { ChangeEvent, useEffect, useState } from 'react';
 
 function RopaFilter(props) {
     const [tipo, setTipo] = useState('todos');
@@ -66,24 +67,25 @@ function RopaFilter(props) {
 }
 
 function RopaList() {
-    const [ropa, setRopa] = useState([...]); // aca va la lista de objetos de ropa
-    const [filteredRopa, setFilteredRopa] = useState([...]); // y aca esta la lista filtrada
+    const [formattedLength, setFormattedLength] = useState(list.length)
+    const [ropa, setRopa] = useState(list)
+    const [filteredRopa, setFilteredRopa] = useState(ropa)
 
     // funcion para filtrar por tipo
     const filterByTipo = (tipo) => {
-        const filtered = ropa.filter(item => tipo === 'todos' || item.tipo === tipo);
+        const filtered = ropa.filter((item) => tipo === 'todos' || item.tipo === tipo);
         setFilteredRopa(filtered);
     };
 
     // funcion para filtrar por genero
     const filterByGenero = (genero) => {
-        const filtered = ropa.filter(item => genero === 'todos' || item.genero === genero);
+        const filtered = ropa.filter((item) => genero === 'todos' || item.genero === genero);
         setFilteredRopa(filtered);
     };
 
     // funcion para filtrar por talle
     const filterByTalle = (talle) => {
-        const filtered = ropa.filter(item => talle === 'todos' || item.talle === talle);
+        const filtered = ropa.filter((item) => talle === 'todos' || item.talle === talle);
         setFilteredRopa(filtered);
     };
 
@@ -92,7 +94,7 @@ function RopaList() {
         let filtered = [...ropa];
         if (precio === 'mejor-precio') {
             const minPrice = Math.min(...filtered.map(item => item.precio));
-            filtered = filtered.filter(item => item.precio === minPrice);
+            filtered = filtered.filter((item) => item.precio === minPrice);
         }
         setFilteredRopa(filtered);
     };
@@ -112,8 +114,8 @@ function RopaList() {
                 resetFilters={resetFilters}
             />
             <ul>
-                {filteredRopa.map(item => (
-                    <li key={item.id}>{item.nombre} - Precio: {item.precio}</li>
+                {filteredRopa.map((item, index) => (
+                    <li key={index}>{item.nombre} - Precio: {item.precio}</li>
                 ))}
             </ul>
         </div>
