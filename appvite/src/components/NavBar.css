@@ -1,0 +1,36 @@
+header {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-left img {
+    height: 40px; /* Ajusta la altura del logo según tus necesidades */
+  }
+  
+  .navbar-center h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .navbar-right button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Borde redondeado */
+  }
+  
+  .navbar-right button:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
+  }
