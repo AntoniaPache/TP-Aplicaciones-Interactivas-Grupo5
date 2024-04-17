@@ -16,7 +16,7 @@ const routes = [
       element: <App></App>
   },
   {
-      path: "/publicar",
+      path: "/vendedor/publicar",
       element: <PublicarProductoView></PublicarProductoView>
   },
   {
@@ -28,7 +28,7 @@ const routes = [
 products.forEach((p) =>{
   routes.push(
     {
-      path: p.name,
+      path: "/vendedor"+"/"+p.name,
       element: <EditarProductoView p={p}/>
     }
   );

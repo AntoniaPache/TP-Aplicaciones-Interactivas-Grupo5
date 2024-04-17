@@ -1,8 +1,9 @@
 import React from 'react'
 import Card from '../components/Card'
 import products from '../data/products'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBarVendedor'
 import "./MainVendedor.css"
+import NavBarVendedor from '../components/NavBarVendedor'
 
 function MainVendedor() {
     const productList = products.map(p => {
@@ -11,8 +12,9 @@ function MainVendedor() {
     
       return (
         <div className='App'>
+
+          <NavBarVendedor/>
     
-          <NavBar/>
     
           <div className = "conteiner">
             {productList}
