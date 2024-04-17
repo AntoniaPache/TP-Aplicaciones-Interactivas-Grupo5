@@ -13,22 +13,13 @@
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 
-     <!-- jQuery -->
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <!--  Bootstrap Bundle  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
-    <style>
-        /* Additional CSS styles for interactivity */
-        .burger-details {
-            display: none;
-        }
-    </style>
 
-    <title>Ramiro Palma Juana Monteagudo /Mañana /2023</title>
+    <title>Proyecto API /Miercoles Mañana/2024</title>
 </head>
 <body   id="inicio">
     
@@ -39,7 +30,8 @@
             
             <a href="#inicio" >
                 <img src="./img/logo.png"   alt="logo de empersa"  width="100%" height="80px">
-            </a>    
+            </a>
+            <a href="views/PrimerMenuUser.html" class="btn btn-primary" id="boton_cuenta"></a>    
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -94,10 +86,6 @@
     <div>
         <h2 class="header_1 main_font">NUESTRAS SUCURSALES</h2>
     </div>
-
-  <!-- Barra de búsqueda para sucursales --> 
-    <input type="text" id="searchInputSucursal" class="form-control" placeholder="Buscar sucursal...">
-
     <!-- EMPIEZA SUCURSALES -->
     <section class="container-fluid section_sucursales main_font bg_sucursales">
         <div class="row pb-5"  id="sucursal">
@@ -113,7 +101,7 @@
                 <span class="ver_mapas"><a href="https://maps.app.goo.gl/275XjBxSyiJzYyVp9" target="_blank">IR AL LOCAL</a></span>
             </div>
             <div class="sucursales col-sm-4 col-6">
-                <h3>QUILMES</h3>
+                <h3>BANFIELD</h3>
                 <p>
                     Alem 1199
                     <br>
@@ -177,78 +165,67 @@
         <h2 class="header_1 main_font ">HAMBURGUESAS</h2>
     </div> 
 
- <!-- Barra de búsqueda y filtro para hamburguesas -->
-<div class="search-filter-bar">
-    <input type="text" id="searchInputHamburguesa" class="form-control search-input" placeholder="Buscar hamburguesas...">
-    <select id="filterSelect" class="form-control filter-select mt-2">
-        <option value="">Sin filtro...</option>
-        <option value="mejor-precio">Mejor precio</option>
-        <option value="1">1 carne</option>
-        <option value="2">2 carnes</option>
-        <option value="3">3 carnes</option>
-    </select>
-</div>
     <!--  HAMBURGUESAS  -->
     <section class="container-fluid main_font p-4 bg_burger " id="hamburguesa" > 
         <div class="row font_white">
-            <div class="hamburger col-12 p-2 row col-sm-6 col-lg-4" data-precio="4000" data-cantidad-carnes="1">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100" style="border-radius: 15px;" src="./img/tastykrab.png" alt="hamburguesa">
             </div>
             <div class="col-6">
-                <h3 class="burger-name">Tasty Krab</h3>
-                <p class="burger-description">Cebolla Morada - Queso - Tomate - Lechuga - Salsa - Ketchup - 1x Krabby Patty</p>
-                <p class="burger-price">$5000</p>
+                <h3>Tasty Krab</h3>
+                <p>Cebolla Morada - Queso - Tomate - Lechuga - Salsa - Ketchup - 1x Krabby Patty</p>
+                <p>$5000</p>
             </div>
         </div>
-        <div class="hamburger col-12 p-2 row col-sm-6 col-lg-4" data-precio="5000" data-cantidad-carnes="1">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100" style="border-radius: 15px;" src="./img/tastychicken.png" alt="hamburguesa">
             </div>
             <div class="col-6">
-                <h3 class="burger-name">Tasty Chicken</h3>
-                <p class="burger-description">Cebolla Morada - Queso - Pepinillos - Tomate - Lechuga - Salsa - Ketchup - 1x Chicken Patty</p>
-                <p class="burger-price">$5000</p>
+                <h3>Tasty Chicken</h3>
+                <p>Cebolla Morada - Queso - Pepinillos - Tomate - Lechuga - Salsa - Ketchup - 1x Chicken Patty</p>
+                <p>$5000</p>
             </div>
         </div>
-        <div class="hamburger col-12 p-2 row col-sm-6 col-lg-4" data-precio="4400" data-cantidad-carnes="1">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100" style="border-radius: 15px;" src="./img/quarter.png" alt="hamburguesa">
             </div>
             <div class="col-6">
-                <h3 class="burger-name">TastyQuarter Krab</h3>
-                <p class="burger-description">Lechuga - Tomate - Queso - 1x Quarter Patty</p>
-                <p class="burger-price">$4400</p>
+                <h3>Quarter Krab</h3>
+                <p>Lechuga - Tomate - Queso - 1x Quarter Patty</p>
+                <p>$4400</p>
             </div>
         </div>
-        <div class="hamburger col-12 p-2 row col-sm-6 col-lg-4" data-precio="6200" data-cantidad-carnes="3">
+        <div class="col-12 p-2 row col-sm-6  col-lg-4">
             <div class="col-6">
                 <img class="w-100" style="border-radius: 15px;" src="./img/triple.png" alt="hamburguesa">
             </div>
             <div class="col-6">
-                <h3 class="burger-name">King Krab</h3>
-                <p class="burger-description">Huevo - Cebolla Caramelizada - Queso - Ketchup - 3x Krabby Patty</p>
-                <p class="burger-price">$6200</p>
+                <h3>King Krab</h3>
+                <p>Huevo - Cebolla Caramelizada - Queso - Ketchup - 3x Krabby Patty</p>
+                <p>$6200</p>
             </div>
         </div>
-        <div class="hamburger col-12 p-2 row col-sm-6 col-lg-4" data-precio="5200" data-cantidad-carnes="2">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100" style="border-radius: 15px;" src="./img/black.png" alt="hamburguesa">
             </div>
             <div class="col-6">
-                <h3 class="burger-name">Black Krab</h3>
-                <p class="burger-description">Tomate - Lechuga - Queso - Salsa de Ajo - Cebolla Morada - 2x Krabby Patty</p>
-                <p class="burger-price">$5200</p>
+                <h3>Black Krab</h3>
+                <p>Tomate - Lechuga - Queso - Salsa de Ajo - Cebolla Morada - 2x Krabby Patty</p>
+                <p>$5200</p>
             </div>
         </div>
-        <div class="hamburger col-12 p-2 row col-sm-6 col-lg-4" data-precio="4000" data-cantidad-carnes="2">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100" style="border-radius: 15px;" src="./img/simple.png" alt="hamburguesa">
             </div>
             <div class="col-6">
-                <h3 class="burger-name">Hermit Krab</h3>
-                <p class="burger-description">Cebolla - Ketchup - Queso - 2x Krabby Patty</p>
-                <p class="burger-price">$4000</p>
+                <h3>Hermit Krab</h3>
+                <p>Cebolla - Ketchup - Queso - 2x Krabby Patty</p>
+                <p>$4000</p>
             </div>
         </div>
         </div>
@@ -259,15 +236,10 @@
         <h2 class="header_2 main_font">ENTRADAS</h2>
     </div> 
 
-      <!-- Barra de búsqueda para entradas -->
-        <input type="text" id="searchInputEntradas" class="form-control" placeholder="Buscar entradas...">
-    </div>
-
-    
     <!--  ENTRADAS  -->
     <section class="container-fluid main_font p-4 bg_entradas ">
         <div class="row font_white ">
-        <div class="entrada col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/fries.png" alt="entrada">
             </div>
@@ -277,7 +249,7 @@
                 <p>$1200</p>
             </div>
         </div>
-        <div class="entrada col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/onion.png" alt="entrada">
             </div>
@@ -287,7 +259,7 @@
                 <p>$1400</p>
             </div>
         </div>
-        <div class="entrada col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/squid.png" alt="entrada">
             </div>
@@ -297,7 +269,7 @@
                 <p>$1600</p>
             </div>
         </div>
-        <div class="entrada col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/cheesestick.png" alt="ensalada">
             </div>
@@ -307,7 +279,7 @@
                 <p>$1200</p>
             </div>
         </div>
-        <div class="entrada col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/salad.png" alt="ensalada">
             </div>
@@ -317,7 +289,7 @@
                 <p>$3000</p>
             </div>
         </div>
-        <div class="entrada col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/friedshrimp.png" alt="ensalada">
             </div>
@@ -335,14 +307,10 @@
         <h2 class="header_3 main_font">BEBIDAS</h2>
     </div> 
 
-  <!-- Barra de búsqueda para bebidas -->
-    <input type="text" id="searchInputBebidas" class="form-control" placeholder="Buscar bebidas...">
-</div>
-
     <!--  BEBIDAS  -->
     <section class="container-fluid main_font">
         <div class="row bg_bebidas font_white">
-        <div class="bebida col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/coke.png" alt="bebida">
             </div>
@@ -352,7 +320,7 @@
                 <p>$800</p>
             </div>
         </div>
-        <div class="bebida col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/beer.png" alt="bebida">
             </div>
@@ -362,7 +330,7 @@
                 <p>$1200</p>
             </div>
         </div>
-        <div class="bebida col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/orange.png" alt="bebida">
             </div>
@@ -372,7 +340,7 @@
                 <p>$900</p>
             </div>
         </div>
-        <div class="bebida col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/gin.png" alt="bebida">
             </div>
@@ -382,7 +350,7 @@
                 <p>$1100</p>
             </div>
         </div>
-        <div class="bebida col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/agua.png" alt="bebida">
             </div>
@@ -392,7 +360,7 @@
                 <p>$700</p>
             </div>
         </div>
-        <div class="bebida col-12 p-2 row col-sm-6 col-lg-4">
+        <div class="col-12 p-2 row col-sm-6 col-lg-4">
             <div class="col-6">
                 <img class="w-100 h-100" style="border-radius: 15px;" src="./img/fernet.png" alt="bebida">
             </div>
@@ -422,91 +390,10 @@
         </div>
 
         <div class="main_font font_roja">
-            <p>RAMIRO PALMA - JUANA MONTEAGUDO / DESAROLLO WEB 2C 2023</p>
+            <p>API 2024</p>
         </div>
     </footer>
 
-    <script>
-        $(document).ready(function(){
-            // Mostrar solo la sucursal elegida
-            $('.col-6').click(function(){
-                $('.burger-details').hide(); // Ocultar todos los demás detalles
-                $(this).siblings('.burger-details').toggle(); // Alternar detalles de la hamburguesa clicada
-            });
-    
-            // Filtrar según sucursal
-            $('#searchInputSucursal').on('input', function() {
-                var searchText = $(this).val().toLowerCase();
-                $('.sucursales').each(function() {
-                    var sucursalName = $(this).find('h3').text().toLowerCase();
-                    if (sucursalName.startsWith(searchText)) {
-                        $(this).show();
-                    } else {
-                        $(this).hide();
-                    }
-                });
-            });
-        
-    //
-   // Filtrar hamburguesas
-    $('#searchInputHamburguesa, #filterSelect').on('input change', function() {
-        var searchText = $('#searchInputHamburguesa').val().toLowerCase();
-        var filterValue = $('#filterSelect').val();
-        $('.hamburger').each(function() {
-            var burgerName = $(this).find('.burger-name').text().toLowerCase();
-            var burgerCarnes = $(this).data('cantidad-carnes').toString();
-            var burgerPrice = parseFloat($(this).find('.burger-price').text().replace('$', ''));
-            
-            var showBurger = burgerName.startsWith(searchText);
-            if (filterValue === 'mejor-precio') {
-                showBurger = showBurger && (burgerPrice === minPrice);
-            } else if (filterValue !== '') {
-                showBurger = showBurger && (burgerCarnes === filterValue);
-            }
-            
-            if (showBurger) {
-                $(this).show();
-            } else {
-                $(this).hide();
-            }
-        });
-    });
-
-    // Determinar hamburguesas con mejor precio
-    var minPrice = Number.MAX_VALUE;
-    $('.hamburger').each(function() {
-        var burgerPrice = parseFloat($(this).find('.burger-price').text().replace('$', ''));
-        if (burgerPrice < minPrice) {
-            minPrice = burgerPrice;
-        }
-    });
-});
-             // Filtrar entradas
-             $('#searchInputEntradas').on('input', function() {
-                var searchText = $(this).val().toLowerCase();
-                $('.entrada').each(function() {
-                    var entradaName = $(this).find('h3').text().toLowerCase();
-                    if (entradaName.startsWith(searchText)) {
-                        $(this).show();
-                    } else {
-                        $(this).hide();
-                    }
-                });
-            });
-
-            // Filtrar bebidas
-            $('#searchInputBebidas').on('input', function() {
-                var searchText = $(this).val().toLowerCase();
-                $('.bebida').each(function() {
-                    var bebidaName = $(this).find('h3').text().toLowerCase();
-                    if (bebidaName.startsWith(searchText)) {
-                        $(this).show();
-                    } else {
-                        $(this).hide();
-                    }
-                });
-            });
-    </script>
+    <script src="js/loginlogic.js"></script>  
 </body>
 </html>
-   
