@@ -1,0 +1,5 @@
+/* Estilo personalizado para boton nav */
+#boton_cuenta {
+    width: 150px; /* Ancho deseado de los campos y botones */
+    margin-bottom: 10px; /* Espacio entre campos y botones */
+}

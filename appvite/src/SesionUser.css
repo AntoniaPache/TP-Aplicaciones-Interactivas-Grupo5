@@ -1,0 +1,12 @@
+  /* Estilo personalizado para centrar el formulario */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajusta la altura como desees */
+  }
+  /* Estilo personalizado para ajustar el ancho de los campos y botones */
+  .form-control, .btn {
+    width: 700px; /* Ancho deseado de los campos y botones */
+    margin-bottom: 30px; /* Espacio entre campos y botones */
+  }
