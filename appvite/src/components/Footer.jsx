@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export function Footer() {
+export default function Footer() {
     return (
         <footer className="flex justify-between items-start h-40 my-4 bg-[#332D2C] text-white">
             <div className="flex-1 my-2 ml-4 w-1/3">

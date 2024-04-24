@@ -9,19 +9,18 @@ import {
 
 export function CarouselDemo() {
   return (
-    <Carousel className="max-w-3xl"   opts={{
-        align: "start",
+    <Carousel className="max-w-5xl justify-center self-center items-center"   opts={{
         loop: true,
       }}>
       <CarouselContent>
           <CarouselItem>
             <div className="p-1">
-                <img src="src/assets/image.png" alt="Image" className=""/>
+                <img src="src/assets/image.png" alt="Image" className="w-full"/>
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="p-1">
-                <img src="src/assets/image.png" alt="Image" className=""/>
+                <img src="src/assets/image.png" alt="Image" className="w-full"/>
             </div>
           </CarouselItem>
       </CarouselContent>
