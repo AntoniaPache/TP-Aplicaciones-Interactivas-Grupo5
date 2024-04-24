@@ -11,7 +11,7 @@ const [sesion, setSesion] = useState(
     localStorage.getItem('sesion') === false
 );
 
-const estadoSesion = (nuevoValor, nuevoLink) => {
+ export const estadoSesion = (nuevoValor, nuevoLink) => {
     setSesion(nuevoValor);
     localStorage.setItem('sesion', nuevoValor);
     setLink(nuevoLink);//Ingresar link al menu de cuenta.
