@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Link } from 'react-router-dom'
-import estadoSesion from 'ComponentsUser'
+import estadoSesion from 'BotonNavUser'
 
 const menuCuenta = "link a la cuenta";
 
