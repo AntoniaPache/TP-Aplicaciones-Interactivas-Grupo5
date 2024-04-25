@@ -25,7 +25,9 @@ function App() {
         <Route path="/sale" exact Component={Sale}/>
         <Route path="/vendedor" exact Component={MainVendedor}/>
         <Route path="/vendedor/publicar" exact Component={PublicarProductoView}/>
-        <Route path="/vendedor/EditarProductoView" exact Component={EditarProductoView}/>
+        <Route path="/vendedor/editarproducto" exact Component={EditarProductoView}/>
+        
+
       </Routes>
 
       <Footer/>

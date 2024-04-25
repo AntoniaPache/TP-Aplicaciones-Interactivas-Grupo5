@@ -1,5 +1,4 @@
-const products = [
-    {
+[ {
       "name": "Camisa de algodón",
       "price": 29.99,
       "description": "Camisa de algodón suave y cómoda.",
@@ -82,7 +81,7 @@ const products = [
       "discount": 25
     }
     
-  ]
+]
   
-  export default products
+
   

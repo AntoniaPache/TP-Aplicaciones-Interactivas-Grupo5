@@ -17,7 +17,7 @@ function NavBarVendedor() {
                         <h1>Gestor de productos</h1>
                     </div>
                     <div className=''>
-                        <Link to = {"publicar"} className={buttonVariants({ variant: "outline" })}>Publicar</Link>
+                        <Link to = {"vendedor/publicar"} className={buttonVariants({ variant: "outline" })}>Publicar</Link>
                     </div>
                 </div>
 
