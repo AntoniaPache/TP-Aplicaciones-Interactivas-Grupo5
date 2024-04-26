@@ -1,37 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import './BotonNavUser.css';
+import CrearNuevoUser from './CrearNuevoUser';
+import SesionUser from './SesionUser';
 
-const botonInicial = document.getElementById("boton_cuenta");
-const [link, setLink] = useState();//Ingresar link al menu generico
+function BotonUser() {
+  const [componenteSeleccionado, setComponenteSeleccionado] = useState(null);
 
-const [sesion, setSesion] = useState(
-    localStorage.getItem('sesion') === false
-);
-
- export const estadoSesion = (nuevoValor, nuevoLink) => {
-    setSesion(nuevoValor);
-    localStorage.setItem('sesion', nuevoValor);
-    setLink(nuevoLink);//Ingresar link al menu de cuenta.
+  const handleChange = (event) => {
+    const valorSeleccionado = event.target.value;
+    
+    if (valorSeleccionado === 'registro') {
+      setComponenteSeleccionado(<CrearNuevoUser />);
+    } else if (valorSeleccionado === 'sesion') {
+      setComponenteSeleccionado(<SesionUser />);
+    } else {
+      setComponenteSeleccionado(null);
+    }
   };
 
-function SetBotonUser(){
-    if (!sesion){
-        console.log('No hay usuario');
-        botonInicial.textContent = 'Iniciar Sesión';
-
-    } else {
-        console.log('Se inició sesión');
-        botonInicial.textContent = 'Cuenta';
-    };
-      
-};
-
-
-function BotonUser () {
-    return(
-        <a onClick={link} class="btn btn-primary" id="boton_cuenta"></a>  
-    );
+  return (
+    <div className="dropdown">
+      <button className="boton" id="boton_cuenta">
+        <img src="./" alt="usuario" />
+      </button>
+      <select onChange={handleChange}>
+        <option value="" disabled hidden>Selecciona una opción</option>
+        <option value="registro">Registrarse</option>
+        <option value="sesion">Iniciar Sesión</option>
+      </select>
+      <div>
+      {componenteSeleccionado}
+      </div>
+    </div>
+  );
 }
+
+export default BotonUser;
+
+

@@ -1,7 +1,0 @@
-/* Estilo personalizado para centrar el formulario */
-.formulario_de_Mod {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-  }

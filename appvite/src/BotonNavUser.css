@@ -1,5 +1,25 @@
 /* Estilo personalizado para boton nav */
 #boton_cuenta {
-    width: 150px; /* Ancho deseado de los campos y botones */
-    margin-bottom: 10px; /* Espacio entre campos y botones */
+    width: 150px; /* Ancho del botón */
+    height: 10px; /* Altura del botón */
+    /* Color */
+    background-color: #a54c47; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    /* Bordes */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Radio de los bordes */
+    /* Espacio */
+    margin-bottom: 20px; /* Separación con otros elementos */
+    /* Otros estilos */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño del texto */
 }
+
+#opciones {
+    display: none;
+  }
+  
+  /* Mostrar select cuando el mouse está sobre el botón */
+  .dropdown:hover #opciones {
+    display: block;
+  }

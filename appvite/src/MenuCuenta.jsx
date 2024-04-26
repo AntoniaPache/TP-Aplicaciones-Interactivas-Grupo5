@@ -12,6 +12,8 @@ function cerrarSesion (){
     window.location.href = menuCierre;
 };
 
+
+
 function menuCuenta(){
     return(
         <div className="menuCuenta">
