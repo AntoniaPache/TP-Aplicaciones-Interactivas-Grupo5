@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
 import 'react-router-dom';
-import SesionUser from './SesionUser.jsx'
+import DetalleProducto from './DetalleProducto';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,8 +30,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <div>
-      </div>
     </>
   )
 }
