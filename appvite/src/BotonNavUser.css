@@ -1,25 +1,40 @@
-/* Estilo personalizado para boton nav */
-#boton_cuenta {
-    width: 150px; /* Ancho del botón */
-    height: 10px; /* Altura del botón */
-    /* Color */
-    background-color: #a54c47; /* Color de fondo del botón */
-    color: #fff; /* Color del texto */
-    /* Bordes */
-    border: none; /* Sin borde */
-    border-radius: 4px; /* Radio de los bordes */
-    /* Espacio */
-    margin-bottom: 20px; /* Separación con otros elementos */
-    /* Otros estilos */
-    cursor: pointer; /* Cambiar el cursor al pasar por encima */
-    font-size: 16px; /* Tamaño del texto */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-#opciones {
-    display: none;
-  }
-  
-  /* Mostrar select cuando el mouse está sobre el botón */
-  .dropdown:hover #opciones {
-    display: block;
-  }
+.dropdown .boton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.dropdown-menu li {
+  padding: 8px 12px;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

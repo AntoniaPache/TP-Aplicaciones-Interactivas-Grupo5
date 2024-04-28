@@ -1,6 +1,38 @@
 .CrearNuevoUser {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-  };
+  max-width: 400px;
+  margin: auto;
+}
+
+.CrearNuevoUser label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.CrearNuevoUser input[type="text"],
+.CrearNuevoUser input[type="email"],
+.CrearNuevoUser select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.CrearNuevoUser select {
+  appearance: none; /* Para quitar los estilos nativos de select */
+}
+
+.CrearNuevoUser button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.CrearNuevoUser button:hover {
+  background-color: #0056b3;
+}

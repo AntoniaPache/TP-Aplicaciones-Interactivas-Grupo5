@@ -22,7 +22,6 @@ function CrearNuevoUser() {
         </div>
         <div className="col-12">
           <label htmlFor="username" className="form-label">Username</label>
-            <span className="input-group-text">@</span>
             <input type="text" className="form-control" id="username" placeholder="Username" required />
         </div>
         <div className="col-12">
