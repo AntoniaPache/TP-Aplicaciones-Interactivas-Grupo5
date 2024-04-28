@@ -4,7 +4,7 @@
 }
 
 .dropdown .boton {
-  background-color: transparent;
+  background-color: #CF3F37;
   border: none;
   cursor: pointer;
 }
@@ -12,13 +12,13 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #7a4c49;
   min-width: 160px;
   z-index: 1;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 1px solid #F9EAE9;
 }
 
 .dropdown-menu li {
@@ -32,7 +32,7 @@
 }
 
 .dropdown-menu li a:hover {
-  background-color: #ddd;
+  background-color: #503E3D;
 }
 
 .dropdown:hover .dropdown-menu {
