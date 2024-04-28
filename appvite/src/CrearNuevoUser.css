@@ -43,7 +43,7 @@ button {
   width: 100%;
   padding: 10px;
   background-color: #7A4C49;
-  color: #503E3D;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -51,5 +51,5 @@ button {
 }
 
 button:hover {
-  background-color: #7A4C49;
+  background-color: #503E3D;
 }

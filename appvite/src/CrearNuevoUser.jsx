@@ -2,11 +2,7 @@ import React from 'react';
 import './CrearNuevoUser.css';
 
 function CrearNuevoUser() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert("Lo sentimos, no estamos aceptando nuevos usuarios por el momento.");
-  };
-
+  
   return (
     <div class="container">
   <h4>Crear Cuenta</h4>
