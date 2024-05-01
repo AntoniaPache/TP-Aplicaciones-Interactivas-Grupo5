@@ -1,8 +1,18 @@
 import React from 'react';
 import './CrearNuevoUser.css';
 
+
+
 function CrearNuevoUser() {
     
+  const BotonAlerta = document.getElementById('alarma');
+
+  function AvisoFalso(){
+    alert("Lo sentimos, no estamos aceptando nuevos usuarios por el momento.")
+  };
+
+  addEventListener(BotonAlerta, 'click', AvisoFalso);
+
   return (
     <div class="container">
   <h4>Crear Cuenta</h4>

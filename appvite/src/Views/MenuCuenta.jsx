@@ -3,15 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Link } from 'react-router-dom'
-import estadoSesion from 'BotonNavUser'
-
-const menuCierre = "link al menu principal";
-
-function cerrarSesion (){
-    estadoSesion(false, menuCierre);
-    window.location.href = menuCierre;
-};
-
 
 
 function menuCuenta(){
