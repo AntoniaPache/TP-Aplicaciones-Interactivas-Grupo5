@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import React from 'react';
+
 
 function DetalleProducto() {
 
@@ -22,8 +24,8 @@ function DetalleProducto() {
                     <div className="cantidades">
                         <div className="cant">{cant}</div>
                         <div className="controlCant">
-                            <button onClick={() => setCant((count) => count + 1)}>+</button>
-                            <button onClick={() => setCant((count) => count - 1)}>-</button>
+                            <button onClick={() => setCant((count) => count + 1)}>-</button>
+                            <button onClick={() => setCant((count) => count - 1)}>+</button>
                         </div>
                     </div>
                     <div>

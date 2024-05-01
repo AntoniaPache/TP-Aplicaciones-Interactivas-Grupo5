@@ -2,7 +2,7 @@ import React from 'react';
 import './CrearNuevoUser.css';
 
 function CrearNuevoUser() {
-  
+    
   return (
     <div class="container">
   <h4>Crear Cuenta</h4>
@@ -39,7 +39,7 @@ function CrearNuevoUser() {
     </div>
     <hr />
   </form>
-  <button>Crear Cuenta</button>
+  <button id="alarma">Crear Cuenta</button>
 </div>
   );
 }
