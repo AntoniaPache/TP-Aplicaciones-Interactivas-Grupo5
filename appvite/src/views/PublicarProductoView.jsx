@@ -1,25 +1,53 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import products from '../data/products.json'
 
 function PublicarProductoView() {
-    const [product, setProduct] = useState({})
 
-    const handleSubmit = (event) => {
+    const [product, setProduct] = useState({
+        name: '',
+        price: '',
+        discount: '',
+        stock: '',
+        description: ''
+    });
+
+    const handleSubmit = async (event) => {
         event.preventDefault(); // Evita que se recargue la página
-        const formData = new FormData(event.target);
-        const data = Object.fromEntries(formData);
-        setProduct(data);
-      };
-
-    useEffect(() => {
-        console.log(product);
-        if (product == {}){
-            products.push(product);
+        try {
+            const response = await fetch('./appvite/src/data/products', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(product),
+            });
+            if (!response.ok) {
+                throw new Error('Error al agregar el producto');
+            }
+            // Limpiar el formulario después de agregar el producto
+            setProduct({
+                name: '',
+                price: '',
+                discount: '',
+                stock: '',
+                description: ''
+            });
+            alert('Producto agregado correctamente');
+        } catch (error) {
+            console.error('Error al agregar el producto:', error);
+            alert('Hubo un error al agregar el producto. Por favor, intenta nuevamente.');
         }
-        
-    }, [product])
+    };
+
+    const handleChange = (event) => {
+        const { name, value } = event.target;
+        setProduct(prevProduct => ({
+            ...prevProduct,
+            [name]: value
+        }));
+        console.log(product)
+    };
 
  
 

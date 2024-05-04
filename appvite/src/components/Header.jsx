@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import NavBarVendedor from './NavbarVendedor'
 import { useLocation } from 'react-router-dom';
 
-export default function Header( {vendedor}) {
+export default function Header() {
   const location = useLocation();
   const isVendedor = location.pathname.startsWith('/vendedor');
     return (
