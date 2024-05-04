@@ -4,9 +4,8 @@ import { CarouselDemo } from "../components/Carousel";
 export default function Home() {
     return (
         <>
-        
         <main className="grid place-items-center italic font-sans">
-            <div className="">
+            <div className="lg:max-w-4xl xl:max-w-5xl px-2 items-center" >
                 <CarouselDemo/>
             </div>
             <div className="flex items-center justify-center space-x-16 max-w-4xl my-8">
