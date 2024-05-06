@@ -1,0 +1,74 @@
+[
+  {
+    "name": "JOGGING CLASSIC BLACK [PREVENTA 9/5]",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-12-at-19-11-51-03f2f4dcb9eda41a3517102816366102-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING VISION GREY",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-04-22-at-14-48-191-28e2112f615f649faa16821859314757-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING FIERCE BLACK",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2023-08-15-a-las-13-59-161-be01c22c29dece140a16932286968203-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING CLASSIC CHOCOLATE",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/172b27c8-efc1-4b39-8f09-fd2e6cb63868-9ec17e88bfe52f070817102797473685-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING FIERCE GREY",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2023-08-15-a-las-13-59-541-75051926ea5bedb2de16932287609746-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING CLASSIC DARKGREY [PREVENTA 25/4]",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-43-39-4d09b14a94cc85141117125781228460-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING CLASSIC BLUE [PREVENTA 25/4]",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-43-59-c728fd8db5552ab8f617125785708363-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "JOGGING CLASSIC GREY [PREVENTA 25/4]",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-44-20-81002957f5812be2bd17125787350253-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  },
+  {
+    "name": "TECHPANT PERFORMANCE BLUE",
+    "price": "$50.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-07-01-a-las-15-04-251-90e24bb07806fbcec916882385355805-100-0.webp",
+    "gender": "hombre",
+    "stock": "10",
+    "type": "buzo"
+  }
+]

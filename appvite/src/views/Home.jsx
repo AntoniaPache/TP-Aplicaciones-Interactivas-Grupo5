@@ -36,7 +36,7 @@ export function Categorias() {
             <h2 className="text-5xl mb-10 font-semibold text-[#BF2828]">Categorias</h2>
             <div className="flex justify-center items-center w-full">
                 <div className="flex items-center justify-center gap-10">
-                    <NavLink to="/hombre"> {/*Hacer esto mismo para las demas categorias*/}
+                    <NavLink to="/hombre"> {/*Hacer esto mismo para las*/}
                         <div className="flex flex-col justify-center items-center">
                             <img className="mb-3 w-3/4 " src="./src/assets/hombre.jpg" alt="hombre" />
                             <h3 className="text-3xl font-normal">Hombre</h3>
@@ -59,12 +59,12 @@ export function Categorias() {
 
 export function TopSales() {
     const images = [
-        "./src/assets/remeraOversizePremiumTeam2.0Black.jpg",
-        "./src/assets/remeraOversizePremiumTeam2.0White.jpg",
-        "./src/assets/joggingClassicDarkgrey.jpg",
-        "./src/assets/buzoPremiumWorldWhite.jpg",
-        "./src/assets/buzoPremiumRusticoCrewNeckGreen.jpg",
-        "./src/assets/remeraOversizePremiumNascarRoja.jpg",
+        "./src/assets/products/hombre/remeraOversizePremiumTeam2.0White.jpg",
+        "./src/assets/products/hombre/remeraOversizePremiumTeam2.0Black.jpg",
+        "./src/assets/products/hombre/joggingClassicDarkgrey.jpg",
+        "./src/assets/products/hombre/buzoPremiumWorldWhite.jpg",
+        "./src/assets/products/hombre/buzoPremiumRusticoCrewNeckGreen.jpg",
+        "./src/assets/products/hombre/remeraOversizePremiumNascarRoja.jpg",
     ]
 
     return(

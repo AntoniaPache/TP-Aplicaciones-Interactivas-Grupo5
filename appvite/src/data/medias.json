@@ -1,0 +1,34 @@
+[
+  {
+    "name": "MEDIAS CLASSIC BLACK",
+    "price": "$5.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0007-2f0a3ec0e77f840edb17092171131959-100-0.webp",
+    "gender": "undefined",
+    "stock": "10",
+    "type": "medias"
+  },
+  {
+    "name": "MEDIAS CLASSIC WHITE",
+    "price": "$5.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0004-6723aad0cd99c2315d17092168475809-100-0.webp",
+    "gender": "undefined",
+    "stock": "10",
+    "type": "medias"
+  },
+  {
+    "name": "MEDIAS WORLD BLACK",
+    "price": "$5.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0005-7704022fb63ce727ee17092172335040-100-0.webp",
+    "gender": "undefined",
+    "stock": "10",
+    "type": "medias"
+  },
+  {
+    "name": "MEDIAS WORLD WHITE",
+    "price": "$5.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0006-dcb873b3eb331403f517092172941033-100-0.webp",
+    "gender": "undefined",
+    "stock": "10",
+    "type": "medias"
+  }
+]
