@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from '../components/Card'
-import products from '../data/products'
+import ProductCard from '../components/ProductCard';
+import products from '../data/remerasHombre.json'
 import NavBarVendedor from '../components/NavbarVendedor'
 
 

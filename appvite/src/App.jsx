@@ -11,7 +11,7 @@ import ProductoView from './views/ProductoView';
 import Header from "./components/Header";
 import Footer from "./components/Footer"; // Asegúrate de importar ProductoView si no lo has hecho
 
-import products from "./data/products.json";
+//import products from "./data/products.json";
 
 function App() {
   const routes = [
@@ -23,7 +23,7 @@ function App() {
     { path: "/vendedor/publicar", element: <PublicarProductoView /> },
     { path: "/vendedor", element: <MainVendedor /> },
   ];
-
+/*
   products.forEach((p) => {
     routes.push({
       path: "/vendedor/" + p.name,
@@ -58,7 +58,7 @@ function App() {
       element: <ProductoView p={p} />
     });
   });
-
+*/
   return (
     <>
       <Router>
