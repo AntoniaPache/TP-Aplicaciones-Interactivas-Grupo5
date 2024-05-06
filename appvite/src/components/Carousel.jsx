@@ -1,4 +1,3 @@
-
 import {
   Carousel,
   CarouselContent,
@@ -33,6 +32,9 @@ export function CarouselDemo() {
   }, [])
 
   return (
+    <div className="xl:w-3/4 2xl:w-3/4 px-2 items-center" >
+
+    
     <Carousel  opts={{
         loop: true,
       }} plugins={[
@@ -43,12 +45,12 @@ export function CarouselDemo() {
       <CarouselContent>
           <CarouselItem>
             <div className="p-1">
-                <img src="src/assets/image.png" alt="Image" className="w-full"/>
+                <img src="src/assets/image.png" alt="Image" className=""/>
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="p-1">
-                <img src="src/assets/image.png" alt="Image" className="w-full"/>
+                <img src="src/assets/image.png" alt="Image" className=""/>
             </div>
           </CarouselItem>
       </CarouselContent>
@@ -59,5 +61,6 @@ export function CarouselDemo() {
         </>
       ) : null}
     </Carousel>
+    </div>
   )
 }
