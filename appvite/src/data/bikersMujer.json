@@ -1,47 +1,5 @@
 [
   {
-    "name": "Top Texture Woman Dark Grey",
-    "price": "$34.950",
-    "image": "//acdn.mitiendanube.com/stores/956/789/products/e6b1fa20-a588-4f80-8e08-397e7ffdab301-f5b8b89b128c486f8216456196160778-1024-1024.webp",
-    "gender": "mujer",
-    "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
-    },
-    "type": "calza",
-    "color": "Negro"
-  },
-  {
-    "name": "Calza Alpha Red",
-    "price": "$30.000",
-    "image": "//acdn.mitiendanube.com/stores/956/789/products/b8ba4d8ad43f7e7cb32804c32e64600e5ae89cc5-630be3aab45d540ed716970339456459-1024-1024.webp",
-    "gender": "mujer",
-    "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
-    },
-    "type": "calza",
-    "color": "Negro"
-  },
-  {
-    "name": "Calza Alpha Chocolate",
-    "price": "$30.000",
-    "image": "//acdn.mitiendanube.com/stores/956/789/products/a9801d5b8614abbe7d4c3ab56e75b2be48f7aff5-bdad1a4c080d63801116970339238475-1024-1024.webp",
-    "gender": "mujer",
-    "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
-    },
-    "type": "calza",
-    "color": "Negro"
-  },
-  {
     "name": "Calza Woman Beige",
     "price": "$24.500",
     "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-b158b87709ac277a7e16406173194647-1024-1024.webp",
@@ -52,8 +10,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Negro",
+    "discount": 20,
+    "description": "Calza Woman Beige con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Darkblue White",
@@ -66,8 +26,26 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Blanco",
+    "discount": 35,
+    "description": "Calza Corta Premium Darkblue White con un estilo unico"
+  },
+  {
+    "name": "Calza Biker Essence Black",
+    "price": "$35.497",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-09-23-at-10-57-56-11-90d7076cb3c23c811516640479011010-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "biker",
+    "color": "Negro",
+    "discount": 0,
+    "description": "Calza Biker Essence Black con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Green/ White",
@@ -80,8 +58,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Blanco",
+    "description": "Calza Corta Premium Green/ White con un estilo unico",
+    "discount": 0
   },
   {
     "name": "Calza Corta Limited Black [Preventa 11/5...",
@@ -94,8 +74,26 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Negro",
+    "discount": 0,
+    "description": "Calza Corta Limited Black [Preventa 11/5... con un estilo unico"
+  },
+  {
+    "name": "Calza Woman Olive",
+    "price": "$24.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-663cafe20d5c548e0116968604547307-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "biker",
+    "color": "Negro",
+    "discount": 0,
+    "description": "Calza Woman Olive con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Lightpink",
@@ -108,8 +106,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Calza Corta Premium Lightpink con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Pink",
@@ -122,8 +122,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Calza Corta Premium Pink con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Grey",
@@ -136,8 +138,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Gris",
+    "discount": 20,
+    "description": "Calza Corta Premium Grey con un estilo unico"
   },
   {
     "name": "Calza Corta Limited Arena [Preventa 11/5...",
@@ -150,8 +154,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Negro",
+    "discount": 10,
+    "description": "Calza Corta Limited Arena [Preventa 11/5... con un estilo unico"
   },
   {
     "name": "Calza Biker Essence Light Blue",
@@ -164,8 +170,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Azul",
+    "discount": 0,
+    "description": "Calza Biker Essence Light Blue con un estilo unico"
   },
   {
     "name": "Calza Corta Limited Lilac [Preventa 11/5...",
@@ -178,8 +186,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Negro",
+    "discount": 0,
+    "description": "Calza Corta Limited Lilac [Preventa 11/5... con un estilo unico"
   },
   {
     "name": "Calza Woman Pink",
@@ -192,8 +202,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Calza Woman Pink con un estilo unico"
   },
   {
     "name": "Calza Biker Wlf Red",
@@ -206,8 +218,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Negro",
+    "discount": 10,
+    "description": "Calza Biker Wlf Red con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Purple/ White",
@@ -220,8 +234,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Blanco",
+    "discount": 20,
+    "description": "Calza Corta Premium Purple/ White con un estilo unico"
   },
   {
     "name": "Calza Corta Limited Sky-Blue [Preventa 1...",
@@ -234,8 +250,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Azul",
+    "description": "Calza Corta Limited Sky-Blue [Preventa 1... con un estilo unico",
+    "discount": 10
   },
   {
     "name": "Calza Corta Premium Blue/ Beige",
@@ -248,8 +266,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Azul",
+    "discount": 20,
+    "description": "Calza Corta Premium Blue/ Beige con un estilo unico"
   },
   {
     "name": "Calza Corta Premium Grey White",
@@ -262,8 +282,10 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Calza Corta Premium Grey White con un estilo unico"
   },
   {
     "name": "Calza Corta Limited Pink [Preventa 11/5]",
@@ -276,7 +298,9 @@
       "L": 8,
       "XL": 3
     },
-    "type": "calza",
-    "color": "Negro"
+    "type": "biker",
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Calza Corta Limited Pink [Preventa 11/5] con un estilo unico"
   }
 ]

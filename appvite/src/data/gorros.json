@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 0,
+    "description": "Beanie Villain Lightblue con un estilo unico"
   },
   {
     "name": "Beanie Rise Green",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 10,
+    "description": "Beanie Rise Green con un estilo unico"
   },
   {
     "name": "Beanie Rise Lightblue",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 35,
+    "description": "Beanie Rise Lightblue con un estilo unico"
   },
   {
     "name": "Beanie Revenge Grey",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 0,
+    "description": "Beanie Revenge Grey con un estilo unico"
   },
   {
     "name": "Beanie Revenge Pink",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 15,
+    "description": "Beanie Revenge Pink con un estilo unico"
   },
   {
     "name": "Beanie Fk Pink",
@@ -81,7 +91,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Beanie Fk Pink con un estilo unico"
   },
   {
     "name": "Beanie University Green",
@@ -95,7 +107,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 20,
+    "description": "Beanie University Green con un estilo unico"
   },
   {
     "name": "Beanie Cross Green",
@@ -109,7 +123,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Beanie Cross Green con un estilo unico"
   },
   {
     "name": "Beanie Cross Grey",
@@ -123,7 +139,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 0,
+    "description": "Beanie Cross Grey con un estilo unico"
   },
   {
     "name": "Beanie Spikes Blue",
@@ -137,7 +155,9 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 40,
+    "description": "Beanie Spikes Blue con un estilo unico"
   },
   {
     "name": "Beanie Villain Black",
@@ -151,6 +171,8 @@
       "XL": 3
     },
     "type": "gorro",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Beanie Villain Black con un estilo unico"
   }
 ]

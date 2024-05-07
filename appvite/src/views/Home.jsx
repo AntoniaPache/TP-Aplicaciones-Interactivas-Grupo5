@@ -7,7 +7,9 @@ export default function Home() {
     return (
         <>
         <main className="flex flex-wrap justify-center items-start italic font-sans">
+        <div className="flex w-3/4 px-2 justify-center items-center" >
             <CarouselDemo/>
+        </div>
             <About/>
             <Categorias/>
             <TopSales/>

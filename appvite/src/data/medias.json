@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "medias",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Medias Classic Black con un estilo unico"
   },
   {
     "name": "Medias Classic White",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "medias",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Medias Classic White con un estilo unico"
   },
   {
     "name": "Medias World Black",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "medias",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Medias World Black con un estilo unico"
   },
   {
     "name": "Medias World White",
@@ -53,6 +59,8 @@
       "XL": 3
     },
     "type": "medias",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Medias World White con un estilo unico"
   }
 ]

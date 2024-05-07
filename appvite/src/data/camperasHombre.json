@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "campera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 40,
+    "description": "Campera Snake Black/Red con un estilo unico"
   },
   {
     "name": "Campera Bloom Black/Red",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "campera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 25,
+    "description": "Campera Bloom Black/Red con un estilo unico"
   },
   {
     "name": "Campera Snake Black/Blue",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "campera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 40,
+    "description": "Campera Snake Black/Blue con un estilo unico"
   },
   {
     "name": "Campera Bloom Black/Green",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "campera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Campera Bloom Black/Green con un estilo unico"
   },
   {
     "name": "Campera Cross Black/Purple",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "campera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Campera Cross Black/Purple con un estilo unico"
   },
   {
     "name": "Campera Cross Black/Orange",
@@ -81,6 +91,8 @@
       "XL": 3
     },
     "type": "campera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Campera Cross Black/Orange con un estilo unico"
   }
 ]

@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Jogging Classic Black [Preventa 9/5] con un estilo unico"
   },
   {
     "name": "Jogging Vision Grey",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 30,
+    "description": "Jogging Vision Grey con un estilo unico"
   },
   {
     "name": "Jogging Fierce Black",
@@ -39,7 +43,8 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "description": "Jogging Fierce Black con un estilo unico"
   },
   {
     "name": "Jogging Classic Chocolate",
@@ -53,7 +58,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Jogging Classic Chocolate con un estilo unico"
   },
   {
     "name": "Jogging Fierce Grey",
@@ -67,7 +74,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 15,
+    "description": "Jogging Fierce Grey con un estilo unico"
   },
   {
     "name": "Jogging Classic Darkgrey [Preventa 25/4]",
@@ -81,7 +90,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 0,
+    "description": "Jogging Classic Darkgrey [Preventa 25/4] con un estilo unico"
   },
   {
     "name": "Jogging Classic Blue [Preventa 25/4]",
@@ -95,7 +106,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 40,
+    "description": "Jogging Classic Blue [Preventa 25/4] con un estilo unico"
   },
   {
     "name": "Jogging Classic Grey [Preventa 25/4]",
@@ -109,7 +122,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 10,
+    "description": "Jogging Classic Grey [Preventa 25/4] con un estilo unico"
   },
   {
     "name": "Techpant Performance Blue",
@@ -123,6 +138,8 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 0,
+    "description": "Techpant Performance Blue con un estilo unico"
   }
 ]

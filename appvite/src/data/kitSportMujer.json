@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Kit Sport Corto Black con un estilo unico"
   },
   {
     "name": "Kit Sport Corto Chocolate",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 35,
+    "description": "Kit Sport Corto Chocolate con un estilo unico"
   },
   {
     "name": "Kit Woman Olive",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Kit Woman Olive con un estilo unico"
   },
   {
     "name": "Kit Woman Pink",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Kit Woman Pink con un estilo unico"
   },
   {
     "name": "Top Sport Chocolate",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 15,
+    "description": "Top Sport Chocolate con un estilo unico"
   },
   {
     "name": "Calza Woman Olive",
@@ -81,7 +91,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 35,
+    "description": "Calza Woman Olive con un estilo unico"
   },
   {
     "name": "Top Woman Olive",
@@ -95,7 +107,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Top Woman Olive con un estilo unico"
   },
   {
     "name": "Kit Sport Blue",
@@ -109,7 +123,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 10,
+    "description": "Kit Sport Blue con un estilo unico"
   },
   {
     "name": "Top Woman Beige",
@@ -123,7 +139,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Top Woman Beige con un estilo unico"
   },
   {
     "name": "Kit Sport Black",
@@ -137,7 +155,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Kit Sport Black con un estilo unico"
   },
   {
     "name": "Kit Sport Metal Pink",
@@ -151,7 +171,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Kit Sport Metal Pink con un estilo unico"
   },
   {
     "name": "Kit Sport Chocolate",
@@ -165,7 +187,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Kit Sport Chocolate con un estilo unico"
   },
   {
     "name": "Kit Sport Corto Blue",
@@ -179,7 +203,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 0,
+    "description": "Kit Sport Corto Blue con un estilo unico"
   },
   {
     "name": "Kit Sport Corto Pink",
@@ -193,7 +219,9 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Kit Sport Corto Pink con un estilo unico"
   },
   {
     "name": "Kit Woman Beige",
@@ -207,6 +235,8 @@
       "XL": 3
     },
     "type": "kitsport",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Kit Woman Beige con un estilo unico"
   }
 ]

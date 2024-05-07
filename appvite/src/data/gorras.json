@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "gorras",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 35,
+    "description": "Gorra Gothic Bluewash Orange con un estilo unico"
   },
   {
     "name": "Trucker Gothic Black",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "gorras",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 40,
+    "description": "Trucker Gothic Black con un estilo unico"
   },
   {
     "name": "Gorra Fk Francia",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "gorras",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 25,
+    "description": "Gorra Fk Francia con un estilo unico"
   },
   {
     "name": "Trucker Fk Black",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "gorras",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Trucker Fk Black con un estilo unico"
   },
   {
     "name": "Trucker F Black/Orange",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "gorras",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 35,
+    "description": "Trucker F Black/Orange con un estilo unico"
   },
   {
     "name": "Trucker Spikes Grey",
@@ -81,6 +91,8 @@
       "XL": 3
     },
     "type": "gorras",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 35,
+    "description": "Trucker Spikes Grey con un estilo unico"
   }
 ]

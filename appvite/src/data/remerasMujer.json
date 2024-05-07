@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 30,
+    "description": "Remera Oversize Premium Fuarkus Black con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Fuarkus Soft Gre...",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Remera Oversize Premium Fuarkus Soft Gre... con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Punch White",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Remera Oversize Premium Punch White con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Brotherhood Whit...",
@@ -53,7 +59,8 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "description": "Remera Oversize Premium Brotherhood Whit... con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Bite Black",
@@ -67,7 +74,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Remera Oversize Premium Bite Black con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Fuarkus Blue",
@@ -81,7 +90,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 0,
+    "description": "Remera Oversize Premium Fuarkus Blue con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium New Club Blue",
@@ -95,7 +106,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 30,
+    "description": "Remera Oversize Premium New Club Blue con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Spirit Blue",
@@ -109,7 +122,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 30,
+    "description": "Remera Oversize Premium Spirit Blue con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium New Club White",
@@ -123,7 +138,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 30,
+    "description": "Remera Oversize Premium New Club White con un estilo unico"
   },
   {
     "name": "Remera Performance Worldwide Green",
@@ -137,7 +154,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 10,
+    "description": "Remera Performance Worldwide Green con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Melt Soft-Pink [...",
@@ -151,7 +170,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Remera Oversize Premium Melt Soft-Pink [... con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Fuarkus Orange",
@@ -165,7 +186,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 40,
+    "description": "Remera Oversize Premium Fuarkus Orange con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium New Club Green",
@@ -179,7 +202,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 35,
+    "description": "Remera Oversize Premium New Club Green con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Melt White [Prev...",
@@ -193,7 +218,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 30,
+    "description": "Remera Oversize Premium Melt White [Prev... con un estilo unico"
   },
   {
     "name": "Remera Performance Armour Grey",
@@ -207,7 +234,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 0,
+    "description": "Remera Performance Armour Grey con un estilo unico"
   },
   {
     "name": "Remera Performance Vision Black [Prevent...",
@@ -221,7 +250,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Remera Performance Vision Black [Prevent... con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Tribute Green",
@@ -235,7 +266,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Remera Oversize Premium Tribute Green con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Hard Black",
@@ -249,7 +282,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 30,
+    "description": "Remera Oversize Premium Hard Black con un estilo unico"
   },
   {
     "name": "Remera Performance 4real Black [Preventa...",
@@ -263,7 +298,9 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Remera Performance 4real Black [Preventa... con un estilo unico"
   },
   {
     "name": "Remera Oversize Premium Spirit Green",
@@ -277,6 +314,8 @@
       "XL": 3
     },
     "type": "remera",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Remera Oversize Premium Spirit Green con un estilo unico"
   }
 ]

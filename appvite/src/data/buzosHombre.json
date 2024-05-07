@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Buzo Club Green (Pre Venta 2/5) con un estilo unico"
   },
   {
     "name": "Buzo Club Purple (Pre Venta 2/5)",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Violeta",
+    "discount": 35,
+    "description": "Buzo Club Purple (Pre Venta 2/5) con un estilo unico"
   },
   {
     "name": "Buzo Club Blue (Pre Venta 2/5)",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 25,
+    "description": "Buzo Club Blue (Pre Venta 2/5) con un estilo unico"
   },
   {
     "name": "Buzo Premium Rustico Crew Neck 4real",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Premium Rustico Crew Neck 4real con un estilo unico"
   },
   {
     "name": "Buzo Premium World Blanco",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 35,
+    "description": "Buzo Premium World Blanco con un estilo unico"
   },
   {
     "name": "Buzo Premium World Brick",
@@ -81,7 +91,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Premium World Brick con un estilo unico"
   },
   {
     "name": "Buzo Club Black",
@@ -95,7 +107,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 10,
+    "description": "Buzo Club Black con un estilo unico"
   },
   {
     "name": "Buzo Swords Black",
@@ -109,7 +123,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Buzo Swords Black con un estilo unico"
   },
   {
     "name": "Buzo Void White",
@@ -123,7 +139,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Buzo Void White con un estilo unico"
   },
   {
     "name": "Buzo Infinit Green",
@@ -137,7 +155,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 40,
+    "description": "Buzo Infinit Green con un estilo unico"
   },
   {
     "name": "Buzo Void Black",
@@ -151,7 +171,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Void Black con un estilo unico"
   },
   {
     "name": "Buzo Nbd White",
@@ -165,7 +187,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Buzo Nbd White con un estilo unico"
   },
   {
     "name": "Buzo Element Bordeaux",
@@ -179,7 +203,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Element Bordeaux con un estilo unico"
   },
   {
     "name": "Buzo Infinit White",
@@ -193,7 +219,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 25,
+    "description": "Buzo Infinit White con un estilo unico"
   },
   {
     "name": "Buzo Element White",
@@ -207,7 +235,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Buzo Element White con un estilo unico"
   },
   {
     "name": "Buzo Prewash Crumb Dark Grey",
@@ -221,7 +251,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 10,
+    "description": "Buzo Prewash Crumb Dark Grey con un estilo unico"
   },
   {
     "name": "Buzo Swords Blue",
@@ -235,7 +267,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 40,
+    "description": "Buzo Swords Blue con un estilo unico"
   },
   {
     "name": "Buzo Infinit Grey",
@@ -249,7 +283,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 0,
+    "description": "Buzo Infinit Grey con un estilo unico"
   },
   {
     "name": "Buzo Winner Black",
@@ -263,6 +299,8 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Buzo Winner Black con un estilo unico"
   }
 ]

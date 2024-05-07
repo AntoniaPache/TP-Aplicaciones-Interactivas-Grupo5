@@ -32,7 +32,7 @@ export function CarouselDemo() {
   }, [])
 
   return (
-    <div className="xl:w-3/4 2xl:w-3/4 px-2 items-center" >
+    
 
     
     <Carousel  opts={{
@@ -61,6 +61,5 @@ export function CarouselDemo() {
         </>
       ) : null}
     </Carousel>
-    </div>
   )
 }

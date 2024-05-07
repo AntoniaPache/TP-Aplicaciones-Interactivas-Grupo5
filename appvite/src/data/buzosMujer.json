@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 25,
+    "description": "Buzo Club Black con un estilo unico"
   },
   {
     "name": "Buzo Croptop World Black",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Croptop World Black con un estilo unico"
   },
   {
     "name": "Buzo Premium World Blanco",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 10,
+    "description": "Buzo Premium World Blanco con un estilo unico"
   },
   {
     "name": "Buzo Croptop World Bordeaux",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Croptop World Bordeaux con un estilo unico"
   },
   {
     "name": "Buzo Swords Black",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Swords Black con un estilo unico"
   },
   {
     "name": "Buzo Infinit Green",
@@ -81,7 +91,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Buzo Infinit Green con un estilo unico"
   },
   {
     "name": "Buzo Premium World Brick",
@@ -95,7 +107,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Premium World Brick con un estilo unico"
   },
   {
     "name": "Buzo Void Black",
@@ -109,7 +123,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Void Black con un estilo unico"
   },
   {
     "name": "Buzo Croptop World Purple",
@@ -123,7 +139,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Violeta",
+    "discount": 35,
+    "description": "Buzo Croptop World Purple con un estilo unico"
   },
   {
     "name": "Campera Snake Black/Red",
@@ -137,7 +155,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 15,
+    "description": "Campera Snake Black/Red con un estilo unico"
   },
   {
     "name": "Campera Bloom Black/Green",
@@ -151,7 +171,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Campera Bloom Black/Green con un estilo unico"
   },
   {
     "name": "Campera Cross Black/Purple",
@@ -165,7 +187,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Campera Cross Black/Purple con un estilo unico"
   },
   {
     "name": "Buzo Croptop World Brick",
@@ -179,7 +203,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 10,
+    "description": "Buzo Croptop World Brick con un estilo unico"
   },
   {
     "name": "Buzo Swords Blue",
@@ -193,7 +219,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 0,
+    "description": "Buzo Swords Blue con un estilo unico"
   },
   {
     "name": "Buzo Infinit White",
@@ -207,7 +235,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 30,
+    "description": "Buzo Infinit White con un estilo unico"
   },
   {
     "name": "Buzo Spikes Black",
@@ -221,7 +251,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Spikes Black con un estilo unico"
   },
   {
     "name": "Buzo Premium Rustico Crew Neck 4real Dar...",
@@ -235,7 +267,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Premium Rustico Crew Neck 4real Dar... con un estilo unico"
   },
   {
     "name": "Campera Bloom Black/Red",
@@ -249,7 +283,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Campera Bloom Black/Red con un estilo unico"
   },
   {
     "name": "Campera Cross Black/Orange",
@@ -263,7 +299,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Campera Cross Black/Orange con un estilo unico"
   },
   {
     "name": "Buzo Void White",
@@ -277,7 +315,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 15,
+    "description": "Buzo Void White con un estilo unico"
   },
   {
     "name": "Buzo Element White",
@@ -291,7 +331,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 20,
+    "description": "Buzo Element White con un estilo unico"
   },
   {
     "name": "Campera Snake Black/Blue",
@@ -305,7 +347,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Campera Snake Black/Blue con un estilo unico"
   },
   {
     "name": "Buzo Infinit Grey",
@@ -319,7 +363,8 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Gris",
+    "description": "Buzo Infinit Grey con un estilo unico"
   },
   {
     "name": "Buzo Element Bordeaux",
@@ -333,7 +378,9 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Element Bordeaux con un estilo unico"
   },
   {
     "name": "Buzo Winner Black",
@@ -347,6 +394,8 @@
       "XL": 3
     },
     "type": "buzo",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Buzo Winner Black con un estilo unico"
   }
 ]

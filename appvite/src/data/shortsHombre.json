@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Short Swim Spandex Black con un estilo unico"
   },
   {
     "name": "Short Swim Spandex Pink",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Short Swim Spandex Pink con un estilo unico"
   },
   {
     "name": "Short Alpha Purple",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Violeta",
+    "discount": 35,
+    "description": "Short Alpha Purple con un estilo unico"
   },
   {
     "name": "Short Rustic Universal Black",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 20,
+    "description": "Short Rustic Universal Black con un estilo unico"
   },
   {
     "name": "Short Swim Spandex Acqua",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 40,
+    "description": "Short Swim Spandex Acqua con un estilo unico"
   },
   {
     "name": "Short Rustic Elements Iron",
@@ -81,7 +91,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Short Rustic Elements Iron con un estilo unico"
   },
   {
     "name": "Short Swim Spandex Darkblue",
@@ -95,7 +107,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 25,
+    "description": "Short Swim Spandex Darkblue con un estilo unico"
   },
   {
     "name": "Short Rustic Cross Green",
@@ -109,7 +123,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Short Rustic Cross Green con un estilo unico"
   },
   {
     "name": "Short Basic Lightblue",
@@ -123,7 +139,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 15,
+    "description": "Short Basic Lightblue con un estilo unico"
   },
   {
     "name": "Short Basic Francia",
@@ -137,7 +155,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 10,
+    "description": "Short Basic Francia con un estilo unico"
   },
   {
     "name": "Short Basic Coral",
@@ -151,7 +171,8 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "description": "Short Basic Coral con un estilo unico"
   },
   {
     "name": "Short Rustic Universal Iron",
@@ -165,7 +186,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Short Rustic Universal Iron con un estilo unico"
   },
   {
     "name": "Short Basic Acqua",
@@ -179,7 +202,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Short Basic Acqua con un estilo unico"
   },
   {
     "name": "Short Rustic Premium Gothic Green",
@@ -193,7 +218,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 25,
+    "description": "Short Rustic Premium Gothic Green con un estilo unico"
   },
   {
     "name": "Short Basic Soft-Green",
@@ -207,7 +234,9 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Verde",
+    "discount": 0,
+    "description": "Short Basic Soft-Green con un estilo unico"
   },
   {
     "name": "Short Basic Pink",
@@ -221,6 +250,8 @@
       "XL": 3
     },
     "type": "short",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Short Basic Pink con un estilo unico"
   }
 ]

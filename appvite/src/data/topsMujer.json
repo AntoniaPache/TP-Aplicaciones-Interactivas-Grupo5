@@ -11,7 +11,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 35,
+    "description": "Crop Top Gothic Black con un estilo unico"
   },
   {
     "name": "Croptop Lifting Bordeaux+White",
@@ -25,7 +27,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Croptop Lifting Bordeaux+White con un estilo unico"
   },
   {
     "name": "Crop Top Gothic Pink",
@@ -39,7 +43,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 25,
+    "description": "Crop Top Gothic Pink con un estilo unico"
   },
   {
     "name": "Top Woman Fit White",
@@ -53,7 +59,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Top Woman Fit White con un estilo unico"
   },
   {
     "name": "Crop Top Gothic White",
@@ -67,7 +75,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Blanco",
+    "discount": 0,
+    "description": "Crop Top Gothic White con un estilo unico"
   },
   {
     "name": "Croptop Lifting Black+Pink",
@@ -81,7 +91,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Croptop Lifting Black+Pink con un estilo unico"
   },
   {
     "name": "Top Woman Fit Pink",
@@ -95,7 +107,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Top Woman Fit Pink con un estilo unico"
   },
   {
     "name": "Croptop Lifting Black",
@@ -109,7 +123,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Croptop Lifting Black con un estilo unico"
   },
   {
     "name": "Top Sport Black",
@@ -123,7 +139,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 30,
+    "description": "Top Sport Black con un estilo unico"
   },
   {
     "name": "Top Woman Fit Blue",
@@ -137,7 +155,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Azul",
+    "discount": 0,
+    "description": "Top Woman Fit Blue con un estilo unico"
   },
   {
     "name": "Top Sport Chocolate",
@@ -151,7 +171,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Top Sport Chocolate con un estilo unico"
   },
   {
     "name": "Croptop Lifting Bordeaux",
@@ -165,7 +187,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 30,
+    "description": "Croptop Lifting Bordeaux con un estilo unico"
   },
   {
     "name": "Top Woman Olive",
@@ -179,7 +203,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 25,
+    "description": "Top Woman Olive con un estilo unico"
   },
   {
     "name": "Top Texture Woman Grey",
@@ -193,7 +219,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Gris",
+    "discount": 0,
+    "description": "Top Texture Woman Grey con un estilo unico"
   },
   {
     "name": "Top Woman Texture Black",
@@ -207,7 +235,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Top Woman Texture Black con un estilo unico"
   },
   {
     "name": "Top Woman Beige",
@@ -221,7 +251,9 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Negro",
+    "discount": 0,
+    "description": "Top Woman Beige con un estilo unico"
   },
   {
     "name": "Top Woman Pink",
@@ -235,6 +267,8 @@
       "XL": 3
     },
     "type": "top",
-    "color": "Negro"
+    "color": "Rosa",
+    "discount": 0,
+    "description": "Top Woman Pink con un estilo unico"
   }
 ]
