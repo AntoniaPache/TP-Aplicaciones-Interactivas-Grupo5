@@ -1,12 +1,11 @@
 import React from 'react'
+import products from '../data/buzosMujer.json'
 import ProductCard from '../components/ProductCard';
-import products from '../data/remerasHombre.json'
-import NavBarVendedor from '../components/NavbarVendedor'
 
 
 function MainVendedor() {
   const productList = products.map((p) => {
-    return <Card img={p.img} name={p.name} price={p.price} />;
+    return ProductCard({ product: p });
   });
 
   return (

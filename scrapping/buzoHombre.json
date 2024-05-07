@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Buzo Club Green (Pre Venta 2/5)",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-18-at-10-29-16-88b55867453830469717134471322875-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Club Purple (Pre Venta 2/5)",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-18-at-10-29-15-2-39e711928af447917017134471612222-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Club Blue (Pre Venta 2/5)",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-18-at-10-29-16-1-c324d7651b8166175817134471793614-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Premium Rustico Crew Neck 4real",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-05-a-las-15-16-39-a708e5e5b89ca9c93a17124243783114-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Premium World Blanco",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-04-at-11-04-24-a7d54c4ad16d9df81c17122398236247-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Premium World Brick",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-04-at-11-04-23-1-b50d7c1944bd1477ed17122397807772-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Club Black",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-03-07-a-las-13-26-21-c1fd8bbbbc1d8e375a17098291405544-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Swords Black",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230715-wa00221-72e1bc70a943e770a516935016520719-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Void White",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark_-71-a0cd219f137d5e63fe16921205636564-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Infinit Green",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230701-wa00281-f3696ca980f71aaf6e16882358547957-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Void Black",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-14-45nlnlnnlnl1-de577068275ebfc11416941005359467-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Nbd White",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-521-73035b07c8b8f1a3d116859676396600-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Element Bordeaux",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-5011-516474cb125065409516859672470789-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Infinit White",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-5221-8f2e6e00e1a5586a8f16859673356340-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Element White",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-5211-d4049c67a37a5e06cb16859671669262-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Prewash Crumb Dark Grey",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2022-10-26-a-las-10-47-401-88ee9eca6e4f23046716667990737133-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Swords Blue",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-14-461-8add806a87cf45e5be16941026688275-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Infinit Grey",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230701-wa00301-a240b284ee198de2eb16882358337989-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  },
+  {
+    "name": "Buzo Winner Black",
+    "price": "$55.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-15-101-1eefb65ba5e1a86acb16941002312686-1024-1024.webp",
+    "gender": "hombre",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "buzo",
+    "color": "Negro"
+  }
+]

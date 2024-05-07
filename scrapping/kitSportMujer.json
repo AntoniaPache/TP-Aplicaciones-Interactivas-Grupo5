@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Kit Sport Corto Black",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/c67c0e0ba2ab5377057e5236c9835d1dddc93671-d957f826d7135d811e17048056841529-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Corto Chocolate",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-01-09-a-las-09-58-31_7d32d5f7-9c7a18ddd0e09c8a9617048052727060-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Woman Olive",
+    "price": "$29.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-bf0cbdcd6a040f6fc116968603743224-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Woman Pink",
+    "price": "$29.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-51-b6b0d3cab33cf4a2a716406171362557-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Top Sport Chocolate",
+    "price": "$28.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-01-09-a-las-09-58-31_7d32d5f7-5b9c4646918ca113f717048060272253-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Calza Woman Olive",
+    "price": "$24.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-663cafe20d5c548e0116968604547307-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Top Woman Olive",
+    "price": "$19.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-2f23b08f6acbe7688e16968604383435-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Blue",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-blue-37b7d6342df181582017147738808152-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Top Woman Beige",
+    "price": "$28.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-640-0-640-0-3090492a88d0035c3c16718068345468-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Black",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-black-85eaeb37673bbea2bf17147740665472-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Metal Pink",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-pink-3563d83c352a2923b917147738565763-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Chocolate",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-choco-d57ae5514186f51ba417147741517919-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Corto Blue",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-05-03-a-las-19-17-02-9c2cd2fb0a81cb688817147747754614-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Sport Corto Pink",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-05-03-a-las-19-17-39-db22e771bdce25f72117147746981149-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  },
+  {
+    "name": "Kit Woman Beige",
+    "price": "$29.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-640-0-9cc0d7db59cee2069516718043280626-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 5,
+      "M": 10,
+      "L": 8,
+      "XL": 3
+    },
+    "type": "kitsport",
+    "color": "Negro"
+  }
+]
