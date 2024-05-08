@@ -23,12 +23,6 @@ function NavBarVendedor() {
 
                 <div className='absolute flex space-x-2 right-4 top-4'>
                     <SearchBar/>
-                    <div>
-                        <img src="src/assets/ph_user-light.svg" alt="User" className="w-6 h-6"/>
-                    </div>
-                    <div>
-                        <img src="src/assets/mdi_cart-outline.svg" alt="Cart" className="w-6 h-6"/>
-                    </div>
                 </div>
             </nav>
             </>
