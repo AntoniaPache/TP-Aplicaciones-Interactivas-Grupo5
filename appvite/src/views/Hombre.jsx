@@ -32,7 +32,7 @@ export default function Hombre() {
     }, [currentSize, currentColor, initialFilteredProducts]);
 
     const handleSizeChange = (newSize) => {
-        setCurrentSize(newSize);
+        setCurrentSize(newSize);    
     };
 
     const handleColorChange = (newColor) => {
