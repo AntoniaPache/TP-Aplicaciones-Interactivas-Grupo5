@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import SearchBar from "./SearchBar";
 import UserButton from "./userButton";
+import CartButton from "./cartButton";
 
 export default function Navbar() {
     return (
@@ -22,7 +23,7 @@ export default function Navbar() {
           <SearchBar/>
           <UserButton/>
           <div>
-            <img src="src/assets/mdi_cart-outline.svg" alt="Cart" className="w-6 h-6"/>
+            <CartButton/>
           </div>
         </div>
       </nav>

@@ -1,42 +1,81 @@
 [
-    {
-      "name": "CALZA WOMAN BEIGE",
-      "price": "$24.500",
-      "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-b158b87709ac277a7e16406173194647-100-0.webp",
-      "gender": "mujer",
-      "stock": "10",
-      "type": "biker",
-      "description": "Es una biker",
-      "discount": 10
-
+  {
+    "name": "Calza Woman Beige",
+    "price": "$24.500",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-b158b87709ac277a7e16406173194647-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 2,
+      "M": 3,
+      "L": 1,
+      "XL": 1
     },
-    {
-      "name": "CALZA CORTA PREMIUM DARKBLUE WHITE",
-      "price": "$56.000",
-      "image": "//acdn.mitiendanube.com/stores/956/789/products/darkblue-white-2-c3f67f886e6ad014ad17008491985893-100-0.webp",
-      "gender": "mujer",
-      "stock": "10",
-      "type": "biker",
-      "description": "Es una biker",
-      "discount": 10
+    "type": "biker",
+    "color": "Negro",
+    "discount": 20,
+    "description": "Calza Woman Beige con un estilo unico"
+  },
+  {
+    "name": "Calza Corta Premium Darkblue White",
+    "price": "$56.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/darkblue-white-2-c3f67f886e6ad014ad17008491985893-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 3,
+      "M": 2,
+      "L": 2,
+      "XL": 0
     },
-    {
-      "name": "CALZA BIKER ESSENCE BLACK",
-      "price": "$35.497",
-      "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-09-23-at-10-57-56-11-90d7076cb3c23c811516640479011010-100-0.webp",
-      "gender": "mujer",
-      "stock": "10",
-      "type": "biker",
-      "description": "Es una biker",
-      "discount": 10
+    "type": "biker",
+    "color": "Blanco",
+    "discount": 35,
+    "description": "Calza Corta Premium Darkblue White con un estilo unico"
+  },
+  {
+    "name": "Calza Biker Essence Black",
+    "price": "$35.497",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-09-23-at-10-57-56-11-90d7076cb3c23c811516640479011010-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 3,
+      "M": 4,
+      "L": 0,
+      "XL": 1
     },
-    {
-      "name": "CALZA CORTA PREMIUM GREEN/ WHITE",
-      "price": "$56.000",
-      "image": "//acdn.mitiendanube.com/stores/956/789/products/lightgreen2-a58d084fcd9d4b518417002486883099-100-0.webp",
-      "gender": "mujer",
-      "stock": "10",
-      "type": "biker",
-      "description": "Es una biker",
-      "discount": 10
-    }]
+    "type": "biker",
+    "color": "Negro",
+    "discount": 0,
+    "description": "Calza Biker Essence Black con un estilo unico"
+  },
+  {
+    "name": "Calza Corta Premium Green/ White",
+    "price": "$56.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/lightgreen2-a58d084fcd9d4b518417002486883099-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 4,
+      "M": 0,
+      "L": 4,
+      "XL": 2
+    },
+    "type": "biker",
+    "color": "Blanco",
+    "description": "Calza Corta Premium Green/ White con un estilo unico",
+    "discount": 0
+  },
+  {
+    "name": "Calza Corta Limited Black [Preventa 11/5...",
+    "price": "$40.000",
+    "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-11-0510bbf897c22b2f4e17121622862238-1024-1024.webp",
+    "gender": "mujer",
+    "stock": {
+      "S": 1,
+      "M": 4,
+      "L": 2,
+      "XL": 2
+    },
+    "type": "biker",
+    "color": "Negro",
+    "discount": 0,
+    "description": "Calza Corta Limited Black [Preventa 11/5... con un estilo unico"
+  }]
