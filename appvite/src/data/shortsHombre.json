@@ -5,10 +5,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-04-at-13-52-44-a35a313e4c89cdd75c16991197678794-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 3,
+      "L": 2,
+      "XL": 2
     },
     "type": "short",
     "color": "Negro",
@@ -21,10 +21,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-04-at-13-52-46-945a1375666343fe8c169912004177731-5ccc7287c1817976d816991201161829-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 4,
+      "L": 4,
+      "XL": 4
     },
     "type": "short",
     "color": "Rosa",
@@ -37,10 +37,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-11-at-14-55-52-915e56ed4f49d315d2169972551977061-f0cad61ff52cd6a56a16997255612961-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 2,
+      "L": 4,
+      "XL": 1
     },
     "type": "short",
     "color": "Violeta",
@@ -53,10 +53,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/2100b7346d1c59ca708463fbd4079f25b4ad5ac6-7ee27c568d2eb0a7e617099273532770-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 0,
+      "M": 3,
+      "L": 1,
+      "XL": 1
     },
     "type": "short",
     "color": "Negro",
@@ -69,10 +69,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-04-at-13-52-48-4d8fc70600da692f5c16991202156876-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 4,
+      "L": 1,
+      "XL": 2
     },
     "type": "short",
     "color": "Negro",
@@ -85,10 +85,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0130-90d6c496b88c9646b417100036241751-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 1,
+      "M": 1,
+      "L": 3,
+      "XL": 2
     },
     "type": "short",
     "color": "Negro",
@@ -101,10 +101,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/spandex-darkblue-e2948a03af6030360f17005957261070-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 0,
+      "M": 2,
+      "L": 1,
+      "XL": 4
     },
     "type": "short",
     "color": "Azul",
@@ -117,9 +117,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-09-16-at-14-17-401-e916baed5273fc148316948848924905-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 4,
+      "M": 3,
+      "L": 1,
       "XL": 3
     },
     "type": "short",
@@ -133,9 +133,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0031-611ae79b8ce445b8ac17051523761440-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 2,
+      "M": 3,
+      "L": 2,
       "XL": 3
     },
     "type": "short",
@@ -149,10 +149,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0032-d3e74e4eedf9a8b57717051522332180-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 2,
+      "L": 3,
+      "XL": 1
     },
     "type": "short",
     "color": "Negro",
@@ -165,10 +165,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0033-bccfff159bd328583a17051523247412-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 3,
+      "L": 1,
+      "XL": 1
     },
     "type": "short",
     "color": "Negro",
@@ -180,10 +180,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0129-1dde7b7936b2bc90e317100035918587-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 1,
+      "L": 0,
+      "XL": 4
     },
     "type": "short",
     "color": "Negro",
@@ -196,10 +196,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0029-10f02f12712fb02ac817051523480479-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 0,
+      "M": 4,
+      "L": 3,
+      "XL": 4
     },
     "type": "short",
     "color": "Negro",
@@ -212,9 +212,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-02-at-09-32-06-1117ce5a6739f7dba416989288856270-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 4,
+      "M": 3,
+      "L": 3,
       "XL": 3
     },
     "type": "short",
@@ -228,10 +228,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0037-14b7c2274737979a8a17051527190250-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 1,
+      "L": 0,
+      "XL": 2
     },
     "type": "short",
     "color": "Verde",
@@ -244,10 +244,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0026-284bea781328b0b3f217051527009691-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 2,
+      "M": 3,
+      "L": 4,
+      "XL": 1
     },
     "type": "short",
     "color": "Rosa",

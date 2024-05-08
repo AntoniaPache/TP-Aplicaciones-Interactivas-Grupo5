@@ -1,17 +1,16 @@
 import React from 'react'
-import products from '../data/buzosMujer.json'
 import ProductCard from '../components/ProductCard';
+import products from '../data/products.json'
 
 
 function MainVendedor() {
   const productList = products.map((p) => {
-    return ProductCard({ product: p });
+    return <ProductCard product={p} />;
   });
 
   return (
-    <div className="">
-
-      <div className="flex flex-wrap justify-center gap-10 mt-20">
+    <div className="flex justify-center items-center">
+      <div className="grid grid-cols-4 justify-center w-1/2 gap-10 mt-20">
         {productList}
       </div>
 

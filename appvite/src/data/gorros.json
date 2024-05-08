@@ -5,10 +5,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00261-5c99c6908ecab50d5116814103508535-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 1,
+      "L": 3,
+      "XL": 1
     },
     "type": "gorro",
     "color": "Azul",
@@ -21,10 +21,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00181-415f9a679471afe8b216814103398816-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 1,
+      "M": 2,
+      "L": 0,
+      "XL": 2
     },
     "type": "gorro",
     "color": "Verde",
@@ -37,9 +37,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00151-3bb0dcd67d8ac27a9316814092819308-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 4,
+      "M": 3,
+      "L": 2,
       "XL": 3
     },
     "type": "gorro",
@@ -53,9 +53,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00291-9cbda61314f0f7f7d216814099096931-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 3,
+      "M": 3,
+      "L": 3,
       "XL": 3
     },
     "type": "gorro",
@@ -69,10 +69,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa001711-0e1e3f2a7869fad48516814129568645-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 1,
+      "L": 2,
+      "XL": 4
     },
     "type": "gorro",
     "color": "Rosa",
@@ -85,10 +85,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-14-at-4-15-45-pm-11-76af50ba6432d20c2b16578982396337-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 4,
+      "L": 0,
+      "XL": 1
     },
     "type": "gorro",
     "color": "Rosa",
@@ -101,9 +101,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-15-at-12-21-22-pm1-ff9977b238fd20c5c416578987712922-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 4,
+      "M": 3,
+      "L": 4,
       "XL": 3
     },
     "type": "gorro",
@@ -117,9 +117,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-14-at-4-15-46-pm1-fbf90d5d3575c36ed916578983309462-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 0,
+      "M": 2,
+      "L": 1,
       "XL": 3
     },
     "type": "gorro",
@@ -133,9 +133,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-14-at-4-15-44-pm-11-aaad1ed809e20dc15c16578983831859-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 0,
+      "M": 2,
+      "L": 1,
       "XL": 3
     },
     "type": "gorro",
@@ -149,10 +149,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/11886e22-abc1-402e-9bed-cf4b2db03dbd-134a6df92dbeec20fb16548068447373-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 2,
+      "L": 0,
+      "XL": 0
     },
     "type": "gorro",
     "color": "Azul",
@@ -165,10 +165,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00271-071fc6ba6242de3bd516814085162446-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 1,
+      "M": 2,
+      "L": 3,
+      "XL": 4
     },
     "type": "gorro",
     "color": "Negro",

@@ -5,10 +5,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-12-at-19-11-51-03f2f4dcb9eda41a3517102816366102-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 0,
+      "L": 4,
+      "XL": 1
     },
     "type": "buzo",
     "color": "Negro",
@@ -21,10 +21,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-04-22-at-14-48-191-28e2112f615f649faa16821859314757-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 1,
+      "M": 2,
+      "L": 3,
+      "XL": 0
     },
     "type": "buzo",
     "color": "Gris",
@@ -37,9 +37,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2023-08-15-a-las-13-59-161-be01c22c29dece140a16932286968203-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 4,
+      "M": 1,
+      "L": 3,
       "XL": 3
     },
     "type": "buzo",
@@ -52,10 +52,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/172b27c8-efc1-4b39-8f09-fd2e6cb63868-9ec17e88bfe52f070817102797473685-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 3,
+      "L": 4,
+      "XL": 4
     },
     "type": "buzo",
     "color": "Negro",
@@ -68,10 +68,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2023-08-15-a-las-13-59-541-75051926ea5bedb2de16932287609746-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 1,
+      "M": 0,
+      "L": 3,
+      "XL": 1
     },
     "type": "buzo",
     "color": "Gris",
@@ -84,9 +84,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-43-39-4d09b14a94cc85141117125781228460-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 3,
+      "M": 0,
+      "L": 4,
       "XL": 3
     },
     "type": "buzo",
@@ -100,10 +100,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-43-59-c728fd8db5552ab8f617125785708363-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 2,
+      "L": 3,
+      "XL": 2
     },
     "type": "buzo",
     "color": "Azul",
@@ -116,10 +116,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-44-20-81002957f5812be2bd17125787350253-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 3,
+      "L": 1,
+      "XL": 1
     },
     "type": "buzo",
     "color": "Gris",
@@ -132,10 +132,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-07-01-a-las-15-04-251-90e24bb07806fbcec916882385355805-1024-1024.webp",
     "gender": "hombre",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 3,
+      "L": 4,
+      "XL": 2
     },
     "type": "buzo",
     "color": "Azul",

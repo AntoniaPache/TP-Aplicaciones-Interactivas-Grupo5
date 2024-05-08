@@ -10,7 +10,9 @@ import EditarProductoView from './views/EditarProductoView'
 import ProductoView from './views/ProductoView';
 import Header from "./components/Header";
 import Footer from "./components/Footer"; // Asegúrate de importar ProductoView si no lo has hecho
-
+import CheckOut from './views/CheckOut';
+import products from "./data/products.json";
+import Carrito from './views/Carrito';
 //import products from "./data/products.json";
 
 function App() {
@@ -22,43 +24,30 @@ function App() {
     { path: "/sale", element: <Sale /> },
     { path: "/vendedor/publicar", element: <PublicarProductoView /> },
     { path: "/vendedor", element: <MainVendedor /> },
+    { path: "/checkout", element: <CheckOut/>},
+    { path: "/carrito", element: <Carrito/>}
   ];
-/*
   products.forEach((p) => {
     routes.push({
       path: "/vendedor/" + p.name,
       element: <EditarProductoView p={p} />
-    });
-  });
-  
-  products.forEach((p) => {
-    routes.push({
-      path: "/hombre/" + p.name,
-      element: <ProductoView p={p} />
-    });
-  });
-  
-  products.forEach((p) => {
-    routes.push({
+    },
+    {path: "/hombre/" + p.name,
+    element: <ProductoView p={p} />
+     },
+     {
       path: "/mujer/" + p.name,
       element: <ProductoView p={p} />
-    });
-  });
-  
-  products.forEach((p) => {
-    routes.push({
+    },
+    {
       path: "/accesorios/" + p.name,
       element: <ProductoView p={p} />
-    });
-  });
-  
-  products.forEach((p) => {
-    routes.push({
+    },
+    {
       path: "/sale/" + p.name,
       element: <ProductoView p={p} />
     });
   });
-*/
   return (
     <>
       <Router>

@@ -5,10 +5,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-29-at-09-26-18-a358877045bb315a3217012621926641-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 4,
+      "M": 2,
+      "L": 4,
+      "XL": 4
     },
     "type": "gorras",
     "color": "Azul",
@@ -21,9 +21,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230206-wa00201-c5bf7df8c790fc701216777745709603-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 0,
+      "M": 1,
+      "L": 4,
       "XL": 3
     },
     "type": "gorras",
@@ -37,10 +37,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230206-wa00191-430ad1c059107a671316777745482927-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 1,
+      "M": 3,
+      "L": 1,
+      "XL": 0
     },
     "type": "gorras",
     "color": "Negro",
@@ -53,10 +53,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230206-wa00221-04423140d050d5645f16777745220914-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 3,
+      "M": 2,
+      "L": 1,
+      "XL": 2
     },
     "type": "gorras",
     "color": "Negro",
@@ -69,10 +69,10 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2022-12-27-a-las-09-46-291-188ada1491c8198b1916721492538296-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
-      "XL": 3
+      "S": 0,
+      "M": 3,
+      "L": 3,
+      "XL": 4
     },
     "type": "gorras",
     "color": "Negro",
@@ -85,9 +85,9 @@
     "image": "//acdn.mitiendanube.com/stores/956/789/products/f67a1bcf-2b48-4874-a74e-bea5d2ac9a8a1-d8f0749bc77ad2f46f16473762457741-1024-1024.webp",
     "gender": "undefined",
     "stock": {
-      "S": 5,
-      "M": 10,
-      "L": 8,
+      "S": 1,
+      "M": 2,
+      "L": 1,
       "XL": 3
     },
     "type": "gorras",

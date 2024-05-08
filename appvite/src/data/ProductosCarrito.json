@@ -1,0 +1,42 @@
+[
+    {
+      "name": "CALZA WOMAN BEIGE",
+      "price": "$24.500",
+      "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-b158b87709ac277a7e16406173194647-100-0.webp",
+      "gender": "mujer",
+      "stock": "10",
+      "type": "biker",
+      "description": "Es una biker",
+      "discount": 10
+
+    },
+    {
+      "name": "CALZA CORTA PREMIUM DARKBLUE WHITE",
+      "price": "$56.000",
+      "image": "//acdn.mitiendanube.com/stores/956/789/products/darkblue-white-2-c3f67f886e6ad014ad17008491985893-100-0.webp",
+      "gender": "mujer",
+      "stock": "10",
+      "type": "biker",
+      "description": "Es una biker",
+      "discount": 10
+    },
+    {
+      "name": "CALZA BIKER ESSENCE BLACK",
+      "price": "$35.497",
+      "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-09-23-at-10-57-56-11-90d7076cb3c23c811516640479011010-100-0.webp",
+      "gender": "mujer",
+      "stock": "10",
+      "type": "biker",
+      "description": "Es una biker",
+      "discount": 10
+    },
+    {
+      "name": "CALZA CORTA PREMIUM GREEN/ WHITE",
+      "price": "$56.000",
+      "image": "//acdn.mitiendanube.com/stores/956/789/products/lightgreen2-a58d084fcd9d4b518417002486883099-100-0.webp",
+      "gender": "mujer",
+      "stock": "10",
+      "type": "biker",
+      "description": "Es una biker",
+      "discount": 10
+    }]

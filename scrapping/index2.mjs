@@ -53,12 +53,22 @@ jsons.forEach(file => {
     };
 
     products = products.map(product => {
+        /*
         const colorInDic = haveColor(product.name.toLowerCase());
         if (colorInDic) {
             product.color = colors[colorInDic];
         }
         product.discount = discounts[Math.floor(Math.random() * 16)]
         product.description = product.name + ' con un estilo unico'
+        */
+        product.stock = {
+            "S": Math.floor(Math.random() * 5),
+            "M": Math.floor(Math.random() * 5),
+            "L": Math.floor(Math.random() * 5),
+            "XL": Math.floor(Math.random() * 5)
+            // Añade aquí los valores de stock para cada talla según tu necesidad
+        };
+
         return product;
     });
 

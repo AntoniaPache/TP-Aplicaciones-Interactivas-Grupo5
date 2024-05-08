@@ -1,0 +1,247 @@
+[
+    {
+      "provincia": "Buenos Aires",
+      "localidades": [
+        "La Plata",
+        "Mar del Plata",
+        "Bahía Blanca",
+        "Tandil",
+        "San Isidro",
+        "Avellaneda",
+        "Lomas de Zamora",
+        "Quilmes",
+        "San Nicolás de los Arroyos"
+      ]
+    },
+    {
+        "provincia": "CABA",
+        "localidades": [
+            "Belgrano",
+            "Palermo",
+            "Recoleta",
+            "San Telmo",
+            "Villa Crespo" 
+        ]
+      },
+    {
+      "provincia": "Catamarca",
+      "localidades": [
+        "San Fernando del Valle de Catamarca",
+        "Andalgalá",
+        "Tinogasta",
+        "Belén",
+        "Santa María"
+      ]
+    },
+    {
+      "provincia": "Chaco",
+      "localidades": [
+        "Resistencia",
+        "Barranqueras",
+        "Presidencia Roque Sáenz Peña",
+        "Castelli",
+        "Charata"
+      ]
+    },
+    {
+      "provincia": "Chubut",
+      "localidades": [
+        "Rawson",
+        "Comodoro Rivadavia",
+        "Puerto Madryn",
+        "Esquel",
+        "Trelew"
+      ]
+    },
+    {
+      "provincia": "Córdoba",
+      "localidades": [
+        "Córdoba",
+        "Villa María",
+        "Río Cuarto",
+        "San Francisco",
+        "Jesús María"
+      ]
+    },
+    {
+      "provincia": "Corrientes",
+      "localidades": [
+        "Corrientes",
+        "Goya",
+        "Mercedes",
+        "Curuzú Cuatiá",
+        "Esquina"
+      ]
+    },
+    {
+      "provincia": "Entre Ríos",
+      "localidades": [
+        "Paraná",
+        "Concordia",
+        "Gualeguaychú",
+        "La Paz",
+        "Victoria"
+      ]
+    },
+    {
+      "provincia": "Formosa",
+      "localidades": [
+        "Formosa",
+        "Clorinda",
+        "Pirané",
+        "Las Lomitas",
+        "El Colorado"
+      ]
+    },
+    {
+      "provincia": "Jujuy",
+      "localidades": [
+        "San Salvador de Jujuy",
+        "Palpalá",
+        "Libertador General San Martín",
+        "San Pedro",
+        "Humahuaca"
+      ]
+    },
+    {
+      "provincia": "La Pampa",
+      "localidades": [
+        "Santa Rosa",
+        "General Pico",
+        "Toay",
+        "Realicó",
+        "General Acha"
+      ]
+    },
+    {
+      "provincia": "La Rioja",
+      "localidades": [
+        "La Rioja",
+        "Chilecito",
+        "Aimogasta",
+        "Chamical",
+        "Villa Unión"
+      ]
+    },
+    {
+      "provincia": "Mendoza",
+      "localidades": [
+        "Mendoza",
+        "San Rafael",
+        "Godoy Cruz",
+        "Luján de Cuyo",
+        "Maipú"
+      ]
+    },
+    {
+      "provincia": "Misiones",
+      "localidades": [
+        "Posadas",
+        "Puerto Iguazú",
+        "Eldorado",
+        "Montecarlo",
+        "Apostoles"
+      ]
+    },
+    {
+      "provincia": "Neuquén",
+      "localidades": [
+        "Neuquén",
+        "Cutral-Có",
+        "Plottier",
+        "Centenario",
+        "San Martín de los Andes"
+      ]
+    },
+    {
+      "provincia": "Río Negro",
+      "localidades": [
+        "Viedma",
+        "San Carlos de Bariloche",
+        "General Roca",
+        "Cipolletti",
+        "Allen"
+      ]
+    },
+    {
+      "provincia": "Salta",
+      "localidades": [
+        "Salta",
+        "San Ramón de la Nueva Orán",
+        "Tartagal",
+        "San Salvador de Jujuy",
+        "San José de Metán"
+      ]
+    },
+    {
+      "provincia": "San Juan",
+      "localidades": [
+        "San Juan",
+        "Rawson",
+        "Chimbas",
+        "Pocito",
+        "Rivadavia"
+      ]
+    },
+    {
+      "provincia": "San Luis",
+      "localidades": [
+        "San Luis",
+        "Villa Mercedes",
+        "Merlo",
+        "Santa Rosa de Conlara",
+        "La Toma"
+      ]
+    },
+    {
+      "provincia": "Santa Cruz",
+      "localidades": [
+        "Río Gallegos",
+        "Caleta Olivia",
+        "Puerto Deseado",
+        "Pico Truncado",
+        "Las Heras"
+      ]
+    },
+    {
+      "provincia": "Santa Fe",
+      "localidades": [
+        "Santa Fe",
+        "Rosario",
+        "Santo Tomé",
+        "Venado Tuerto",
+        "Rafaela"
+      ]
+    },
+    {
+      "provincia": "Santiago del Estero",
+      "localidades": [
+        "Santiago del Estero",
+        "La Banda",
+        "Fernández",
+        "Termas de Río Hondo",
+        "Añatuya"
+      ]
+    },
+    {
+      "provincia": "Tierra del Fuego",
+      "localidades": [
+        "Ushuaia",
+        "Río Grande",
+        "Tolhuin",
+        "Puerto Almanza",
+        "Porvenir"
+      ]
+    },
+    {
+      "provincia": "Tucumán",
+      "localidades": [
+        "San Miguel de Tucumán",
+        "Tafí Viejo",
+        "Banda del Río Salí",
+        "Concepción",
+        "Yerba Buena"
+      ]
+    }
+  ]
+  
