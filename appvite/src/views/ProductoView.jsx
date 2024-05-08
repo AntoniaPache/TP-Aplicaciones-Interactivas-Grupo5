@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import visaLogo from '../assets/visa.svg';
+import mastercardLogo from '../assets/mastercard.svg';
+import mercadopagoLogo from '../assets/mercadopago.svg';
+import cashLogo from '../assets/cash.svg';
 
 function ProductoView({ p }) {
     
@@ -37,10 +41,10 @@ function ProductoView({ p }) {
                     <div>
                         <h3>MEDIOS DE PAGO</h3>
                         <div className="flex space-x-3 mt-1 ">
-                            <img src="src/assets/visa.svg" alt="Visa" className="w-6 h-6" />
-                            <img src="src/assets/mastercard.svg" alt="Mastercard" className="w-6 h-6" />
-                            <img src="src/assets/mercadopago.svg" alt="Mercadopago" className="w-6 h-6" />
-                            <img src="src/assets/cash.svg" alt="Cash" className="w-6 h-6" />
+                            <img src={visaLogo} alt="Visa" className="w-6 h-6" />
+                            <img src={mastercardLogo} alt="Mastercard" className="w-6 h-6" />
+                            <img src={mercadopagoLogo} alt="Mercadopago" className="w-6 h-6" />
+                            <img src={cashLogo} alt="Cash" className="w-6 h-6" />
                         </div>
                     </div>
                     <form id="product_form" onSubmit={handleSubmit}>

@@ -44,15 +44,18 @@ export function Categorias() {
                             <h3 className="text-3xl font-normal">Hombre</h3>
                         </div>
                     </NavLink>
-
+                    <NavLink to="/mujer">
                     <div className="flex flex-col justify-center items-center">
                         <img className="mb-3 w-[75.5%] " src="./src/assets/mujer.jpg" alt="Mujer" />
                         <h3 className="text-3xl font-normal">Mujer</h3>
                     </div>
+                    </NavLink>
+                    <NavLink to="/accesorios">
                     <div className="flex flex-col justify-center items-center">
                         <img className="mb-3 w-3/4 " src="./src/assets/accesorios.jpg" alt="Accesorios" />
                         <h3 className="text-3xl font-normal">Accesorios</h3>
                     </div>
+                    </NavLink>
                 </div>
             </div>
         </div>

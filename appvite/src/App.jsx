@@ -13,6 +13,7 @@ import Footer from "./components/Footer"; // Asegúrate de importar ProductoView
 import CheckOut from './views/CheckOut';
 import products from "./data/products.json";
 import Carrito from './views/Carrito';
+import Pay from './views/Pay';
 //import products from "./data/products.json";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     { path: "/vendedor/publicar", element: <PublicarProductoView /> },
     { path: "/vendedor", element: <MainVendedor /> },
     { path: "/checkout", element: <CheckOut/>},
+    { path: "/checkout/pay", element: <Pay/>},
     { path: "/carrito", element: <Carrito/>}
   ];
   products.forEach((p) => {

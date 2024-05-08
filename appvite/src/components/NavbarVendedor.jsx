@@ -3,6 +3,7 @@ import { Link} from 'react-router-dom'
 import Logo from './Logo'
 import SearchBar from './SearchBar' 
 import { buttonVariants } from "@/components/ui/button"
+import UserButton from './userButton'
 
 
 function NavBarVendedor() {
@@ -20,9 +21,9 @@ function NavBarVendedor() {
                         <Link to = {"vendedor/publicar"} className={buttonVariants({ variant: "outline" })}>Publicar</Link>
                     </div>
                 </div>
-
-                <div className='absolute flex space-x-2 right-4 top-4'>
+                <div className='absolute flex space-x-10 right-4 top-4'>
                     <SearchBar/>
+                    <UserButton/>
                 </div>
             </nav>
             </>

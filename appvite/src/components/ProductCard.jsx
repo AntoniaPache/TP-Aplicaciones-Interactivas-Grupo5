@@ -15,6 +15,7 @@ function ProductCard( {product} ) {
         
         <h3 className="font-semibold">{product.name.toLowerCase()}</h3> 
         <p>{product.price}</p>
+        {product.discount > 0 && <p>Descuento {product.discount}%</p>}
         </Link>
       </div>
     );

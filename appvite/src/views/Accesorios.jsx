@@ -5,11 +5,13 @@ import { useDebugValue, useEffect, useState } from "react"
 import FilterProductGeneric from "../components/FilterProductGeneric";
 import { useMemo } from "react";
 
-export default function Accesorios() {
+export default function Mujer() {
     const [currentSize, setCurrentSize] = useState(null);
     const [currentColor, setCurrentColor] = useState(null);
+    const [currentType, setCurrentType] = useState(null);
     const sizes = ["S", "M", "L", "XL"];
     const colors = ["Negro", "Blanco", "Azul", "Verde", "Violeta", "Rosa", "Gris"];
+    const types = ["medias", "gorro", "gorras"]
 
     // Filtramos los productos inicialmente
     const initialFilteredProducts = useMemo(() => {
@@ -26,10 +28,11 @@ export default function Accesorios() {
             const sizeMatch = !currentSize || (product.stock[currentSize] > 0);
             // Si no hay filtro de color o el producto tiene el color seleccionado
             const colorMatch = !currentColor || (product.color === currentColor);
-            return sizeMatch && colorMatch;
+            const type = !currentType || (product.type === currentType);
+            return sizeMatch && colorMatch && type;
         });
         setFilteredProducts(filtered);
-    }, [currentSize, currentColor, initialFilteredProducts]);
+    }, [currentSize, currentColor, currentType , initialFilteredProducts]);
 
     const handleSizeChange = (newSize) => {
         setCurrentSize(newSize);
@@ -38,6 +41,9 @@ export default function Accesorios() {
     const handleColorChange = (newColor) => {
         setCurrentColor(newColor);
     };
+    const handleTypeChange = (newType) => {
+        setCurrentType(newType);
+    }
 
     return(
         <div>
@@ -47,15 +53,12 @@ export default function Accesorios() {
             <div className="flex space-x-2 flex-wrap">
                 <div className="w-[18%] ml-4">
                     <div className="my-4">
-                        <h1 className="text-2xl font-bold">Accesorios</h1>
-                        <ul>
-                            <li>Gorros</li>
-                            <li>Gorras</li>
-                            <li>Medias</li>
-                        </ul>                        
+                        <h1 className="text-2xl font-bold">Accesorios</h1>               
                     </div>
                     <div className="my-4">       
                         <h2 className="text-2xl font-bold">Filtros</h2>
+                        <h3 className="text-xl font-semibold">Tipo</h3>
+                        <FilterProducGeneric onGenericChange={handleTypeChange} values={types} elements={types} />
                         <h3 className="text-xl font-semibold">Talles</h3>
                         <FilterProductGeneric onGenericChange={handleSizeChange} values={sizes} elements={sizes} />
                         <h3 className="text-xl font-semibold">Color</h3>
