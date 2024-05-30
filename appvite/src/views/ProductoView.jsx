@@ -3,14 +3,19 @@ import visaLogo from '../assets/visa.svg';
 import mastercardLogo from '../assets/mastercard.svg';
 import mercadopagoLogo from '../assets/mercadopago.svg';
 import cashLogo from '../assets/cash.svg';
+import { useSelector, useDispatch } from 'react-redux';
+import { addProd } from '../Redux/carritoSlice';
 
 function ProductoView({ p }) {
+
+    const carr = useSelector((state)=> state.items);
+    const dispatch = useDispatch();
     
     const [formData, setFormData] = useState({
-        size: 'S', // TamaÃ±o predeterminado
+        size: 'S', // Tamaño predeterminado
         quantity: 1 // Cantidad predeterminada
     });
-    console.log(p)
+
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -22,8 +27,8 @@ function ProductoView({ p }) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
-           alert('Se agregaron al carrito '+formData.quantity+" "+p.name+" talle "+formData.size);
+        dispatch(addProd({ item: p, price: p.price , quantity: formData.quantity, size: formData.size }));
+        alert('Se agregaron al carrito '+formData.quantity+" "+p.name+" talle "+formData.size);
 
     };
 
@@ -48,7 +53,7 @@ function ProductoView({ p }) {
                         </div>
                     </div>
                     <form id="product_form" onSubmit={handleSubmit}>
-                        <label htmlFor="">TALLE</label>
+                        <label htmlFor="talle">TALLE</label>
                         <div className="flex">
                             <label className="inline-flex items-center mr-4">
                                 <input type="radio" className="" name="size" value="S" checked={formData.size === 'S'} onChange={handleChange} />

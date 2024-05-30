@@ -1,7 +1,7 @@
 [
     {
       "name": "Calza Woman Beige",
-      "price": "$24.500",
+      "price": 24500,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-b158b87709ac277a7e16406173194647-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Calza Corta Premium Darkblue White",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/darkblue-white-2-c3f67f886e6ad014ad17008491985893-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -33,7 +33,7 @@
     },
     {
       "name": "Calza Biker Essence Black",
-      "price": "$35.497",
+      "price": 35497,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-09-23-at-10-57-56-11-90d7076cb3c23c811516640479011010-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Calza Corta Premium Green/ White",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/lightgreen2-a58d084fcd9d4b518417002486883099-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -65,7 +65,7 @@
     },
     {
       "name": "Calza Corta Limited Black [Preventa 11/5...",
-      "price": "$40.000",
+      "price": 40000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-11-0510bbf897c22b2f4e17121622862238-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -81,7 +81,7 @@
     },
     {
       "name": "Calza Woman Olive",
-      "price": "$24.500",
+      "price": 24500,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-663cafe20d5c548e0116968604547307-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -97,7 +97,7 @@
     },
     {
       "name": "Calza Corta Premium Lightpink",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/558cf08e08e4c0537daaecf5d3121d8f3b1f60ef-291773297c948fa63217048097962458-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -113,7 +113,7 @@
     },
     {
       "name": "Calza Corta Premium Pink",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/1a7f47c33ba25670ecc51d427c3cadb9b3d107c3-7e256d8f2c7b40b4b317048108247009-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -129,7 +129,7 @@
     },
     {
       "name": "Calza Corta Premium Grey",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/d7a1f7cafcdaa20247d2e10481a622ac1e2df3fa-15946d6fd9e900d63d17048098279124-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -145,7 +145,7 @@
     },
     {
       "name": "Calza Corta Limited Arena [Preventa 11/5...",
-      "price": "$40.000",
+      "price": 40000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-10-1-957ce2febec6e80dcb17121621302899-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -161,7 +161,7 @@
     },
     {
       "name": "Calza Biker Essence Light Blue",
-      "price": "$17.000",
+      "price": 17000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230117-wa00251-949718eee9c8f449aa16740551091056-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -177,7 +177,7 @@
     },
     {
       "name": "Calza Corta Limited Lilac [Preventa 11/5...",
-      "price": "$40.000",
+      "price": 40000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-12-cca4da6265cd697aa917121622270090-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -193,7 +193,7 @@
     },
     {
       "name": "Calza Woman Pink",
-      "price": "$24.500",
+      "price": 24500,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-51-640-0-3ee521c7efc8e7929f16718057705181-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -209,7 +209,7 @@
     },
     {
       "name": "Calza Biker Wlf Red",
-      "price": "$17.000",
+      "price": 17000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/diseno-sin-titulo-2022-11-17t192418-2491-3800e4777cc5c9902216687898239339-640-0-33a20513134cc00eb017005950714037-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -225,7 +225,7 @@
     },
     {
       "name": "Calza Corta Premium Purple/ White",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/purple-white-b045f33fb46d700dca17002471879470-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -241,7 +241,7 @@
     },
     {
       "name": "Calza Corta Limited Sky-Blue [Preventa 1...",
-      "price": "$40.000",
+      "price": 40000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-09-0fbbd8c02442c8f49217121620011808-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -257,7 +257,7 @@
     },
     {
       "name": "Calza Corta Premium Blue/ Beige",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240202-wa0037-a1538c3608771b106f17069014647906-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -273,7 +273,7 @@
     },
     {
       "name": "Calza Corta Premium Grey White",
-      "price": "$56.000",
+      "price": 56000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/grey-white1-d553a0fef1dc11e08017025644960220-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -289,7 +289,7 @@
     },
     {
       "name": "Calza Corta Limited Pink [Preventa 11/5]",
-      "price": "$40.000",
+      "price": 40000,
       "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-10-85d2d7f90e27520f8917121621798915-1024-1024.webp",
       "gender": "mujer",
       "stock": {
@@ -305,7 +305,7 @@
     },
     {
         "name": "Buzo Club Green (Pre Venta 2/5)",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-18-at-10-29-16-88b55867453830469717134471322875-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -321,7 +321,7 @@
     },
     {
         "name": "Buzo Club Purple (Pre Venta 2/5)",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-18-at-10-29-15-2-39e711928af447917017134471612222-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -337,7 +337,7 @@
     },
     {
         "name": "Buzo Club Blue (Pre Venta 2/5)",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-18-at-10-29-16-1-c324d7651b8166175817134471793614-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -353,7 +353,7 @@
     },
     {
         "name": "Buzo Premium Rustico Crew Neck 4real",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-05-a-las-15-16-39-a708e5e5b89ca9c93a17124243783114-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -369,7 +369,7 @@
     },
     {
         "name": "Buzo Premium World Blanco",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-04-at-11-04-24-a7d54c4ad16d9df81c17122398236247-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -385,7 +385,7 @@
     },
     {
         "name": "Buzo Premium World Brick",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-04-at-11-04-23-1-b50d7c1944bd1477ed17122397807772-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -401,7 +401,7 @@
     },
     {
         "name": "Buzo Club Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-03-07-a-las-13-26-21-c1fd8bbbbc1d8e375a17098291405544-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -417,7 +417,7 @@
     },
     {
         "name": "Buzo Swords Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230715-wa00221-72e1bc70a943e770a516935016520719-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -433,7 +433,7 @@
     },
     {
         "name": "Buzo Void White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark_-71-a0cd219f137d5e63fe16921205636564-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -449,7 +449,7 @@
     },
     {
         "name": "Buzo Infinit Green",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230701-wa00281-f3696ca980f71aaf6e16882358547957-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -465,7 +465,7 @@
     },
     {
         "name": "Buzo Void Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-14-45nlnlnnlnl1-de577068275ebfc11416941005359467-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -481,7 +481,7 @@
     },
     {
         "name": "Buzo Nbd White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-521-73035b07c8b8f1a3d116859676396600-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -497,7 +497,7 @@
     },
     {
         "name": "Buzo Element Bordeaux",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-5011-516474cb125065409516859672470789-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -513,7 +513,7 @@
     },
     {
         "name": "Buzo Infinit White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-5221-8f2e6e00e1a5586a8f16859673356340-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -529,7 +529,7 @@
     },
     {
         "name": "Buzo Element White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-05-a-las-09-00-5211-d4049c67a37a5e06cb16859671669262-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -545,7 +545,7 @@
     },
     {
         "name": "Buzo Prewash Crumb Dark Grey",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2022-10-26-a-las-10-47-401-88ee9eca6e4f23046716667990737133-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -561,7 +561,7 @@
     },
     {
         "name": "Buzo Swords Blue",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-14-461-8add806a87cf45e5be16941026688275-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -577,7 +577,7 @@
     },
     {
         "name": "Buzo Infinit Grey",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230701-wa00301-a240b284ee198de2eb16882358337989-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -593,7 +593,7 @@
     },
     {
         "name": "Buzo Winner Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-15-101-1eefb65ba5e1a86acb16941002312686-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -609,7 +609,7 @@
     },
     {
         "name": "Buzo Club Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-03-07-a-las-13-26-21-c1fd8bbbbc1d8e375a17098291405544-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -625,7 +625,7 @@
     },
     {
         "name": "Buzo Croptop World Black",
-        "price": "$45.000",
+        "price": 45000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-20-at-14-18-07-c8cb2b63a8a46d4d1017109589755338-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -641,7 +641,7 @@
     },
     {
         "name": "Buzo Premium World Blanco",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-04-at-11-04-24-a7d54c4ad16d9df81c17122398236247-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -657,7 +657,7 @@
     },
     {
         "name": "Buzo Croptop World Bordeaux",
-        "price": "$45.000",
+        "price": 45000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-20-at-14-18-11-1-4defdd051a46235b5117109592257369-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -673,7 +673,7 @@
     },
     {
         "name": "Buzo Swords Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-10-07-a-las-10-17-36_5a04fd07-b3cc6cf437aea0e11716966847681717-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -689,7 +689,7 @@
     },
     {
         "name": "Buzo Infinit Green",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/juani_-221-25abb7ebb6a5cfbb9716890984718843-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -705,7 +705,7 @@
     },
     {
         "name": "Buzo Premium World Brick",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-04-at-11-04-23-1-b50d7c1944bd1477ed17122397807772-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -721,7 +721,7 @@
     },
     {
         "name": "Buzo Void Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/juani_-251-21d57b84bb9243265916891717415647-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -737,7 +737,7 @@
     },
     {
         "name": "Buzo Croptop World Purple",
-        "price": "$45.000",
+        "price": 45000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-20-at-14-18-12-9676035215a14e45b117109593034946-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -753,7 +753,7 @@
     },
     {
         "name": "Campera Snake Black/Red",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/3671d2b56fb1df948909ae25c1986a4104d153e81-9d504c52b3fb876b8916941999654608-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -769,7 +769,7 @@
     },
     {
         "name": "Campera Bloom Black/Green",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/dee462ae7ef8eac07ef44a0df187ddfeb9e0d1011-d3ba98600c38a830b716942007261734-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -785,7 +785,7 @@
     },
     {
         "name": "Campera Cross Black/Purple",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/e1b743cfdfcb789108d38b5137bbcd1267800d761-40a4c5854bbf6fa0a816942014798905-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -801,7 +801,7 @@
     },
     {
         "name": "Buzo Croptop World Brick",
-        "price": "$45.000",
+        "price": 45000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-20-at-14-18-11-c5388e4a3a6198a4fa17109591416645-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -817,7 +817,7 @@
     },
     {
         "name": "Buzo Swords Blue",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/juani_-201-27f6b40a319d7b0e4f16890983785627-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -833,7 +833,7 @@
     },
     {
         "name": "Buzo Infinit White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-fitness-king-121-8e28727b2c4636f0a316835503095309-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -849,7 +849,7 @@
     },
     {
         "name": "Buzo Spikes Black",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/agos-fuark-141-9fc9764bc1686d172516867483029282-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -865,7 +865,7 @@
     },
     {
         "name": "Buzo Premium Rustico Crew Neck 4real Dar...",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-05-a-las-15-16-39-a708e5e5b89ca9c93a17124243783114-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -881,7 +881,7 @@
     },
     {
         "name": "Campera Bloom Black/Red",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/dcf2e00f6ef353a1aecd890bb1ddea4f52df098b1-2bf09dfd77bb008adc16942008258513-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -897,7 +897,7 @@
     },
     {
         "name": "Campera Cross Black/Orange",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/7669cc1d42f0ef48ec1b37f2cac371f6a87e0ce11-3103b3bd1903c2f5ac16942010559336-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -913,7 +913,7 @@
     },
     {
         "name": "Buzo Void White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-06-08-a-las-09-52-382-797d074dfaf4c10bf916941010146107-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -929,7 +929,7 @@
     },
     {
         "name": "Buzo Element White",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/element1-4e2a35fb06ff74e71416839047308829-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -945,7 +945,7 @@
     },
     {
         "name": "Campera Snake Black/Blue",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/721b08a9-d415-405b-9014-1487d4d9e3a41-3be398856971abc38316563529733903-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -961,7 +961,7 @@
     },
     {
         "name": "Buzo Infinit Grey",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-59-101-1be26010f8a2d6babe16941024162976-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -976,7 +976,7 @@
     },
     {
         "name": "Buzo Element Bordeaux",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-13-33-131-116551805d28a8f71816941044820144-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -992,7 +992,7 @@
     },
     {
         "name": "Buzo Winner Black",
-        "price": "$49.000",
+        "price": 49000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/42968c44e2a007f520bca363ee912cac9bd23a0f1-ec1256f0d874373c9016885645857515-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1008,7 +1008,7 @@
     },
     {
         "name": "Top Texture Woman Dark Grey",
-        "price": "$34.950",
+        "price": 34950,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/e6b1fa20-a588-4f80-8e08-397e7ffdab301-f5b8b89b128c486f8216456196160778-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1024,7 +1024,7 @@
     },
     {
         "name": "Calza Alpha Red",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/b8ba4d8ad43f7e7cb32804c32e64600e5ae89cc5-630be3aab45d540ed716970339456459-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1040,7 +1040,7 @@
     },
     {
         "name": "Calza Alpha Chocolate",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/a9801d5b8614abbe7d4c3ab56e75b2be48f7aff5-bdad1a4c080d63801116970339238475-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1056,7 +1056,7 @@
     },
     {
         "name": "Calza Woman Beige",
-        "price": "$24.500",
+        "price": 24500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-b158b87709ac277a7e16406173194647-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1072,7 +1072,7 @@
     },
     {
         "name": "Calza Corta Premium Darkblue White",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/darkblue-white-2-c3f67f886e6ad014ad17008491985893-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1088,7 +1088,7 @@
     },
     {
         "name": "Calza Corta Premium Green/ White",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/lightgreen2-a58d084fcd9d4b518417002486883099-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1104,7 +1104,7 @@
     },
     {
         "name": "Calza Corta Limited Black [Preventa 11/5...",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-11-0510bbf897c22b2f4e17121622862238-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1120,7 +1120,7 @@
     },
     {
         "name": "Calza Corta Premium Lightpink",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/558cf08e08e4c0537daaecf5d3121d8f3b1f60ef-291773297c948fa63217048097962458-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1136,7 +1136,7 @@
     },
     {
         "name": "Calza Corta Premium Pink",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/1a7f47c33ba25670ecc51d427c3cadb9b3d107c3-7e256d8f2c7b40b4b317048108247009-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1152,7 +1152,7 @@
     },
     {
         "name": "Calza Corta Premium Grey",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/d7a1f7cafcdaa20247d2e10481a622ac1e2df3fa-15946d6fd9e900d63d17048098279124-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1168,7 +1168,7 @@
     },
     {
         "name": "Calza Corta Limited Arena [Preventa 11/5...",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-10-1-957ce2febec6e80dcb17121621302899-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1183,7 +1183,7 @@
     },
     {
         "name": "Calza Biker Essence Light Blue",
-        "price": "$17.000",
+        "price": 17000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230117-wa00251-949718eee9c8f449aa16740551091056-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1199,7 +1199,7 @@
     },
     {
         "name": "Calza Corta Limited Lilac [Preventa 11/5...",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-12-cca4da6265cd697aa917121622270090-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1215,7 +1215,7 @@
     },
     {
         "name": "Calza Woman Pink",
-        "price": "$24.500",
+        "price": 24500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-51-640-0-3ee521c7efc8e7929f16718057705181-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1231,7 +1231,7 @@
     },
     {
         "name": "Calza Biker Wlf Red",
-        "price": "$17.000",
+        "price": 17000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/diseno-sin-titulo-2022-11-17t192418-2491-3800e4777cc5c9902216687898239339-640-0-33a20513134cc00eb017005950714037-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1247,7 +1247,7 @@
     },
     {
         "name": "Calza Corta Premium Purple/ White",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/purple-white-b045f33fb46d700dca17002471879470-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1263,7 +1263,7 @@
     },
     {
         "name": "Calza Corta Limited Sky-Blue [Preventa 1...",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-09-0fbbd8c02442c8f49217121620011808-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1279,7 +1279,7 @@
     },
     {
         "name": "Calza Corta Premium Blue/ Beige",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240202-wa0037-a1538c3608771b106f17069014647906-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1295,7 +1295,7 @@
     },
     {
         "name": "Calza Corta Premium Grey White",
-        "price": "$56.000",
+        "price": 56000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/grey-white1-d553a0fef1dc11e08017025644960220-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1311,7 +1311,7 @@
     },
     {
         "name": "Calza Corta Limited Pink [Preventa 11/5]",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-03-at-13-20-10-85d2d7f90e27520f8917121621798915-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1327,7 +1327,7 @@
     },
     {
         "name": "Campera Snake Black/Red",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/3db9afa8077f8de6eb188435aaa4fef0877bfd001-27b99dd5e0647d08b316941998068180-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1343,7 +1343,7 @@
     },
     {
         "name": "Campera Bloom Black/Red",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/8346142a11280e60e3172e99db2cf35ce801920b1-4ee8c866cf644687f716942004513034-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1359,7 +1359,7 @@
     },
     {
         "name": "Campera Snake Black/Blue",
-        "price": "$54.350",
+        "price": 54350,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fad62467cf36cbb932bba5170775cccab8e570f11-1b46a02e591f5065d316942002799472-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1375,7 +1375,7 @@
     },
     {
         "name": "Campera Bloom Black/Green",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/25396ed4f3d26c77cc625f6fd10060dc60ec02ff1-770ebadfd0a964ab8c16942006120112-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1391,7 +1391,7 @@
     },
     {
         "name": "Campera Cross Black/Purple",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-09-07-a-las-12-42-221-153164324a8a78002016941014201183-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1407,7 +1407,7 @@
     },
     {
         "name": "Campera Cross Black/Orange",
-        "price": "$55.000",
+        "price": 55000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/0c6ea86a6b823d688b194cf649be2a02ed0b3f591-bdd9c03177a4a2c89816942009960173-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1424,7 +1424,7 @@
 
     {
         "name": "Gorra Gothic Bluewash Orange",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-29-at-09-26-18-a358877045bb315a3217012621926641-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1440,7 +1440,7 @@
     },
     {
         "name": "Trucker Gothic Black",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230206-wa00201-c5bf7df8c790fc701216777745709603-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1456,7 +1456,7 @@
     },
     {
         "name": "Gorra Fk Francia",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230206-wa00191-430ad1c059107a671316777745482927-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1472,7 +1472,7 @@
     },
     {
         "name": "Trucker Fk Black",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230206-wa00221-04423140d050d5645f16777745220914-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1488,7 +1488,7 @@
     },
     {
         "name": "Trucker F Black/Orange",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2022-12-27-a-las-09-46-291-188ada1491c8198b1916721492538296-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1504,7 +1504,7 @@
     },
     {
         "name": "Trucker Spikes Grey",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/f67a1bcf-2b48-4874-a74e-bea5d2ac9a8a1-d8f0749bc77ad2f46f16473762457741-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1521,7 +1521,7 @@
 
     {
         "name": "Beanie Villain Lightblue",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00261-5c99c6908ecab50d5116814103508535-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1537,7 +1537,7 @@
     },
     {
         "name": "Beanie Rise Green",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00181-415f9a679471afe8b216814103398816-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1553,7 +1553,7 @@
     },
     {
         "name": "Beanie Rise Lightblue",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00151-3bb0dcd67d8ac27a9316814092819308-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1569,7 +1569,7 @@
     },
     {
         "name": "Beanie Revenge Grey",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00291-9cbda61314f0f7f7d216814099096931-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1585,7 +1585,7 @@
     },
     {
         "name": "Beanie Revenge Pink",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa001711-0e1e3f2a7869fad48516814129568645-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1601,7 +1601,7 @@
     },
     {
         "name": "Beanie Fk Pink",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-14-at-4-15-45-pm-11-76af50ba6432d20c2b16578982396337-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1617,7 +1617,7 @@
     },
     {
         "name": "Beanie University Green",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-15-at-12-21-22-pm1-ff9977b238fd20c5c416578987712922-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1633,7 +1633,7 @@
     },
     {
         "name": "Beanie Cross Green",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-14-at-4-15-46-pm1-fbf90d5d3575c36ed916578983309462-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1649,7 +1649,7 @@
     },
     {
         "name": "Beanie Cross Grey",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-07-14-at-4-15-44-pm-11-aaad1ed809e20dc15c16578983831859-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1665,7 +1665,7 @@
     },
     {
         "name": "Beanie Spikes Blue",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/11886e22-abc1-402e-9bed-cf4b2db03dbd-134a6df92dbeec20fb16548068447373-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1681,7 +1681,7 @@
     },
     {
         "name": "Beanie Villain Black",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20230413-wa00271-071fc6ba6242de3bd516814085162446-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -1697,7 +1697,7 @@
     },
     {
         "name": "Jogging Classic Black [Preventa 9/5]",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-12-at-19-11-51-03f2f4dcb9eda41a3517102816366102-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1713,7 +1713,7 @@
     },
     {
         "name": "Jogging Vision Grey",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-04-22-at-14-48-191-28e2112f615f649faa16821859314757-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1729,7 +1729,7 @@
     },
     {
         "name": "Jogging Fierce Black",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2023-08-15-a-las-13-59-161-be01c22c29dece140a16932286968203-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1744,7 +1744,7 @@
     },
     {
         "name": "Jogging Classic Chocolate",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/172b27c8-efc1-4b39-8f09-fd2e6cb63868-9ec17e88bfe52f070817102797473685-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1760,7 +1760,7 @@
     },
     {
         "name": "Jogging Fierce Grey",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2023-08-15-a-las-13-59-541-75051926ea5bedb2de16932287609746-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1776,7 +1776,7 @@
     },
     {
         "name": "Jogging Classic Darkgrey [Preventa 25/4]",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-43-39-4d09b14a94cc85141117125781228460-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1792,7 +1792,7 @@
     },
     {
         "name": "Jogging Classic Blue [Preventa 25/4]",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-43-59-c728fd8db5552ab8f617125785708363-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1808,7 +1808,7 @@
     },
     {
         "name": "Jogging Classic Grey [Preventa 25/4]",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-08-a-las-08-44-20-81002957f5812be2bd17125787350253-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1824,7 +1824,7 @@
     },
     {
         "name": "Techpant Performance Blue",
-        "price": "$50.000",
+        "price": 50000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-07-01-a-las-15-04-251-90e24bb07806fbcec916882385355805-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -1840,7 +1840,7 @@
     },
     {
         "name": "Kit Sport Corto Black",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/c67c0e0ba2ab5377057e5236c9835d1dddc93671-d957f826d7135d811e17048056841529-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1856,7 +1856,7 @@
     },
     {
         "name": "Kit Sport Corto Chocolate",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-01-09-a-las-09-58-31_7d32d5f7-9c7a18ddd0e09c8a9617048052727060-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1872,7 +1872,7 @@
     },
     {
         "name": "Kit Woman Olive",
-        "price": "$29.500",
+        "price": 29500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-bf0cbdcd6a040f6fc116968603743224-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1888,7 +1888,7 @@
     },
     {
         "name": "Kit Woman Pink",
-        "price": "$29.500",
+        "price": 29500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-51-b6b0d3cab33cf4a2a716406171362557-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1904,7 +1904,7 @@
     },
     {
         "name": "Top Sport Chocolate",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-01-09-a-las-09-58-31_7d32d5f7-5b9c4646918ca113f717048060272253-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1920,7 +1920,7 @@
     },
     {
         "name": "Calza Woman Olive",
-        "price": "$24.500",
+        "price": 24500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-663cafe20d5c548e0116968604547307-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1936,7 +1936,7 @@
     },
     {
         "name": "Top Woman Olive",
-        "price": "$19.500",
+        "price": 19500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-2f23b08f6acbe7688e16968604383435-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1952,7 +1952,7 @@
     },
     {
         "name": "Kit Sport Blue",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-blue-37b7d6342df181582017147738808152-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1968,7 +1968,7 @@
     },
     {
         "name": "Top Woman Beige",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-640-0-640-0-3090492a88d0035c3c16718068345468-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -1984,7 +1984,7 @@
     },
     {
         "name": "Kit Sport Black",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-black-85eaeb37673bbea2bf17147740665472-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2000,7 +2000,7 @@
     },
     {
         "name": "Kit Sport Metal Pink",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-pink-3563d83c352a2923b917147738565763-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2016,7 +2016,7 @@
     },
     {
         "name": "Kit Sport Chocolate",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/kit-sport-choco-d57ae5514186f51ba417147741517919-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2032,7 +2032,7 @@
     },
     {
         "name": "Kit Sport Corto Blue",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-05-03-a-las-19-17-02-9c2cd2fb0a81cb688817147747754614-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2048,7 +2048,7 @@
     },
     {
         "name": "Kit Sport Corto Pink",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-05-03-a-las-19-17-39-db22e771bdce25f72117147746981149-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2064,7 +2064,7 @@
     },
     {
         "name": "Kit Woman Beige",
-        "price": "$29.500",
+        "price": 29500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-640-0-9cc0d7db59cee2069516718043280626-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2080,7 +2080,7 @@
     },
     {
         "name": "Medias Classic Black",
-        "price": "$5.500",
+        "price": 5500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0007-2f0a3ec0e77f840edb17092171131959-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -2096,7 +2096,7 @@
     },
     {
         "name": "Medias Classic White",
-        "price": "$5.500",
+        "price": 5500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0004-6723aad0cd99c2315d17092168475809-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -2112,7 +2112,7 @@
     },
     {
         "name": "Medias World Black",
-        "price": "$5.500",
+        "price": 5500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0005-7704022fb63ce727ee17092172335040-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -2128,7 +2128,7 @@
     },
     {
         "name": "Medias World White",
-        "price": "$5.500",
+        "price": 5500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240229-wa0006-dcb873b3eb331403f517092172941033-1024-1024.webp",
         "gender": "undefined",
         "stock": {
@@ -2144,7 +2144,7 @@
     },
     {
         "name": "Remera Oversize Premium Team 2.0 Black ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-05-03-at-16-27-34-356c0c92947bf0ed5917147654855509-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2160,7 +2160,7 @@
     },
     {
         "name": "Remera Oversize Premium Team 2.0 White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-05-03-at-16-27-34-1-5b06c2909931dbd1c417147654132331-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2176,7 +2176,7 @@
     },
     {
         "name": "Remera Oversize Premium Team 2.0 Bordeau",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-05-03-at-16-27-33-5f19ec89359a7e385e17147652074125-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2192,7 +2192,7 @@
     },
     {
         "name": "Remera Oversize Premium Nascar Bordeaux",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-05-03-at-16-27-36-15fdee4cbe944cbb3717147651406525-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2208,7 +2208,7 @@
     },
     {
         "name": "Remera Oversize Premium Nascar White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-05-03-at-16-27-35-1-9e9338f9e5d19cfc9e17147649581391-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2224,7 +2224,7 @@
     },
     {
         "name": "Remera Oversize Premium Nascar Black ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-05-03-at-16-27-35-3b2ecff4c893f332d117147648852327-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2239,7 +2239,7 @@
     },
     {
         "name": "Remera Oversize Premium Gothic Black ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-05-02-a-las-15-32-51-82ee1f5977f338445e17146750258335-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2255,7 +2255,7 @@
     },
     {
         "name": "Remera Oversize Premium Gothic White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-05-02-a-las-15-32-29-e15a3d9213ed1b745b17146748282694-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2271,7 +2271,7 @@
     },
     {
         "name": "Remera Winter Premium Vision White ",
-        "price": "$35.000",
+        "price": 35000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-30-a-las-10-55-18-7e0653c63fe3c71e9317145021516821-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2286,7 +2286,7 @@
     },
     {
         "name": "Remera Winter Premium Vision Black ",
-        "price": "$35.000",
+        "price": 35000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-30-a-las-10-55-10-52f413f4cbc430101617145020905724-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2302,7 +2302,7 @@
     },
     {
         "name": "Remera Winter Premium 4real White ",
-        "price": "$35.000",
+        "price": 35000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-30-a-las-10-55-02-1aa715298e7c6996db17145020300550-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2318,7 +2318,7 @@
     },
     {
         "name": "Remera Winter Premium 4real Black ",
-        "price": "$35.000",
+        "price": 35000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-30-a-las-10-54-55-0165c26a5f16a2d2a917145018521290-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2334,7 +2334,7 @@
     },
     {
         "name": "Remera Oversize Bordada Premium 4real Bo",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-22-a-las-14-04-50-dd5544ef0348849f2417138075283152-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2366,7 +2366,7 @@
     },
     {
         "name": "Remera Oversize Bordada Premium 4real Br",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-22-a-las-14-04-57-4ba06dd0bcd0c85c6417138064019518-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2382,7 +2382,7 @@
     },
     {
         "name": "Remera Performance Vision Black ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-10-a-las-12-35-23-f263d97e46145581c717127642653800-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2398,7 +2398,7 @@
     },
     {
         "name": "Remera Performance Vision White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-10-a-las-12-35-14-bcf5686bffa19ef40017127641947960-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2414,7 +2414,7 @@
     },
     {
         "name": "Remera Performance 4real White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-10-a-las-12-35-40-4090d82987265a153b17127639766916-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2430,7 +2430,7 @@
     },
     {
         "name": "Remera Performance 4real Black ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-10-a-las-12-35-33-adbac1d6a93ac7d73917127638228589-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2446,7 +2446,7 @@
     },
     {
         "name": "Remera Oversize Premium Melt White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-32-ee762451b1d439fdc217115486914272-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2462,7 +2462,7 @@
     },
     {
         "name": "Remera Oversize Premium Melt Soft-Green",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-30-18d82f12eea6f1478a17115486170404-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2478,7 +2478,7 @@
     },
     {
         "name": "Remera Oversize Premium Melt Soft-Pink ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-29-1-e47bdc98eb2a4c35f717115484945423-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2494,7 +2494,7 @@
     },
     {
         "name": "Remera Oversize Premium Gothic White ",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-29-e527764f29656d7f5417115483306556-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2510,7 +2510,7 @@
     },
     {
         "name": "Remera Oversize Premium Gothic Soft-Pink",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-28-2dd9d8eb63ece1743a17115482682043-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2526,7 +2526,7 @@
     },
     {
         "name": "Remera Oversize Premium Gothic Off-Green",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-27-c8d4066e64b6f84fa117115480759946-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2542,7 +2542,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Soft Gre",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-08-at-10-53-28-fdaf57032e5a500c2917125847508848-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2558,7 +2558,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Orange",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240313-wa0031-92f20786815289f2f417103419075213-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2573,7 +2573,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Blue",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-03-13-a-las-11-34-26_3026f966-3239d93880adc8504317103414806595-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2589,7 +2589,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Black",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240313-wa0027-26c236052b0bae7b1e17103412138947-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2605,7 +2605,7 @@
     },
     {
         "name": "Remera Oversize Bordada Premium 4real Bl",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240319-wa0007-0f8a48cb41d784effd17109355288697-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2621,7 +2621,7 @@
     },
     {
         "name": "Remera Oversize Bordada Premium 4real Wh",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240319-wa0006-b4cee043f5ab9f881d17109355048014-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2637,7 +2637,7 @@
     },
     {
         "name": "Remera Oversize Bordada Premium 4real Ir",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240319-wa0005-b535dccd921f4a8de117109354776018-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2652,7 +2652,7 @@
     },
     {
         "name": "Remera Oversize Bordada Premium 4real Bl",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240319-wa0004-ce5245271ac5bb4c9c17109354443624-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2668,7 +2668,7 @@
     },
     {
         "name": "Remera Oversize Premium World Iron",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240319-wa0009-aa437b257720bdf3fe17109355753641-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2684,7 +2684,7 @@
     },
     {
         "name": "Remera Oversize Premium World Blue",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240301-wa0002-91d37ca05a7fd651a517093069399532-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2700,7 +2700,7 @@
     },
     {
         "name": "Remera Oversize Premium World White",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240319-wa0011-9293fdf121d9ed883a17109356403533-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2716,7 +2716,7 @@
     },
     {
         "name": "Remera Oversize Premium Team Silver",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0115-fb8738ed7972c6def517100030873450-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2732,7 +2732,7 @@
     },
     {
         "name": "Remera Oversize Premium Team Green/Yello",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0118-8aa61ed5a8732ecfec17100034727131-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2748,7 +2748,7 @@
     },
     {
         "name": "Remera Oversize Premium Team Off-White",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0121-d695c09123798f0c6817100030528026-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2764,7 +2764,7 @@
     },
     {
         "name": "Remera Oversize Premium Zyzz 2.0 Bordeau",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240214-wa0014-92e28fb07b2e3e720717079225286121-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -2780,7 +2780,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Black",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240313-wa0027-26c236052b0bae7b1e17103412138947-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2796,7 +2796,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Soft Gre...",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-04-08-at-10-53-28-fdaf57032e5a500c2917125847508848-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2812,7 +2812,7 @@
     },
     {
         "name": "Remera Oversize Premium Punch White",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-08-31-a-las-13-04-171-be259a2c24a728240f16934979186248-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2828,7 +2828,7 @@
     },
     {
         "name": "Remera Oversize Premium Brotherhood Whit...",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/aefc067a762e70b8f6bfe679e88d8a72041ffe4f-b65d33d09a09a4576516975612302860-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2843,7 +2843,7 @@
     },
     {
         "name": "Remera Oversize Premium Bite Black",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-08-31-at-10-45-36-am1-e361a415270d55443916934945654448-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2859,7 +2859,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Blue",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-03-13-a-las-11-34-26_3026f966-3239d93880adc8504317103414806595-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2875,7 +2875,7 @@
     },
     {
         "name": "Remera Oversize Premium New Club Blue",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/club-blue-1-4df872d1669dd4c1c017014532713308-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2891,7 +2891,7 @@
     },
     {
         "name": "Remera Oversize Premium Spirit Blue",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark_-121-b443a0d1f8edbd2e9816921220708147-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2907,7 +2907,7 @@
     },
     {
         "name": "Remera Oversize Premium New Club White",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/club-white-4-038de1ec4462b6cfa117014533962757-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2923,7 +2923,7 @@
     },
     {
         "name": "Remera Performance Worldwide Green",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/juani-fuark_-351-3c5a6640163de3b20016852079495456-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2939,7 +2939,7 @@
     },
     {
         "name": "Remera Oversize Premium Melt Soft-Pink [...",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-29-1-e47bdc98eb2a4c35f717115484945423-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2955,7 +2955,7 @@
     },
     {
         "name": "Remera Oversize Premium Fuarkus Orange",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240313-wa0031-92f20786815289f2f417103419075213-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2971,7 +2971,7 @@
     },
     {
         "name": "Remera Oversize Premium New Club Green",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/club-green-3-a7c7fd773f2a18225417014533373235-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -2987,7 +2987,7 @@
     },
     {
         "name": "Remera Oversize Premium Melt White [Prev...",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2024-03-27-at-10-50-32-ee762451b1d439fdc217115486914272-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3003,7 +3003,7 @@
     },
     {
         "name": "Remera Performance Armour Grey",
-        "price": "$25.000",
+        "price": 25000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/juani-fuark_-371-8e7995b42e8d67085816852082503124-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3019,7 +3019,7 @@
     },
     {
         "name": "Remera Performance Vision Black [Prevent...",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-10-a-las-12-35-23-f263d97e46145581c717127642653800-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3035,7 +3035,7 @@
     },
     {
         "name": "Remera Oversize Premium Tribute Green",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-06-29-at-09-22-021-b662e8cff40a629fef16928019523711-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3051,7 +3051,7 @@
     },
     {
         "name": "Remera Oversize Premium Hard Black",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2023-08-17-a-las-09-24-051-fb9f2398a33841b7c816922800277418-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3067,7 +3067,7 @@
     },
     {
         "name": "Remera Performance 4real Black [Preventa...",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/captura-de-pantalla-2024-04-10-a-las-12-35-33-adbac1d6a93ac7d73917127638228589-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3083,7 +3083,7 @@
     },
     {
         "name": "Remera Oversize Premium Spirit Green",
-        "price": "$32.800",
+        "price": 32800,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark_-201-6f096a20d235d0d6e316921233494359-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3099,7 +3099,7 @@
     },
     {
         "name": "Short Swim Spandex Black",
-        "price": "$60.000",
+        "price": 60000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-04-at-13-52-44-a35a313e4c89cdd75c16991197678794-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3115,7 +3115,7 @@
     },
     {
         "name": "Short Swim Spandex Pink",
-        "price": "$60.000",
+        "price": 60000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-04-at-13-52-46-945a1375666343fe8c169912004177731-5ccc7287c1817976d816991201161829-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3131,7 +3131,7 @@
     },
     {
         "name": "Short Alpha Purple",
-        "price": "$46.943",
+        "price": 46943,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-11-at-14-55-52-915e56ed4f49d315d2169972551977061-f0cad61ff52cd6a56a16997255612961-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3147,7 +3147,7 @@
     },
     {
         "name": "Short Rustic Universal Black",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/2100b7346d1c59ca708463fbd4079f25b4ad5ac6-7ee27c568d2eb0a7e617099273532770-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3163,7 +3163,7 @@
     },
     {
         "name": "Short Swim Spandex Acqua",
-        "price": "$60.000",
+        "price": 60000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-04-at-13-52-48-4d8fc70600da692f5c16991202156876-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3179,7 +3179,7 @@
     },
     {
         "name": "Short Rustic Elements Iron",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0130-90d6c496b88c9646b417100036241751-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3195,7 +3195,7 @@
     },
     {
         "name": "Short Swim Spandex Darkblue",
-        "price": "$60.000",
+        "price": 60000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/spandex-darkblue-e2948a03af6030360f17005957261070-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3211,7 +3211,7 @@
     },
     {
         "name": "Short Rustic Cross Green",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-09-16-at-14-17-401-e916baed5273fc148316948848924905-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3227,7 +3227,7 @@
     },
     {
         "name": "Short Basic Lightblue",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0031-611ae79b8ce445b8ac17051523761440-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3243,7 +3243,7 @@
     },
     {
         "name": "Short Basic Francia",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0032-d3e74e4eedf9a8b57717051522332180-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3259,7 +3259,7 @@
     },
     {
         "name": "Short Basic Coral",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0033-bccfff159bd328583a17051523247412-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3274,7 +3274,7 @@
     },
     {
         "name": "Short Rustic Universal Iron",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img_0129-1dde7b7936b2bc90e317100035918587-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3290,7 +3290,7 @@
     },
     {
         "name": "Short Basic Acqua",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0029-10f02f12712fb02ac817051523480479-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3306,7 +3306,7 @@
     },
     {
         "name": "Short Rustic Premium Gothic Green",
-        "price": "$40.000",
+        "price": 40000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2023-11-02-at-09-32-06-1117ce5a6739f7dba416989288856270-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3322,7 +3322,7 @@
     },
     {
         "name": "Short Basic Soft-Green",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0037-14b7c2274737979a8a17051527190250-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3338,7 +3338,7 @@
     },
     {
         "name": "Short Basic Pink",
-        "price": "$30.000",
+        "price": 30000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/img-20240108-wa0026-284bea781328b0b3f217051527009691-1024-1024.webp",
         "gender": "hombre",
         "stock": {
@@ -3354,7 +3354,7 @@
     },
     {
         "name": "Crop Top Gothic Black",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/1267cc9a0fa1dd82c9f4721e5bc0e7c7633f187b-a5bf8a8b28eebdd7bc17048045622487-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3370,7 +3370,7 @@
     },
     {
         "name": "Croptop Lifting Bordeaux+White",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/e034d7e0be81166dcbf9f8cbd116b3185953fc4d-4b4e0fb5747a80c03317106103335400-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3386,7 +3386,7 @@
     },
     {
         "name": "Crop Top Gothic Pink",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/ab18223d75b651e4dac577c4dafc78ca9c6f7eef-7b7a68622dc8011cbf17048047942839-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3402,7 +3402,7 @@
     },
     {
         "name": "Top Woman Fit White",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/93d36e8e9094f35891fc3d809e119460d7ce3fed-61786c857b092832a516970359930484-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3418,7 +3418,7 @@
     },
     {
         "name": "Crop Top Gothic White",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/df171ef60cfb747b3c3697d40b82dc345d330a33-a3c8d028d8b082a98817048045887452-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3434,7 +3434,7 @@
     },
     {
         "name": "Croptop Lifting Black+Pink",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/3dba8edcfadbbaa56197b575eef9b3dcf464fdb8-b9d37c2925e245ce7b17106104885670-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3450,7 +3450,7 @@
     },
     {
         "name": "Top Woman Fit Pink",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/c63bf035ea09d0ce3869b89c3fe0327326ba713a-794206db9584b0603016970360711397-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3466,7 +3466,7 @@
     },
     {
         "name": "Croptop Lifting Black",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/36ef6c642cd6e8dc138412f0cfd9a4b1f3c637a6-72c14d9b88ed929ce617106104044209-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3482,7 +3482,7 @@
     },
     {
         "name": "Top Sport Black",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/b98398d30b0a05da11591fc3bf6310ce1fe7c566-99192a27054b52105817048082099945-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3498,7 +3498,7 @@
     },
     {
         "name": "Top Woman Fit Blue",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/c3e6e9304eedd806d666320c69de211815f01220-3f4edd396642b074ab16970360218459-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3514,7 +3514,7 @@
     },
     {
         "name": "Top Sport Chocolate",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/imagen-de-whatsapp-2024-01-09-a-las-09-58-31_7d32d5f7-5b9c4646918ca113f717048060272253-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3530,7 +3530,7 @@
     },
     {
         "name": "Croptop Lifting Bordeaux",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/9ea234efacfd322d3d6ae7b7895d2c2e96344a46-98603af7e8626943b717106104482354-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3546,7 +3546,7 @@
     },
     {
         "name": "Top Woman Olive",
-        "price": "$19.500",
+        "price": 19500,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/2a4b6b3224d0f6aed3560338c576b1926bf38cf3-2f23b08f6acbe7688e16968604383435-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3562,7 +3562,7 @@
     },
     {
         "name": "Top Texture Woman Grey",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/whatsapp-image-2022-03-16-at-15-48-551-640-0-f6cc3b948d57e8725016718002492820-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3578,7 +3578,7 @@
     },
     {
         "name": "Top Woman Texture Black",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/5e94c810e1cd7ee280822a0fcd00eaeb45d1856b-ddb26cbdddfb16d38d16970344582086-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3594,7 +3594,7 @@
     },
     {
         "name": "Top Woman Beige",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-261-640-0-640-0-3090492a88d0035c3c16718068345468-1024-1024.webp",
         "gender": "mujer",
         "stock": {
@@ -3610,7 +3610,7 @@
     },
     {
         "name": "Top Woman Pink",
-        "price": "$28.000",
+        "price": 28000,
         "image": "//acdn.mitiendanube.com/stores/956/789/products/fuark-conjuntos-deportivos_-51-640-0-3ee521c7efc8e7929f16718041441004-1024-1024.webp",
         "gender": "mujer",
         "stock": {

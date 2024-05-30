@@ -14,6 +14,8 @@ import CheckOut from './views/CheckOut';
 import products from "./data/products.json";
 import Carrito from './views/Carrito';
 import Pay from './views/Pay';
+import { Provider } from 'react-redux'
+import { storeCarrito } from './Redux/storeCarrito.js'
 //import products from "./data/products.json";
 
 function App() {
@@ -52,6 +54,7 @@ function App() {
   });
   return (
     <>
+      <Provider store={storeCarrito}>
       <Router>
         <Header />
         <Routes>
@@ -61,8 +64,10 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      </Provider>
     </>
   )
 }
 
 export default App;
+

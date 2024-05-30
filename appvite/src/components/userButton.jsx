@@ -6,22 +6,26 @@ export default function UserButton() {
     const location = useLocation();
     const isVendedor = location.pathname.startsWith('/vendedor');
 
+    // Estado para controlar si el menú desplegable está abierto o cerrado
     const [isOpen, setIsOpen] = useState(false);
+    // Para almacenar el identificador de timeout
     const timeoutRef = useRef(null);
-  
+
+    // Función para alternar la visibilidad del menú desplegable
     const toggleDropdown = () => {
-      clearTimeout(timeoutRef.current);
-      setIsOpen(!isOpen);
+      clearTimeout(timeoutRef.current); // cancela cualquier temporizador previamente establecido
+      setIsOpen(!isOpen); //si el menú está abierto lo cierra, y si está cerrado lo abre.
     };
-  
+    
+    //se activa cuando el cursor del mouse entra en el área del botón.
     const handleMouseEnter = () => {
       clearTimeout(timeoutRef.current);
-      setIsOpen(true);
+      setIsOpen(true); //abre menú
     };
   
     const handleMouseLeave = () => {
       timeoutRef.current = setTimeout(() => {
-        setIsOpen(false);
+        setIsOpen(false); //cierra menú
       }, 200); // Establece un retraso de 200 milisegundos antes de ocultar el menú
     };
   

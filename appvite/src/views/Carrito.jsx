@@ -1,20 +1,22 @@
-import React from 'react'
-import Products from "../data/ProductosCarrito.json"
+import React from 'react';
 import ProductList from '../components/ProductList';
 import { Link } from 'react-router-dom';
+import { useSelector} from 'react-redux';
+import { carritoSlice } from '../Redux/carritoSlice';
+
 
 function Carrito() {
 
+    const items = useSelector((state) => state.productos.items);
     let precioFinal = 0;
 
-    const productList = Products.map((p) => {
-        const precioSinSigno = p.price.replace("$", "").replace(".", "").replace(",", "");
-        const precioEntero = parseInt(precioSinSigno);
-        precioFinal += precioEntero;
-        return <ProductList product={p} />;
-      });
+    const productosList = items.map((p) => {
+        const precio = p.price;
+        precioFinal += precio;
+        return <ProductList product={p.item} price={p.price} cant={p.quantity} talla={p.size} />;
+    });
 
-      let carritoVacio = productList.length==0;
+    let carritoVacio = items.length === 0;
 
     return (
         <>
@@ -29,7 +31,7 @@ function Carrito() {
             <Link to={"/Checkout"}><button className="mt-10 w-40 py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Comprar</button></Link>
         </div>
         <div className="p-5 ml-5 h-80 w-1/2 h bg-[#1e1c1c] overflow-auto">   
-            {productList}
+            {productosList}
         </div>
   </div>
       }
