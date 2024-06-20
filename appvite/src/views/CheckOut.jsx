@@ -4,9 +4,13 @@ import ProductList from '../components/ProductList';
 import Products from "../data/ProductosCarrito.json"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useSelector} from 'react-redux';
+import { carritoSlice } from '../Redux/carritoSlice';
 
 
 export default function CheckOut() {
+
+    const items = useSelector((state) => state.productos.items);
 
     const [formData, setFormData] = useState({});
     const navigate = useNavigate();
@@ -31,11 +35,10 @@ export default function CheckOut() {
 
     let precioFinal = 0;
     
-    const productList = Products.map((p) => {
-        const precioSinSigno = p.price.replace("$", "").replace(".", "").replace(",", "");
-        const precioEntero = parseInt(precioSinSigno);
-        precioFinal += precioEntero;
-        return <ProductList product={p} />;
+    const productList = items.map((p) => {
+        const precio = p.price;
+        precioFinal += precio;
+        return <ProductList product={p.item} price={p.price} cant={p.quantity} talla={p.size} />;
       });
 
     return (
