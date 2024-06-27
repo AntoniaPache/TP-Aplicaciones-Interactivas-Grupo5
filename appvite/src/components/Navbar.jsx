@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
-import SearchBar from "./SearchBar";
 import UserButton from "./userButton";
 import CartButton from "./cartButton";
 
@@ -20,7 +19,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className='absolute flex space-x-2 right-4 top-4'>
-          <SearchBar/>
+          
           <UserButton/>
           <div>
             <CartButton/>

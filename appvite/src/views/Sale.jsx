@@ -4,14 +4,19 @@ import FilterProducGeneric from "../components/FilterProductGeneric"
 import { useDebugValue, useEffect, useState } from "react"
 import FilterProductGeneric from "../components/FilterProductGeneric";
 import { useMemo } from "react";
+import SearchBar from "../components/SearchBar";
+import { useSelector } from "react-redux";
 
 export default function Sale() {
     const [currentSize, setCurrentSize] = useState(null);
     const [currentColor, setCurrentColor] = useState(null);
     const [currentType, setCurrentType] = useState(null);
+
     const sizes = ["S", "M", "L", "XL"];
     const colors = ["Negro", "Blanco", "Azul", "Verde", "Violeta", "Rosa", "Gris"];
     const types = ["buzo", "remera", "jogger", "media", "short", "calza", "campera", "gorro", "gorra"]
+
+    const searchTerm = useSelector((state) => state.busqueda.searchTerm);
 
     // Filtramos los productos inicialmente
     const initialFilteredProducts = useMemo(() => {
@@ -24,15 +29,14 @@ export default function Sale() {
     // Cuando cambian el tamaño o el color, aplicamos filtros adicionales
     useEffect(() => {
         const filtered = initialFilteredProducts.filter(product => {
-            // Si no hay filtro de tamaño o el producto tiene stock en el tamaño seleccionado
             const sizeMatch = !currentSize || (product.stock[currentSize] > 0);
-            // Si no hay filtro de color o el producto tiene el color seleccionado
             const colorMatch = !currentColor || (product.color === currentColor);
-            const type = !currentType || (product.type === currentType);
-            return sizeMatch && colorMatch && type;
+            const typeMatch = !currentType || (product.type === currentType);
+            const nameMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase());
+            return sizeMatch && colorMatch && typeMatch && nameMatch;
         });
         setFilteredProducts(filtered);
-    }, [currentSize, currentColor,currentType ,initialFilteredProducts]);
+    }, [currentSize, currentColor, currentType, searchTerm, initialFilteredProducts]);
 
     const handleSizeChange = (newSize) => {
         setCurrentSize(newSize);
@@ -41,6 +45,7 @@ export default function Sale() {
     const handleColorChange = (newColor) => {
         setCurrentColor(newColor);
     };
+
     const handleTypeChange = (newType) => {
         setCurrentType(newType);
     };
@@ -64,6 +69,8 @@ export default function Sale() {
                         <FilterProducGeneric onGenericChange={handleColorChange} values={colors} elements={colors}/>
                         <h3 className="text-xl font-semibold">Tipo</h3>
                         <FilterProducGeneric onGenericChange={handleTypeChange} values={types} elements={types}/>
+                        <h3 className="text-xl font-semibold">Nombre</h3>
+                        <SearchBar/>
                     </div>
 
                 </div>
