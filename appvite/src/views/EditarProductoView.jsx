@@ -3,12 +3,10 @@ import { Link } from 'react-router-dom';
 
 function EditarProductoView({ p }) {
 
-  const precioSinSigno = p.price.replace("$", "").replace(".", "").replace(",", "");
-  let price = parseInt(precioSinSigno);
 
   const [formData, setFormData] = useState({
     name: p.name,
-    price: price,
+    price: p.price,
     discount: p.discount,
     color: p.color,
     stock_s: p.stock["S"],

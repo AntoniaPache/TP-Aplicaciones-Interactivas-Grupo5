@@ -16,6 +16,8 @@ import Carrito from './views/Carrito';
 import Pay from './views/Pay';
 import { Provider } from 'react-redux'
 import { storeCarrito } from './Redux/storeCarrito.js'
+import InicioSesion from "./views/InicioSesion.jsx"
+import CrearUser from "./views/CrearUser.jsx"
 //import products from "./data/products.json";
 
 function App() {
@@ -29,7 +31,9 @@ function App() {
     { path: "/vendedor", element: <MainVendedor /> },
     { path: "/checkout", element: <CheckOut/>},
     { path: "/checkout/pay", element: <Pay/>},
-    { path: "/carrito", element: <Carrito/>}
+    { path: "/carrito", element: <Carrito/>},
+    { path: "/login", element: <InicioSesion/>},
+    { path: "/register", element: <CrearUser/>}
   ];
   products.forEach((p) => {
     routes.push({
