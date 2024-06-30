@@ -1,27 +1,41 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import qs from 'qs';
 
 export default function InicioSesion() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     
-    try {
-      const response = await axios.post('http://localhost:4002/login', {
-        username: email,  // En el backend esperas 'username' en lugar de 'email'
-        password: password
-      });
+    const loginData = new URLSearchParams();
+    loginData.append('username', email);
+    loginData.append('password', password);
+    console.log(email)
+    console.log(password)
 
-      console.log('Respuesta del servidor:', response.data);
-      // Aquí podrías manejar la respuesta del servidor como desees,
-      // por ejemplo, mostrar un mensaje de éxito o redirigir a otra página.
-      alert('Sesión iniciada con éxito');
-    } catch (error) {
-      console.error('Error al iniciar sesión:', error);
-      // Aquí podrías manejar el error mostrando un mensaje al usuario.
-      alert('Error al iniciar sesión');
+    try {
+      const response = await axios.post('http://localhost:4002/login', loginData, {
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      });
+      console.log(response);
+      console.log('Token:', response.data.accessToken);
+      // Aquí puedes guardar el token en el localStorage, contexto, etc.
+      localStorage.setItem('token', response.data.accessToken); 
+      // Redirigir a la página de inicio
+      window.location = '/';
+
+    } catch (err) {
+      if (err.response) {
+        console.log(err.response.data);
+        setError('Usuario o password incorrecto');
+      } else {
+        console.log(err.message);
+        setError('Error de red o servidor no disponible');
+      }
     }
   };
 

@@ -4,8 +4,8 @@ import { useLocation } from 'react-router-dom';
 export default function UserButton() {
 
     const location = useLocation();
-    const isVendedor = location.pathname.startsWith('/vendedor');
-
+    const iSingedin = localStorage.getItem('token') !== null;
+  
     // Estado para controlar si el menú desplegable está abierto o cerrado
     const [isOpen, setIsOpen] = useState(false);
     // Para almacenar el identificador de timeout
@@ -30,7 +30,7 @@ export default function UserButton() {
     };
   
     return (
-      !isVendedor ? ( // Si No esta iniciada la sesion
+      !iSingedin ? ( // Si No esta iniciada la sesion
 
        <div className="relative inline-block">
             <button className="boton bg-white border-none cursor-pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={toggleDropdown}>
@@ -44,7 +44,6 @@ export default function UserButton() {
         </div>
 
       ): ( // Si esta iniciada
-
         <div className="relative inline-block">
         <button className="boton bg-white border-none cursor-pointer" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onClick={toggleDropdown}>
         <img src="src/assets/ph_user-light.svg" alt="User" className="w-6 h-6" />
@@ -53,11 +52,12 @@ export default function UserButton() {
         <ul className="dropdown-menu absolute bg-white min-w-48 z-10 list-none p-0 m-0 border border-black right-0 left-5 transform translate-x-[-100%]" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <li><a href="../" className="block py-2 px-3 text-gray-900">Cerrar Sesion</a></li>
         </ul>)}
-    </div>
-
+        </div>
       )
     );
   }
+
+
 
 
   
