@@ -28,6 +28,12 @@ export default function UserButton() {
         setIsOpen(false); //cierra menú
       }, 200); // Establece un retraso de 200 milisegundos antes de ocultar el menú
     };
+
+    // Función para manejar el cierre de sesión
+    const handleLogout = () => {
+      localStorage.removeItem('token'); // Elimina el token del almacenamiento local
+      window.location.reload(); // Refresca la página
+  };
   
     return (
       !iSingedin ? ( // Si No esta iniciada la sesion
@@ -50,7 +56,7 @@ export default function UserButton() {
         </button>
         {isOpen && (
         <ul className="dropdown-menu absolute bg-white min-w-48 z-10 list-none p-0 m-0 border border-black right-0 left-5 transform translate-x-[-100%]" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <li><a href="../" className="block py-2 px-3 text-gray-900">Cerrar Sesion</a></li>
+            <li><a href="#" onClick={handleLogout} className="block py-2 px-3 text-gray-900">Cerrar Sesion</a></li>
         </ul>)}
         </div>
       )

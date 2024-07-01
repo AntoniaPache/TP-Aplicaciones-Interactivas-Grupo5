@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import qs from 'qs';
 
 export default function InicioSesion() {
   const [email, setEmail] = useState('');
@@ -21,8 +20,6 @@ export default function InicioSesion() {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
       });
-      console.log(response);
-      console.log('Token:', response.data.accessToken);
       // Aquí puedes guardar el token en el localStorage, contexto, etc.
       localStorage.setItem('token', response.data.accessToken); 
       // Redirigir a la página de inicio

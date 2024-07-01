@@ -56,25 +56,25 @@ function ProductoView({ p }) {
                         <label htmlFor="talle">TALLE</label>
                         <div className="flex">
                             <label className="inline-flex items-center mr-4">
-                                <input type="radio" className="" name="size" value="S" checked={formData.size === 'S'} onChange={handleChange} />
+                                <input type="radio" className="" name="size" value="s" checked={formData.size === 's'} onChange={handleChange} />
                                 <span className="ml-2">S</span>
                             </label>
                             <label className="inline-flex items-center mr-4">
-                                <input type="radio" className="" name="size" value="M" checked={formData.size === 'M'} onChange={handleChange} />
+                                <input type="radio" className="" name="size" value="m" checked={formData.size === 'm'} onChange={handleChange} />
                                 <span className="ml-2">M</span>
                             </label>
                             <label className="inline-flex items-center mr-4">
-                                <input type="radio" className="" name="size" value="L" checked={formData.size === 'L'} onChange={handleChange} />
+                                <input type="radio" className="" name="size" value="l" checked={formData.size === 'L'} onChange={handleChange} />
                                 <span className="ml-2">L</span>
                             </label>
                             <label className="inline-flex items-center">
-                                <input type="radio" className="" name="size" value="XL" checked={formData.size === 'XL'} onChange={handleChange} />
+                                <input type="radio" className="" name="size" value="xl" checked={formData.size === 'XL'} onChange={handleChange} />
                                 <span className="ml-2">XL</span>
                             </label>
                         </div>
                         <div className="flex flex-col mt-5">
                             <label htmlFor="quantity" className="quantity-label">Cantidad</label>
-                            <input id="quantity" min="1" max={p.stock[formData.size]} className="w-13 max-w-16 h-8 p-2 rounded-md border border-gray-300 text-black" type="number" name="quantity" value={formData.quantity} onChange={handleChange} required />
+                            <input id="quantity" min="1" max={p[`stock_${formData.size}`]} className="w-13 max-w-16 h-8 p-2 rounded-md border border-gray-300 text-black" type="number" name="quantity" value={formData.quantity} onChange={handleChange} required />
                         </div>
                         <button type="submit" className="mt-5 w-40 py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Agregar al Carrito</button>
                     </form>

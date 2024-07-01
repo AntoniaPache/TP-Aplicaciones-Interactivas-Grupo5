@@ -1,7 +1,6 @@
 import provincias from '../data/provincias.json'
 import * as React from "react"
 import ProductList from '../components/ProductList';
-import Products from "../data/ProductosCarrito.json"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector} from 'react-redux';
@@ -36,7 +35,7 @@ export default function CheckOut() {
     let precioFinal = 0;
     
     const productList = items.map((p) => {
-        const precio = p.price;
+        const precio = (p.item.price - p.item.price*(p.item.discount/100))*p.quantity;
         precioFinal += precio;
         return <ProductList product={p.item} price={p.price} cant={p.quantity} talla={p.size} />;
       });

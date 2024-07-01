@@ -1,39 +1,53 @@
 import ProductCard from "../components/ProductCard"
-import products from "../data/products.json"
 import FilterProducGeneric from "../components/FilterProductGeneric"
 import { useDebugValue, useEffect, useState } from "react"
 import FilterProductGeneric from "../components/FilterProductGeneric";
 import { useMemo } from "react";
 import SearchBar from "../components/SearchBar";
 import { useSelector } from "react-redux";
+import axios from "axios";
 
-export default function Mujer() {
+export default function Hombre() {
+
+    const [productos, setProductos] = useState([]);
+
+    // useEffect para obtener los productos una vez al cargar el componente
+    useEffect(() => {
+        axios.get('http://localhost:4002/productos')
+            .then(response => {
+                setProductos(response.data);
+                console.log(response.data); // Aquí obtienes los datos de los productos en formato json
+            })
+            .catch(error => {
+                console.error('Error al obtener productos', error);
+            });
+    }, []); // El array vacío [] como segundo argumento asegura que se ejecute solo una vez
+
     const [currentSize, setCurrentSize] = useState(null);
     const [currentColor, setCurrentColor] = useState(null);
     const [currentType, setCurrentType] = useState(null);
 
-    const sizes = ["S", "M", "L", "XL"];
+    const sizes = ["s", "m", "l", "xl"];
     const colors = ["Negro", "Blanco", "Azul", "Verde", "Violeta", "Rosa", "Gris"];
     const types = ["buzo", "remera", "jogger", "short", "calza", "campera"];
 
     const searchTerm = useSelector((state) => state.busqueda.searchTerm);
 
-    const initialFilteredProducts = useMemo(() => {
-        return products.filter(product => product.gender === "hombre");
-    }, []);
-
-    const [filteredProducts, setFilteredProducts] = useState(initialFilteredProducts);
+    const [filteredProducts, setFilteredProducts] = useState([]);
 
     useEffect(() => {
-        const filtered = initialFilteredProducts.filter(product => {
-            const sizeMatch = !currentSize || (product.stock[currentSize] > 0);
+        // Filtrar productos basado en los filtros seleccionados y la búsqueda
+        const filteredProducts = productos.filter(product => {
+            const generoMatch = product.genero === "Hombre";
+            const sizeStock = product[`stock_${currentSize}`]; // Obtener el stock del tamaño actual
+            const sizeMatch = !currentSize || (sizeStock > 0); // Filtrar si el stock del tamaño actual es mayor que cero
             const colorMatch = !currentColor || (product.color === currentColor);
             const typeMatch = !currentType || (product.type === currentType);
             const nameMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase());
-            return sizeMatch && colorMatch && typeMatch && nameMatch;
+            return generoMatch && sizeMatch && colorMatch && typeMatch && nameMatch;
         });
-        setFilteredProducts(filtered);
-    }, [currentSize, currentColor, currentType, searchTerm, initialFilteredProducts]);
+        setFilteredProducts(filteredProducts);
+    }, [productos, currentSize, currentColor, currentType, searchTerm]);
 
     const handleSizeChange = (newSize) => {
         setCurrentSize(newSize);
@@ -53,7 +67,7 @@ export default function Mujer() {
             <div className="flex space-x-2 flex-wrap">
                 <div className="w-[18%] ml-4">
                     <div className="my-4">
-                        <h1 className="text-2xl font-bold">Mujeres</h1>
+                        <h1 className="text-2xl font-bold">Hombre</h1>
                     </div>
                     <div className="my-4">
                         <h2 className="text-2xl font-bold">Filtros</h2>

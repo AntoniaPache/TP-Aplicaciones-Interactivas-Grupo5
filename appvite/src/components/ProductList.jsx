@@ -1,9 +1,9 @@
 import React from 'react'
 
 function ProductList({product, cant, talla, precio}) {
-  const precioTotal = precio * cant;
+  const precioTotal = (product.price - product.price*(product.discount/100)) * cant;
 
-  if (!product || !product.image) {
+  if (!product) {
     return <div>Producto no disponible</div>;
   }
 

@@ -16,7 +16,7 @@ function EditarProductoView({ p }) {
     gender: p.gender,
     type: p.type,
     description: p.description,
-    image: p.image
+    image: null
   });
 
   const handleChange = (e) => {

@@ -14,7 +14,7 @@ export default function Navbar() {
             <li><NavLink to="/" exact className="text-gray-800 hover:text-gray-600">HOME</NavLink></li>
             <li><NavLink to="/hombre" exact className="text-gray-800 hover:text-gray-600">HOMBRE</NavLink></li>
             <li><NavLink to="/mujer" exact className="text-gray-800 hover:text-gray-600">MUJER</NavLink></li>
-            <li><NavLink to="/accesorios" exact className="text-gray-800 hover:text-gray-600">ACCESORIOS</NavLink></li>
+            <li><NavLink to="/accesorios" exact className="text-gray-800 hover:text-gray-600">UNISEX</NavLink></li>
             <li><NavLink to="/sale" exact className="text-gray-800 hover:text-gray-600">SALE</NavLink></li>
           </ul>
         </div>

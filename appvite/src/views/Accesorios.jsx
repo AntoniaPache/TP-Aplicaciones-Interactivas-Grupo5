@@ -6,35 +6,49 @@ import FilterProductGeneric from "../components/FilterProductGeneric";
 import { useMemo } from "react";
 import SearchBar from "../components/SearchBar";
 import { useSelector } from "react-redux";
+import axios from "axios";
 
 export default function Mujer() {
+
+    const [productos, setProductos] = useState([]);
+
+    // useEffect para obtener los productos una vez al cargar el componente
+    useEffect(() => {
+        axios.get('http://localhost:4002/productos')
+            .then(response => {
+                setProductos(response.data);
+                console.log(response.data); // Aquí obtienes los datos de los productos
+            })
+            .catch(error => {
+                console.error('Error al obtener productos', error);
+            });
+    }, []); // El array vacío [] como segundo argumento asegura que se ejecute solo una vez
+
     const [currentSize, setCurrentSize] = useState(null);
     const [currentColor, setCurrentColor] = useState(null);
     const [currentType, setCurrentType] = useState(null);
 
-    const sizes = ["S", "M", "L", "XL"];
+    const sizes = ["s", "m", "l", "xl"];
     const colors = ["Negro", "Blanco", "Azul", "Verde", "Violeta", "Rosa", "Gris"];
     const types = ["medias", "gorro", "gorras"]
 
     const searchTerm = useSelector((state) => state.busqueda.searchTerm);
 
-    // Filtramos los productos inicialmente
-    const initialFilteredProducts = useMemo(() => {
-        return products.filter(product => product.gender === "undefined");
-    }, []);
-
-    const [filteredProducts, setFilteredProducts] = useState(initialFilteredProducts);
+    const [filteredProducts, setFilteredProducts] = useState([]);
 
     useEffect(() => {
-        const filtered = initialFilteredProducts.filter(product => {
-            const sizeMatch = !currentSize || (product.stock[currentSize] > 0);
+        // Filtrar productos basado en los filtros seleccionados y la búsqueda
+        const filteredProducts = productos.filter(product => {
+            const generoMatch = product.genero === "Unisex";
+            const sizeStock = product[`stock_${currentSize}`]; // Obtener el stock del tamaño actual
+            const sizeMatch = !currentSize || (sizeStock > 0); // Filtrar si el stock del tamaño actual es mayor que cero
             const colorMatch = !currentColor || (product.color === currentColor);
             const typeMatch = !currentType || (product.type === currentType);
             const nameMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase());
-            return sizeMatch && colorMatch && typeMatch && nameMatch;
+            return generoMatch && sizeMatch && colorMatch && typeMatch && nameMatch;
         });
-        setFilteredProducts(filtered);
-    }, [currentSize, currentColor, currentType, searchTerm, initialFilteredProducts]);
+        setFilteredProducts(filteredProducts);
+    }, [productos, currentSize, currentColor, currentType, searchTerm]);
 
     const handleSizeChange = (newSize) => {
         setCurrentSize(newSize);

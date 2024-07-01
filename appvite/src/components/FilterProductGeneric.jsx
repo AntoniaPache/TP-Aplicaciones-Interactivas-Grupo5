@@ -12,7 +12,7 @@ const FilterProductGeneric = ({ onGenericChange, values, elements }) => {
   return (
     <div>
       <select value={selectedGeneric} onChange={handleGenericChange}>
-        <option value={null}>All</option>
+        <option value={null}>todos</option>
         {values.map((value, index) => (
           <option key={index} value={value}>{elements[index]}</option>
         ))}
