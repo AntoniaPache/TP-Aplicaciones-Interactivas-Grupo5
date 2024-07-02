@@ -132,9 +132,18 @@ const handleSubmit = async (e) => {
             <input type="number" id="productDiscount" name="discount"  min="0" max="100" required value={formData.discount} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
           </div>
           <div className="mb-4">
-                    <label htmlFor="color" className="block text-gray-700">Color:</label>
-                    <input type="text" id="productcolor" name="color" required value={formData.color} className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
-                </div>  
+                        <label htmlFor="color" className="block text-gray-700">Color:</label>
+                        <select id="productColor" name="color" value={formData.color} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md">
+                            <option value="">Seleccionar</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Verde">Verde</option>
+                            <option value="Violeta">Violeta</option>
+                            <option value="Rosa">Rosa</option>
+                            <option value="Gris">Gris</option>
+                        </select>
+          </div> 
           <div className="mb-4">
             <label htmlFor="stock" className=" text-gray-700 flex">Stock Inicial:</label>
             <input type="number" id="productStock_s" name="stock_s" min="0" placeholder='Stock Talle S' required value={formData.stock_s} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
@@ -152,9 +161,20 @@ const handleSubmit = async (e) => {
             </select>
           </div>
           <div className="mb-4">
-            <label htmlFor="type" className="block text-gray-700">Tipo de Producto:</label>
-            <input type="text" id="productType" name="type" required value={formData.type} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
-          </div>
+                        <label htmlFor="type" className="block text-gray-700">Tipo de Producto:</label>
+                        <select id="productType" name="type" value={formData.type} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md">
+                            <option value="">Seleccionar</option>
+                            <option value="Buzo">Buzo</option>
+                            <option value="Remera">Remera</option>
+                            <option value="Jogger">Jogger</option>
+                            <option value="Media">Media</option>
+                            <option value="Short">Short</option>
+                            <option value="Calza">Calza</option>
+                            <option value="Campera">Campera</option>
+                            <option value="Gorro">Gorro</option>
+                            <option value="Gorra">Gorra</option>
+                        </select>
+                    </div>
           <div className="mb-4">
             <label htmlFor="description" className="block text-gray-700">Descripción del Producto:</label>
             <textarea id="productDescription" name="description" required value={formData.description} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md"></textarea>

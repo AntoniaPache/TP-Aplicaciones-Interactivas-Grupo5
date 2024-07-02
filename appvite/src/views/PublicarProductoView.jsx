@@ -87,10 +87,19 @@ function PublicarProductoView() {
                     </div>
                     <div className="mb-4">
                         <label htmlFor="color" className="block text-gray-700">Color:</label>
-                        <input type="text" id="productcolor" name="color" value={formData.color} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
+                        <select id="productColor" name="color" value={formData.color} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md">
+                            <option value="">Seleccionar</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Verde">Verde</option>
+                            <option value="Violeta">Violeta</option>
+                            <option value="Rosa">Rosa</option>
+                            <option value="Gris">Gris</option>
+                        </select>
                     </div>  
                     <div className="mb-4">
-                        <label htmlFor="stock" className=" text-gray-700 flex">Stock Inicial:</label>
+                        <label htmlFor="stock" className="text-gray-700 block">Stock Inicial:</label>
                         <input type="number" id="productStock_s" name="stock_s" value={formData.stock_s} onChange={handleChange} min="0" placeholder='Stock Talle S' required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
                         <input type="number" id="productStock_m" name="stock_m" value={formData.stock_m} onChange={handleChange} min="0" placeholder='Stock Talle M' required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
                         <input type="number" id="productStock_l" name="stock_l" value={formData.stock_l} onChange={handleChange} min="0" placeholder='Stock Talle L' required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
@@ -107,14 +116,25 @@ function PublicarProductoView() {
                     </div>
                     <div className="mb-4">
                         <label htmlFor="type" className="block text-gray-700">Tipo de Producto:</label>
-                        <input type="text" id="productType" name="type" value={formData.type} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
+                        <select id="productType" name="type" value={formData.type} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md">
+                            <option value="">Seleccionar</option>
+                            <option value="Buzo">Buzo</option>
+                            <option value="Remera">Remera</option>
+                            <option value="Jogger">Jogger</option>
+                            <option value="Media">Media</option>
+                            <option value="Short">Short</option>
+                            <option value="Calza">Calza</option>
+                            <option value="Campera">Campera</option>
+                            <option value="Gorro">Gorro</option>
+                            <option value="Gorra">Gorra</option>
+                        </select>
                     </div>
                     <div className="mb-4">
                         <label htmlFor="description" className="block text-gray-700">Descripción del Producto:</label>
                         <textarea id="productDescription" name="description" value={formData.description} onChange={handleChange} required className="mt-1 p-2 w-full border border-gray-300 rounded-md"></textarea>
                     </div>
                     <div className="mb-4">
-                        <label className="block text-gray-700">Upload Images:</label>
+                        <label className="block text-gray-700">Subir Imágenes:</label>
                         <input type="file" id="fileInput" onChange={handleImageChange} required className="file-input mt-1"/>
                     </div>
                     <button type="submit" className="w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Publicar</button>
