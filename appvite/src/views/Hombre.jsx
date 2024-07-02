@@ -9,20 +9,8 @@ import axios from "axios";
 
 export default function Hombre() {
 
-    const [productos, setProductos] = useState([]);
-
-    // useEffect para obtener los productos una vez al cargar el componente
-    useEffect(() => {
-        axios.get('http://localhost:4002/productos')
-            .then(response => {
-                setProductos(response.data);
-                console.log(response.data); // Aquí obtienes los datos de los productos en formato json
-            })
-            .catch(error => {
-                console.error('Error al obtener productos', error);
-            });
-    }, []); // El array vacío [] como segundo argumento asegura que se ejecute solo una vez
-
+ 
+    const productos = useSelector((state) => state.catalogo.items); // Usa la clave "catalogo"
     const [currentSize, setCurrentSize] = useState(null);
     const [currentColor, setCurrentColor] = useState(null);
     const [currentType, setCurrentType] = useState(null);

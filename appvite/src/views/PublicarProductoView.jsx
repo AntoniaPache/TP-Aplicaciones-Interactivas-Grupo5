@@ -60,6 +60,7 @@ function PublicarProductoView() {
             });
             console.log(response.data); // Maneja la respuesta como necesites
             alert("Producto Publicado con Éxito");
+            window.history.go(-1);
         } catch (error) {
             console.error('Error al publicar el producto:', error);
             alert("Error al publicar el producto");

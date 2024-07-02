@@ -1,5 +1,5 @@
+// App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import products from "./data/products.json";
 import Home from './views/Home';
 import Hombre from './views/Hombre'
 import Mujer from './views/Mujer'
@@ -19,26 +19,12 @@ import { storeCarrito } from './Redux/storeCarrito.js'
 import InicioSesion from "./views/InicioSesion.jsx"
 import CrearUser from "./views/CrearUser.jsx"
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
+import { useSelector } from 'react-redux';
+import ProductLoader from './Redux/ProductLoader.jsx';
 
 function App() {
 
-  const [productos, setProductos] = useState([]);
-
-  // useEffect para obtener los productos una vez al cargar el componente
-  useEffect(() => {
-      axios.get('http://localhost:4002/productos')
-          .then(response => {
-              setProductos(response.data);
-              console.log(response.data); // Aquí obtienes los datos de los productos en formato json
-          })
-          .catch(error => {
-              console.error('Error al obtener productos', error);
-          });
-  }, []); // El array vacío [] como segundo argumento asegura que se ejecute solo una vez
-
-
+  const productos = useSelector((state) => state.catalogo.items); // Usa la clave "catalogo"
   const routes = [
     { path: "/", element: <Home /> },
     { path: "/hombre", element: <Hombre /> },
@@ -47,11 +33,11 @@ function App() {
     { path: "/sale", element: <Sale /> },
     { path: "/vendedor/publicar", element: <PublicarProductoView /> },
     { path: "/vendedor", element: <MainVendedor /> },
-    { path: "/checkout", element: <CheckOut/>},
-    { path: "/checkout/pay", element: <Pay/>},
-    { path: "/carrito", element: <Carrito/>},
-    { path: "/login", element: <InicioSesion/>},
-    { path: "/register", element: <CrearUser/>}
+    { path: "/checkout", element: <CheckOut /> },
+    { path: "/checkout/pay", element: <Pay /> },
+    { path: "/carrito", element: <Carrito /> },
+    { path: "/login", element: <InicioSesion /> },
+    { path: "/register", element: <CrearUser /> },
   ];
 
   productos.forEach((p) => {
@@ -76,22 +62,25 @@ function App() {
       element: <ProductoView p={p} />
     });
   });
+
   return (
-    <>
-      <Provider store={storeCarrito}>
+    <Provider store={storeCarrito}>
       <Router>
         <Header />
-        <Routes>
-          {routes.map((route, index) => (
-            <Route key={index} {...route} />
-          ))}
-        </Routes>
+        <ProductLoader>
+          <Routes>
+            {routes.map((route, index) => (
+              <Route key={index} {...route} />
+            ))}
+          </Routes>
+        </ProductLoader>
         <Footer />
       </Router>
-      </Provider>
-    </>
-  )
+    </Provider>
+  );
 }
 
 export default App;
+
+ 
 
