@@ -9,7 +9,7 @@ export default function Footer() {
                     <div><NavLink to="/" exact className="h-auto">HOME</NavLink></div>
                     <div><NavLink to="/hombre" exact className="h-auto">HOMBRE</NavLink></div>
                     <div><NavLink to="/mujer" exact className="h-auto">MUJER</NavLink></div>
-                    <div><NavLink to="/accesorios" exact className="h-auto">ACCESORIOS</NavLink></div>
+                    <div><NavLink to="/unisex" exact className="h-auto">UNISEX</NavLink></div>
                     <div><NavLink to="/sale" exact className="h-auto">SALE</NavLink></div>
                 </div>
             </div>

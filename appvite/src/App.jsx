@@ -3,7 +3,7 @@ import products from "./data/products.json";
 import Home from './views/Home';
 import Hombre from './views/Hombre'
 import Mujer from './views/Mujer'
-import Accesorios from './views/Accesorios'
+import Accesorios from './views/Unisex.jsx'
 import Sale from './views/Sale'
 import PublicarProductoView from './views/PublicarProductoView'
 import MainVendedor from './views/MainVendedor' 
@@ -43,7 +43,7 @@ function App() {
     { path: "/", element: <Home /> },
     { path: "/hombre", element: <Hombre /> },
     { path: "/mujer", element: <Mujer /> },
-    { path: "/accesorios", element: <Accesorios /> },
+    { path: "/unisex", element: <Accesorios /> },
     { path: "/sale", element: <Sale /> },
     { path: "/vendedor/publicar", element: <PublicarProductoView /> },
     { path: "/vendedor", element: <MainVendedor /> },
@@ -68,7 +68,7 @@ function App() {
       element: <ProductoView p={p} />
     },
     {
-      path: "/accesorios/" + p.name,
+      path: "/unisex/" + p.name,
       element: <ProductoView p={p} />
     },
     {

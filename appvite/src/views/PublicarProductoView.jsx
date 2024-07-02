@@ -82,7 +82,7 @@ function PublicarProductoView() {
                     </div>
                     <div className="mb-4">
                         <label htmlFor="discount" className="block text-gray-700">Descuento %:</label>
-                        <input type="number" id="productDiscount" name="discount" value={formData.discount} onChange={handleChange} min="0" required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
+                        <input type="number" id="productDiscount" name="discount" value={formData.discount} onChange={handleChange} min="0" max="100" required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
                     </div>
                     <div className="mb-4">
                         <label htmlFor="color" className="block text-gray-700">Color:</label>
@@ -101,6 +101,7 @@ function PublicarProductoView() {
                             <option value="">Seleccionar</option>
                             <option value="Hombre">Hombre</option>
                             <option value="Mujer">Mujer</option>
+                            <option value="Unisex">Unisex</option>
                         </select>
                     </div>
                     <div className="mb-4">

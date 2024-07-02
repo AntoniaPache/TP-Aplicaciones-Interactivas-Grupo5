@@ -2,7 +2,6 @@ import ProductCard from "../components/ProductCard"
 import products from "../data/products.json"
 import FilterProducGeneric from "../components/FilterProductGeneric"
 import { useDebugValue, useEffect, useState } from "react"
-import FilterProductGeneric from "../components/FilterProductGeneric";
 import { useMemo } from "react";
 import SearchBar from "../components/SearchBar";
 import { useSelector } from "react-redux";
@@ -62,38 +61,40 @@ export default function Mujer() {
         setCurrentType(newType);
     };
 
-    return(
-        <div>
-            <div>
-                {/*<img src="./src/assets/image.png" alt="portada" className="w-full"/>*/}
+    return (
+        <div className="bg-gray-100 min-h-screen p-6">
+            <div className="flex space-x-6">
+                <div className="w-1/5 bg-white p-6 rounded-lg shadow-md">
+                    <div className="mb-6">
+                        <h1 className="text-3xl font-bold">Mujer</h1>
+                    </div>
+                    <div className="mb-6">
+                    <div className="mb-4">
+                            <h3 className="text-xl font-semibold mb-2">Nombre</h3>
+                            <SearchBar />
+                        </div>
+                        <div className="mb-4">
+                            <h3 className="text-xl font-semibold mb-2">Tipo</h3>
+                            <FilterProducGeneric onGenericChange={handleTypeChange} values={types} elements={types} />
+                        </div>
+                        <div className="mb-4">
+                            <h3 className="text-xl font-semibold mb-2">Talles</h3>
+                            <FilterProducGeneric onGenericChange={handleSizeChange} values={sizes} elements={sizes} />
+                        </div>
+                        <div className="mb-4">
+                            <h3 className="text-xl font-semibold mb-2">Color</h3>
+                            <FilterProducGeneric onGenericChange={handleColorChange} values={colors} elements={colors} />
+                        </div>
+                    </div>
+                </div>
+                <div className="w-4/5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        {filteredProducts.map((product) => (
+                            <ProductCard product={product} key={product.id} />
+                        ))}
+                    </div>
+                </div>
             </div>
-            <div className="flex space-x-2 flex-wrap">
-                <div className="w-[18%] ml-4">
-                    <div className="my-4">
-                        <h1 className="text-2xl font-bold">Mujeres</h1>               
-                    </div>
-                    <div className="my-4">       
-                        <h2 className="text-2xl font-bold">Filtros</h2>
-                        <h3 className="text-xl font-semibold">Tipo</h3>
-                        <FilterProducGeneric onGenericChange={handleTypeChange} values={types} elements={types} />
-                        <h3 className="text-xl font-semibold">Talles</h3>
-                        <FilterProductGeneric onGenericChange={handleSizeChange} values={sizes} elements={sizes} />
-                        <h3 className="text-xl font-semibold">Color</h3>
-                        <FilterProducGeneric onGenericChange={handleColorChange} values={colors} elements={colors}/>
-                        <h3 className="text-xl font-semibold">Nombre</h3>
-                        <SearchBar/>
-                    </div>
-
-                </div>
-                <div className="grid grid-cols-4 gap-4 w-[80%]  ">
-                {filteredProducts.map((product) => (
-                    <ProductCard product={product} key={product.id} />
-                ))}
-                {console.log(filteredProducts)}
-                </div>
-            </div>  
-
         </div>
-
     );
 }

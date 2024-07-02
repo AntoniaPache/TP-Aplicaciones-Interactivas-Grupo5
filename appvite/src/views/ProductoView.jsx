@@ -10,9 +10,10 @@ function ProductoView({ p }) {
 
     const carr = useSelector((state)=> state.items);
     const dispatch = useDispatch();
+    const iSingedin = localStorage.getItem('token') !== null;
     
     const [formData, setFormData] = useState({
-        size: 'S', // Tamaño predeterminado
+        size: 's', // Tamaño predeterminado
         quantity: 1 // Cantidad predeterminada
     });
 
@@ -27,8 +28,13 @@ function ProductoView({ p }) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        dispatch(addProd({ item: p, price: p.price , quantity: formData.quantity, size: formData.size }));
-        alert('Se agregaron al carrito '+formData.quantity+" "+p.name+" talle "+formData.size);
+        if(iSingedin){
+            dispatch(addProd({ item: p, price: p.price , quantity: formData.quantity, size: formData.size }));
+            alert('Se agregaron al carrito '+formData.quantity+" "+p.name+" talle "+formData.size);
+        }
+        else{
+            alert('Por favor, inicia sesión para agregar productos al carrito.');
+        }
 
     };
 
@@ -64,11 +70,11 @@ function ProductoView({ p }) {
                                 <span className="ml-2">M</span>
                             </label>
                             <label className="inline-flex items-center mr-4">
-                                <input type="radio" className="" name="size" value="l" checked={formData.size === 'L'} onChange={handleChange} />
+                                <input type="radio" className="" name="size" value="l" checked={formData.size === 'l'} onChange={handleChange} />
                                 <span className="ml-2">L</span>
                             </label>
                             <label className="inline-flex items-center">
-                                <input type="radio" className="" name="size" value="xl" checked={formData.size === 'XL'} onChange={handleChange} />
+                                <input type="radio" className="" name="size" value="xl" checked={formData.size === 'xl'} onChange={handleChange} />
                                 <span className="ml-2">XL</span>
                             </label>
                         </div>

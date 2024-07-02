@@ -1,42 +1,113 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 function EditarProductoView({ p }) {
-
 
   const [formData, setFormData] = useState({
     name: p.name,
     price: p.price,
     discount: p.discount,
     color: p.color,
-    stock_s: p.stock["S"],
-    stock_m: p.stock["M"],
-    stock_l: p.stock["L"],
-    stock_xl: p.stock["XL"],
-    gender: p.gender,
+    stock_s: p.stock_s,
+    stock_m: p.stock_m,
+    stock_l: p.stock_l,
+    stock_xl: p.stock_xl,
+    genero: p.genero,
     type: p.type,
     description: p.description,
-    image: null
+    image: p.image
   });
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleImageChange = (e) => {
+    const file = e.target.files[0];
+    
+    // Crear un objeto URL para mostrar la imagen seleccionada
+    const imageUrl = URL.createObjectURL(file);
+  
+    setFormData({ ...formData, image: file, imageUrl }); // Actualizar el estado con el archivo y la URL
+  }
+
+const handleSubmit = async (e) => {
     e.preventDefault();
 
-       alert('Nombre = '+formData.name+" Precio = "+formData.price+" Descuento =  "+formData.discount+" Stock = "+formData.stock);
+    const { name, price, discount, color, stock_s, stock_m, stock_l, stock_xl, genero, type, description, image} = formData;
+
+    const productData = {
+        name,
+        price: parseFloat(price),
+        discount: parseFloat(discount),
+        color,
+        stock_s: parseInt(stock_s),
+        stock_m: parseInt(stock_m),
+        stock_l: parseInt(stock_l),
+        stock_xl: parseInt(stock_xl),
+        genero: genero, 
+        type,
+        description
+    };
+
+    var imagenCambiada = p.image != image;
+
+    console.log(p.image)
+    console.log(image)
+    console.log(imagenCambiada)
+
+    const url1 = 'http://localhost:4002/productos/'+ p.id;
+
+    try {
+        const response = await axios.put(url1, productData, {
+        });
+        console.log(response.data); // Maneja la respuesta como necesites
+        alert("Producto Editado con Éxito");
+    } catch (error) {
+        console.error('Error al editar el producto:', error);
+        alert("Error al editar el producto");
+    }
+
+    if(imagenCambiada){
+
+      const formDataToSend = new FormData();
+        formDataToSend.append('image', image); // Adjuntamos la imagen como tipo file
+    
+      const url2 = "http://localhost:4002/productos/"+p.id+"/uploadImage";
+
+      try {
+        const response = await axios.post(url2, formDataToSend, {
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            }
+        });
+        console.log(response.data); // Maneja la respuesta como necesites
+        alert("Imagen Cambiada con Éxito");
+    } catch (error) {
+        console.error('Error al cambiar la imagen:', error);
+        alert("Error al cambiar la imagen");
+    }
+    }
 
 };
 
-    const handleEliminarProducto = (e) => {
-        e.preventDefault();
+    const handleEliminarProducto = async (e) => {
+      e.preventDefault();
 
-        alert("El producto ha sido elminado con exito")
+      const url = "http://localhost:4002/productos/" + p.id;
+
+      try {
+        const response = await axios.delete(url);
+        console.log(response.data); // Maneja la respuesta como necesites
+        alert("Producto Eliminado con Éxito");
         window.history.go(-1);
-
+      } catch (error) {
+        console.error('Error al eliminar el producto:', error);
+        alert("Error al eliminar el producto");
+      }
     };
 
   return (
@@ -58,7 +129,7 @@ function EditarProductoView({ p }) {
           </div>
           <div className="mb-4">
             <label htmlFor="discount" className="block text-gray-700">Descuento %</label>
-            <input type="number" id="productDiscount" name="discount"  min="0" required value={formData.discount} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            <input type="number" id="productDiscount" name="discount"  min="0" max="100" required value={formData.discount} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
           </div>
           <div className="mb-4">
                     <label htmlFor="color" className="block text-gray-700">Color:</label>
@@ -72,11 +143,12 @@ function EditarProductoView({ p }) {
             <input type="number" id="productStock_xl" name="stock_xl" min="0" placeholder='Stock Talle XL' required value={formData.stock_xl} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
           </div> 
           <div className="mb-4">
-            <label htmlFor="gender" className="block text-gray-700">Género:</label>
-            <select id="gender" name="gender" required value={formData.gender} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md">
+            <label htmlFor="genero" className="block text-gray-700">Género:</label>
+            <select id="genero" name="genero" required value={formData.genero} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md">
               <option value="">Seleccionar</option>
-              <option value="hombre">Hombre</option>
-              <option value="mujer">Mujer</option>
+              <option value="Hombre">Hombre</option>
+              <option value="Mujer">Mujer</option>
+              <option value="Unisex">Unisex</option>
             </select>
           </div>
           <div className="mb-4">
@@ -88,8 +160,11 @@ function EditarProductoView({ p }) {
             <textarea id="productDescription" name="description" required value={formData.description} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md"></textarea>
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700">Upload Images:</label>
-            <input type="file" id="fileInput" className="file-input mt-1" />
+           <div className="flex items-center justify-between">
+              <label className="block text-gray-700">Cambiar Imagen:</label>
+              <img src={formData.imageUrl || p.image} className="w-20 h-20 rounded-md ml-4" />
+            </div>
+            <input type="file" id="fileInput" onChange={handleImageChange} className="file-input mt-1"/>
           </div>
           <button type="submit" className="w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Editar Publicacion</button>
         </form>
