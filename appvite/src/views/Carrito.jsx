@@ -22,7 +22,7 @@ function Carrito() {
         <>
         {carritoVacio ? (
             <div className="flex bg-[#332D2C] text-white h-96 p-10">
-                <h1 className='m-auto text-3xl font-serif '>El carrito esta vacio D:</h1>
+                <h1 className='m-auto text-3xl font-serif '>Carrito vacio...</h1>
             </div>
       ) :   
         <div className="flex bg-[#332D2C] text-white h-96 p-10">

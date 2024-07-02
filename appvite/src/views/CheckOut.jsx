@@ -3,6 +3,7 @@ import provincias from '../data/provincias.json';
 import ProductList from '../components/ProductList';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 export default function CheckOut() {
     const items = useSelector((state) => state.productos.items);
@@ -50,16 +51,52 @@ export default function CheckOut() {
         }
         setFormErrors(errors);
 
-        // Si no hay errores, procede con el pago
-        if (Object.keys([]).length === 0) { //CAMBIAR ESTO AL FINAL
-            console.log('Datos de pago enviados:', formData);
-            // Aquí podrías realizar una solicitud HTTP POST con los datos de pago
-            // y luego redirigir al usuario a la página de pago completado
-            navigate('/checkout/pay');
-        } else {
-            console.log('Corrige los errores antes de pagar');
-        }
-    };
+    // Si no hay errores, procede con el pago
+    if (Object.keys([]).length === 0) { //CAMBIAR ESTO AL FINAL
+        console.log('Datos de pago enviados:', formData);
+        var isStock = true;
+
+        // Crear una lista de promesas para las peticiones de stock
+        const stockChecks = items.map((p) => {
+            console.log(p);
+            const url = 'http://localhost:4002/productos/' + p.item.id + '/checkStock/' + p.size;
+            return axios.get(url)
+                .then(function (response) {
+                    if (Number(response.data) < p.quantity) {
+                        alert('No hay stock suficiente de ' + p.item.name + ' en talla ' + p.size + ' para realizar la compra');
+                        isStock = false;
+                    }
+                })
+                .catch(function (error) {
+                    console.error('Error al verificar el stock de ' + p.item.name + ':', error);
+                    isStock = false;
+                });
+        });
+
+        // Esperar a que todas las promesas se resuelvan
+        Promise.all(stockChecks).then(() => {
+            if (isStock) {
+                const removeStockPromises = items.map((p) => {
+                    const url = 'http://localhost:4002/productos/reduceStock/' + p.item.id + '/' + p.size + '/' + p.quantity;
+                    return axios.post(url)
+                        .catch(function (error) {
+                            console.error('Error al reducir el stock de ' + p.item.name + ':', error);
+                        }); 
+                });
+
+                // Esperar a que todas las peticiones de reducción de stock se resuelvan antes de redirigir
+                Promise.all(removeStockPromises).then(() => {
+                    navigate('/checkout/pay');
+                });
+            }
+        });
+
+    } else {
+        console.log('Corrige los errores antes de pagar');
+    }
+
+}
+
 
     const productList = items.map((p) => {
         const precio = (p.item.price - p.item.price * (p.item.discount / 100)) * p.quantity;

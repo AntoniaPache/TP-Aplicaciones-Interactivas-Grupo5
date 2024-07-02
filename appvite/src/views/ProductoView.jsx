@@ -80,7 +80,7 @@ function ProductoView({ p }) {
                         </div>
                         <div className="flex flex-col mt-5">
                             <label htmlFor="quantity" className="quantity-label">Cantidad</label>
-                            <input id="quantity" min="1" max={p[`stock_${formData.size}`]} className="w-13 max-w-16 h-8 p-2 rounded-md border border-gray-300 text-black" type="number" name="quantity" value={formData.quantity} onChange={handleChange} required />
+                            <input id="quantity" min="1" className="w-13 max-w-16 h-8 p-2 rounded-md border border-gray-300 text-black" type="number" name="quantity" value={formData.quantity} onChange={handleChange} required />
                         </div>
                         <button type="submit" className="mt-5 w-40 py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Agregar al Carrito</button>
                     </form>
