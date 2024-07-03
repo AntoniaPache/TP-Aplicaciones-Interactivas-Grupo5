@@ -36,6 +36,7 @@ export default function CrearUser() {
       .then(response => {
         console.log(response.data);
         alert('Cuenta creada exitosamente');
+        window.location = "/login"
       })
       .catch(error => {
         console.error('Hubo un error al crear la cuenta', error);

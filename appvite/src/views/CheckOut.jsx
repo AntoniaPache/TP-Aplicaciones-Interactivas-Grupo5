@@ -52,7 +52,7 @@ export default function CheckOut() {
         setFormErrors(errors);
 
     // Si no hay errores, procede con el pago
-    if (Object.keys([]).length === 0) { //CAMBIAR ESTO AL FINAL
+    if (Object.keys(errors).length === 0) { 
         console.log('Datos de pago enviados:', formData);
         var isStock = true;
 
@@ -103,7 +103,17 @@ export default function CheckOut() {
         return <ProductList key={p.item.id} product={p.item} price={p.price} cant={p.quantity} talla={p.size} />;
     });
 
+    let carritoVacio = items.length === 0;
+
     return (
+        <>
+        {carritoVacio ? (
+            <>
+            <div className="flex bg-[#332D2C] text-white h-96 p-10">
+                <h1 className='m-auto text-3xl font-serif '>Agrega Productos Antes...</h1>
+            </div>     
+         </>
+        ) :
         <div className='flex w-full justify-center flex-nowrap'>
             <div className="flex flex-col w-3/4 justify-center items-center">
                 <h1 className="text-2xl font-bold">CheckOut</h1>
@@ -186,5 +196,7 @@ export default function CheckOut() {
                 </div>
             </div>
         </div>
+        }
+     </>
     );
 }

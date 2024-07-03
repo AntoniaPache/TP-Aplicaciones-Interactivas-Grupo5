@@ -20,6 +20,7 @@ function EditarProductoView({ p }) {
     image: p.image
   });
 
+  const token = localStorage.getItem("token");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,7 +36,7 @@ function EditarProductoView({ p }) {
     setFormData({ ...formData, image: file, imageUrl }); // Actualizar el estado con el archivo y la URL
   }
 
-const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const { name, price, discount, color, stock_s, stock_m, stock_l, stock_xl, genero, type, description, image} = formData;
@@ -54,16 +55,15 @@ const handleSubmit = async (e) => {
         description
     };
 
-    var imagenCambiada = p.image != image;
+    var imagenCambiada = p.image !== image;
 
-    console.log(p.image)
-    console.log(image)
-    console.log(imagenCambiada)
-
-    const url1 = 'http://localhost:4002/productos/'+ p.id;
+    const url1 = 'http://localhost:4002/productos/update/'+ p.id;
 
     try {
         const response = await axios.put(url1, productData, {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
         });
         console.log(response.data); // Maneja la respuesta como necesites
         alert("Producto Editado con Éxito");
@@ -73,48 +73,52 @@ const handleSubmit = async (e) => {
     }
 
     if(imagenCambiada){
-
       const formDataToSend = new FormData();
-        formDataToSend.append('image', image); // Adjuntamos la imagen como tipo file
+      formDataToSend.append('image', image); // Adjuntamos la imagen como tipo file
     
-      const url2 = "http://localhost:4002/productos/"+p.id+"/uploadImage";
+      const url2 = "http://localhost:4002/productos/uploadImage/"+p.id;
 
       try {
         const response = await axios.post(url2, formDataToSend, {
             headers: {
+                'Authorization': `Bearer ${token}`,
                 'Content-Type': 'multipart/form-data'
             }
         });
         console.log(response.data); // Maneja la respuesta como necesites
         alert("Imagen Cambiada con Éxito");
-    } catch (error) {
+      } catch (error) {
         console.error('Error al cambiar la imagen:', error);
         alert("Error al cambiar la imagen");
-    }
-    }
-
-};
-
-    const handleEliminarProducto = async (e) => {
-      e.preventDefault();
-
-      const url = "http://localhost:4002/productos/" + p.id;
-
-      try {
-        const response = await axios.delete(url);
-        console.log(response.data); // Maneja la respuesta como necesites
-        alert("Producto Eliminado con Éxito");
-        window.history.go(-1);
-      } catch (error) {
-        console.error('Error al eliminar el producto:', error);
-        alert("Error al eliminar el producto");
       }
-    };
+    }
+    window.location = "/vendedor";
+  };
+
+  const handleEliminarProducto = async (e) => {
+    e.preventDefault();
+
+    const url = "http://localhost:4002/productos/delete/" + p.id;
+
+    try {
+      const response = await axios.delete(url, {
+          headers: {
+              'Authorization': `Bearer ${token}`
+          }
+      });
+      console.log(response.data); // Maneja la respuesta como necesites
+      alert("Producto Eliminado con Éxito");
+      window.location = "/vendedor";
+    } catch (error) {
+      console.error('Error al eliminar el producto:', error);
+      alert("Error al eliminar el producto");
+    }
+  };
 
   return (
     
     <div className='min-h-screen bg-gray-100 flex flex-col justify-center items-center'>
-        {localStorage.getItem("role") !== "GERENTE" ? <Unauthorized/> : (
+        {localStorage.getItem("role") !== "GERENTE" || localStorage.getItem("token") == null ? <Unauthorized/> : (
         <>
         <div className="flex mb-4 mt-4">
           <Link to={"/vendedor"} className="mr-8 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Atrás</Link>
@@ -129,11 +133,11 @@ const handleSubmit = async (e) => {
           </div>
           <div className="mb-4">
             <label htmlFor="price" className="block text-gray-700">Precio del Producto:</label>
-            <input type="number" id="productPrice" name="price" min="0" required value={formData.price} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            <input type="number" id="productPrice" name="price" min="0" step="0.01" required value={formData.price} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
           </div>
           <div className="mb-4">
             <label htmlFor="discount" className="block text-gray-700">Descuento %</label>
-            <input type="number" id="productDiscount" name="discount"  min="0" max="100" required value={formData.discount} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
+            <input type="number" id="productDiscount" name="discount"  min="0" step="0.01" max="100" required value={formData.discount} onChange={handleChange} className="mt-1 p-2 w-full border border-gray-300 rounded-md" />
           </div>
           <div className="mb-4">
                         <label htmlFor="color" className="block text-gray-700">Color:</label>

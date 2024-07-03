@@ -35,10 +35,10 @@ export default function InicioSesion() {
     } catch (err) {
       if (err.response) {
         console.log(err.response.data);
-        setError('Usuario o password incorrecto');
+        alert('Usuario o password incorrecto');
       } else {
         console.log(err.message);
-        setError('Error de red o servidor no disponible');
+        alert('Error de red o servidor no disponible');
       }
     }
   };

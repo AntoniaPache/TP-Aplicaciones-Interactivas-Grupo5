@@ -16,7 +16,7 @@ export default function MainVendedor() {
 
     const sizes = ["s", "m", "l", "xl"];
     const colors = ["Negro", "Blanco", "Azul", "Verde", "Violeta", "Rosa", "Gris"];
-    const types = ["buzo", "remera", "jogger", "short", "calza", "campera"];
+    const types = ["Buzo", "Remera", "Jogger", "Media", "Short", "Calza", "Campera", "Gorro", "Gorra"]
 
     const searchTerm = useSelector((state) => state.busqueda.searchTerm);
 
@@ -48,7 +48,7 @@ export default function MainVendedor() {
     };
         return (
             <div className="bg-gray-100 min-h-screen p-6">
-                {localStorage.getItem("role") !== "GERENTE" ? <Unauthorized/> : (
+                {localStorage.getItem("role") !== "GERENTE" || localStorage.getItem("token") == null  ? <Unauthorized/> : (
                 <>
                 <div className="flex space-x-6">
                     <div className="w-1/5 bg-white p-6 rounded-lg shadow-md">

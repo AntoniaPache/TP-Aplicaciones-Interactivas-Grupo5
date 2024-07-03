@@ -17,7 +17,7 @@ export default function Sale() {
 
     const sizes = ["s", "m", "l", "xl"];
     const colors = ["Negro", "Blanco", "Azul", "Verde", "Violeta", "Rosa", "Gris"];
-    const types = ["buzo", "remera", "jogger", "media", "short", "calza", "campera", "gorro", "gorra"]
+    const types = ["Buzo", "Remera", "Jogger", "Media", "Short", "Calza", "Campera", "Gorro", "Gorra"]
 
     const searchTerm = useSelector((state) => state.busqueda.searchTerm);
 
@@ -27,12 +27,13 @@ export default function Sale() {
         // Filtrar productos basado en los filtros seleccionados y la búsqueda
         const filteredProducts = productos.filter(product => {
             const discountMatch = product.discount > 0;
+            const conStock = product.stock_s > 0 || product.stock_m > 0 || product.stock_l > 0 || product.stock_xl > 0;
             const sizeStock = product[`stock_${currentSize}`]; // Obtener el stock del tamaño actual
             const sizeMatch = !currentSize || (sizeStock > 0); // Filtrar si el stock del tamaño actual es mayor que cero
             const colorMatch = !currentColor || (product.color === currentColor);
             const typeMatch = !currentType || (product.type === currentType);
             const nameMatch = product.name.toLowerCase().includes(searchTerm.toLowerCase());
-            return discountMatch && sizeMatch && colorMatch && typeMatch && nameMatch;
+            return conStock && discountMatch && sizeMatch && colorMatch && typeMatch && nameMatch;
         });
         setFilteredProducts(filteredProducts);
     }, [productos, currentSize, currentColor, currentType, searchTerm]);

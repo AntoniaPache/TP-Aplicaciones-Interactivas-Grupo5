@@ -1,7 +1,8 @@
 import React from 'react'
 
 function ProductList({product, cant, talla, precio}) {
-  const precioTotal = (product.price - product.price*(product.discount/100)) * cant;
+  var precioTotal = (product.price - product.price*(product.discount/100)) * cant;
+  precioTotal = parseFloat(precioTotal.toFixed(2));
 
   if (!product) {
     return <div>Producto no disponible</div>;

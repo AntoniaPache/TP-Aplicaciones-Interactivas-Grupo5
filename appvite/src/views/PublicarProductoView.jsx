@@ -56,12 +56,13 @@ function PublicarProductoView() {
         try {
             const response = await axios.post('http://localhost:4002/productos/saveProductWithImage', formDataToSend, {
                 headers: {
+                    'Authorization': `Bearer ${localStorage.getItem("token")}`,
                     'Content-Type': 'multipart/form-data'
                 }
             });
             console.log(response.data); // Maneja la respuesta como necesites
             alert("Producto Publicado con Éxito");
-            window.history.go(-1);
+            window.location = "/vendedor";
         } catch (error) {
             console.error('Error al publicar el producto:', error);
             alert("Error al publicar el producto");
@@ -70,7 +71,7 @@ function PublicarProductoView() {
 
     return (
         <div className='min-h-screen bg-gray-100 flex flex-col justify-center items-center'>
-            {localStorage.getItem("role") !== "GERENTE" ? <Unauthorized/> : (
+            {localStorage.getItem("role") !== "GERENTE" || localStorage.getItem("token") == null ? <Unauthorized/> : (
                 <>
             <Link to={"/vendedor"} className="mb-8 mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Atrás</Link>
             <div className="bg-white p-10 rounded-lg shadow-md w-full max-w-md">
@@ -82,11 +83,11 @@ function PublicarProductoView() {
                     </div>
                     <div className="mb-4">
                         <label htmlFor="price" className="block text-gray-700">Precio del Producto:</label>
-                        <input type="number" id="productPrice" name="price" value={formData.price} onChange={handleChange} min="0" required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
+                        <input type="number" id="productPrice" name="price" value={formData.price} onChange={handleChange} min="0" step="0.01" required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
                     </div>
                     <div className="mb-4">
                         <label htmlFor="discount" className="block text-gray-700">Descuento %:</label>
-                        <input type="number" id="productDiscount" name="discount" value={formData.discount} onChange={handleChange} min="0" max="100" required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
+                        <input type="number" id="productDiscount" name="discount" value={formData.discount} onChange={handleChange} min="0" max="100" step="0.01" required className="mt-1 p-2 w-full border border-gray-300 rounded-md"/>
                     </div>
                     <div className="mb-4">
                         <label htmlFor="color" className="block text-gray-700">Color:</label>

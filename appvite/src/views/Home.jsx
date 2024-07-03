@@ -50,10 +50,10 @@ export function Categorias() {
                         <h3 className="text-3xl font-normal">Mujer</h3>
                     </div>
                     </NavLink>
-                    <NavLink to="/accesorios">
+                    <NavLink to="/unisex">
                     <div className="flex flex-col justify-center items-center">
                         <img className="mb-3 w-3/4 " src="./src/assets/accesorios.jpg" alt="Accesorios" />
-                        <h3 className="text-3xl font-normal">Accesorios</h3>
+                        <h3 className="text-3xl font-normal">Unisex</h3>
                     </div>
                     </NavLink>
                 </div>

@@ -22,7 +22,6 @@ function NavBarVendedor() {
                     </div>
                 </div>
                 <div className='absolute flex space-x-10 right-4 top-4'>
-                    <SearchBar/>
                     <UserButton/>
                 </div>
             </nav>

@@ -32,6 +32,7 @@ export default function UserButton() {
     // Función para manejar el cierre de sesión
     const handleLogout = () => {
       localStorage.removeItem('token'); // Elimina el token del almacenamiento local
+      localStorage.removeItem("role");
         window.location = "/"
       }
   
