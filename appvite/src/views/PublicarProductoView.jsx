@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Unauthorized from './Unauthorized';
 
 function PublicarProductoView() {
     const [formData, setFormData] = useState({
@@ -69,6 +70,8 @@ function PublicarProductoView() {
 
     return (
         <div className='min-h-screen bg-gray-100 flex flex-col justify-center items-center'>
+            {localStorage.getItem("role") !== "GERENTE" ? <Unauthorized/> : (
+                <>
             <Link to={"/vendedor"} className="mb-8 mt-4 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Atrás</Link>
             <div className="bg-white p-10 rounded-lg shadow-md w-full max-w-md">
                 <h1 className="text-2xl font-bold mb-8 text-center">PUBLICAR PRODUCTO</h1>
@@ -140,6 +143,7 @@ function PublicarProductoView() {
                     <button type="submit" className="w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Publicar</button>
                 </form>
             </div>
+            </>)}
         </div>
     );
 }

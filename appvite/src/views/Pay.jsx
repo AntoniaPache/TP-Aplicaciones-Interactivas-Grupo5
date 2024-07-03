@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function Pay() {
+    const items = useSelector((state) => state.productos.items);
     const [payed, setPayed] = useState(false);
     const [formData, setFormData] = useState({
         cardType: "",
@@ -31,8 +32,8 @@ export default function Pay() {
         ) {
             setPayed(true);
         } else {
-            setPayed(true); //CAMBIAR AL FINAL
-            //alert("Completa todos los campos antes de finalizar el pago.");
+            setPayed(false);
+            alert("Completa todos los campos antes de finalizar el pago.");
         }
     };
 

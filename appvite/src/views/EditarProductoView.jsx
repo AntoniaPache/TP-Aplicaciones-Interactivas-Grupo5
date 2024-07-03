@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import Unauthorized from './Unauthorized';
 
 function EditarProductoView({ p }) {
 
@@ -111,7 +112,10 @@ const handleSubmit = async (e) => {
     };
 
   return (
+    
     <div className='min-h-screen bg-gray-100 flex flex-col justify-center items-center'>
+        {localStorage.getItem("role") !== "GERENTE" ? <Unauthorized/> : (
+        <>
         <div className="flex mb-4 mt-4">
           <Link to={"/vendedor"} className="mr-8 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Atrás</Link>
          <Link to={"/vendedor"} onClick={handleEliminarProducto} className="ml-8 inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Eliminar Publicacion</Link>
@@ -189,6 +193,7 @@ const handleSubmit = async (e) => {
           <button type="submit" className="w-full py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700">Editar Publicacion</button>
         </form>
       </div>
+      </>)}
     </div>
   )
 }

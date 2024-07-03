@@ -32,8 +32,8 @@ export default function UserButton() {
     // Función para manejar el cierre de sesión
     const handleLogout = () => {
       localStorage.removeItem('token'); // Elimina el token del almacenamiento local
-      window.location.reload(); // Refresca la página
-  };
+        window.location = "/"
+      }
   
     return (
       !iSingedin ? ( // Si No esta iniciada la sesion

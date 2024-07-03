@@ -11,8 +11,6 @@ export default function InicioSesion() {
     const loginData = new URLSearchParams();
     loginData.append('username', email);
     loginData.append('password', password);
-    console.log(email)
-    console.log(password)
 
     try {
       const response = await axios.post('http://localhost:4002/login', loginData, {
@@ -20,11 +18,20 @@ export default function InicioSesion() {
           'Content-Type': 'application/x-www-form-urlencoded'
         }
       });
+      localStorage.setItem('token', response.data.accessToken) 
       // Aquí puedes guardar el token en el localStorage, contexto, etc.
-      localStorage.setItem('token', response.data.accessToken); 
       // Redirigir a la página de inicio
-      window.location = '/';
-
+      const url = 'http://localhost:4002/users/role/'+email
+      axios.get(url)
+          .then(function (response) {
+              if(response.data === "GERENTE"){
+                window.location = '/vendedor';
+              }
+              else{
+                window.location = '/';
+              }
+              localStorage.setItem('role', response.data)  
+          })
     } catch (err) {
       if (err.response) {
         console.log(err.response.data);

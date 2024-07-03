@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import SearchBar from "../components/SearchBar";
 import { useSelector } from "react-redux";
 import axios from "axios";
+import Unauthorized from "./Unauthorized";
 
 export default function MainVendedor() {
 
@@ -45,9 +46,10 @@ export default function MainVendedor() {
     const handleTypeChange = (newType) => {
         setCurrentType(newType);
     };
-    
         return (
             <div className="bg-gray-100 min-h-screen p-6">
+                {localStorage.getItem("role") !== "GERENTE" ? <Unauthorized/> : (
+                <>
                 <div className="flex space-x-6">
                     <div className="w-1/5 bg-white p-6 rounded-lg shadow-md">
                         <div className="mb-6">
@@ -80,6 +82,7 @@ export default function MainVendedor() {
                         </div>
                     </div>
                 </div>
+                </>)}
             </div>
         );
 

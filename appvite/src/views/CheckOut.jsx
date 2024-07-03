@@ -58,7 +58,6 @@ export default function CheckOut() {
 
         // Crear una lista de promesas para las peticiones de stock
         const stockChecks = items.map((p) => {
-            console.log(p);
             const url = 'http://localhost:4002/productos/' + p.item.id + '/checkStock/' + p.size;
             return axios.get(url)
                 .then(function (response) {

@@ -41,7 +41,6 @@ function App() {
   ];
 
   productos.forEach((p) => {
-    console.log(p.name);
     routes.push({
       path: "/vendedor/" + p.name,
       element: <EditarProductoView p={p} />
